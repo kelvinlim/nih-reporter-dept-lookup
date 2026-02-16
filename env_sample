@@ -1,0 +1,5 @@
+LDAP_SERVER= 'ldap://ldap.umn.edu:389'
+BIND_DN='cn=lnpi lab account (lnpiauth),ou=Organizations,o=University of Minnesota,c=US'
+BASE_DN='o=University of Minnesota,c=US'
+LDAP_LOGIN='lnpiauth'
+LDAP_PASSWORD=
