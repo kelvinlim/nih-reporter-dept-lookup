@@ -1,0 +1,239 @@
+# NIH Reporter Department Utility
+
+This utility retrieves NIH grant data for a specific institution (default: University of Minnesota), organizes it by Principal Investigator (PI), and enriches it with PI details (Rank, Department, School).
+
+It provides **two approaches** for PI enrichment:
+- **LDAP Version** (Recommended): Uses UMN LDAP directory for accurate, real-time data
+- **ORCID Version**: Uses ORCID Public API for institution-independent lookup
+
+## Features
+
+*   **Fetch Grants**: Retrieves 10 years of grant history from the NIH RePORTER API.
+*   **Reorganize**: Groups projects by PI and Core Grant Number, sorted by project number.
+*   **Enrich (LDAP)**: Lookups PI details using UMN LDAP directory (faster, more accurate for UMN).
+*   **Enrich (ORCID)**: Lookups PI details using ORCID Public API (institution-independent).
+*   **Join**: Merges all data into final datasets (JSON & CSV).
+*   **Structure**: Generates hierarchical organization of UMN schools and departments.
+
+## Setup
+
+1.  **Clone the repository** (if not already done).
+2.  **Set up a virtual environment**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+3.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **For LDAP Version**: Create a `.env` file with UMN LDAP credentials:
+    ```bash
+    cp .env.example .env
+    # Edit .env with your UMN LDAP credentials
+    ```
+    Required variables:
+    - `LDAP_SERVER`: LDAP server URL (e.g., `ldap://ldap.umn.edu:389`)
+    - `BASE_DN`: Base Distinguished Name (e.g., `o=University of Minnesota,c=US`)
+    - `BIND_DN`: Bind DN for authentication
+    - `LDAP_LOGIN`: Username (e.g., `lnpiauth`)
+    - `LDAP_PASSWORD`: Password
+
+## Usage
+
+### LDAP Version (Recommended)
+
+The `main_ldap.py` script provides LDAP-based PI enrichment with single connection pooling.
+
+#### 1. Fetch Raw Grant Data
+```bash
+python main_ldap.py --projects --years 10
+```
+
+#### 2. Reorganize Data
+```bash
+python main_ldap.py --reorganize
+```
+
+#### 3. Lookup PI Details via LDAP
+```bash
+python main_ldap.py --lookup
+```
+- Establishes a single LDAP connection and reuses it for all lookups (efficient)
+- Falls back to anonymous bind if credentials fail
+- Caches results in `pi_details_ldap.json`
+- Shows progress every 10 records
+
+#### 4. Join Data
+```bash
+python main_ldap.py --join
+```
+
+**Output Files**:
+- `pi_details_ldap.json`: Cache of PI details from LDAP
+- `final_department_data_ldap.json`: Full nested dataset with LDAP data
+- `final_department_data_ldap.csv`: Flattened CSV with LDAP data
+
+### ORCID Version
+
+The original `main.py` script uses ORCID for PI enrichment.
+
+#### 1. Fetch Raw Grant Data
+```bash
+python main.py --projects --years 10
+```
+
+#### 2. Reorganize Data
+```bash
+python main.py --reorganize
+```
+
+#### 3. Lookup PI Details via ORCID
+```bash
+python main.py --lookup
+```
+
+#### 4. Join Data
+```bash
+python main.py --join
+```
+
+**Output Files**:
+- `pi_details.json`: Cache of PI details from ORCID
+- `final_department_data.json`: Full nested dataset with ORCID data
+- `final_department_data.csv`: Flattened CSV with ORCID data
+
+## Organizational Structure Files
+
+### UMN Schools and Departments Structure
+
+Generate a clean hierarchical structure of UMN Twin Cities schools and departments (without PI data):
+
+```bash
+python build_schools_structure.py
+```
+
+**Output**: `umn_schools_departments.json`
+
+**Structure**:
+```
+University of Minnesota
+  └─ UMN Twin Cities
+      ├─ Medical School (26 departments)
+      ├─ College of Science and Engineering (11 departments)
+      ├─ College of Liberal Arts (36 departments)
+      ├─ School of Public Health (7 departments)
+      ├─ School of Dentistry (7 departments)
+      ├─ College of Food, Agricultural and Natural Resource Sciences (10 departments)
+      ├─ Carlson School of Management (7 departments)
+      ├─ School of Architecture (2 departments)
+      ├─ School of Nursing (1 department)
+      ├─ School of Pharmacy (6 departments)
+      ├─ Graduate School (1 department)
+      └─ Law School (1 department)
+```
+
+### Nested Structure with PI Data
+
+Generate hierarchical organization with PIs organized by school and department:
+
+```bash
+python build_nested_structure.py
+```
+
+**Output**: `nested_structure.json`
+
+Each PI entry includes:
+- `name`: Full name
+- `rank`: Academic rank (Professor, Associate Professor, etc.)
+- `ldap_dn`: LDAP Distinguished Name (LDAP version only)
+
+## Output Files Reference
+
+| File | Source | Description |
+|------|--------|-------------|
+| `projects_raw.json` | NIH RePORTER | Raw API response |
+| `projects_by_pi.json` | Internal | Data organized by PI |
+| `pi_details.json` | ORCID | PI details from ORCID |
+| `pi_details_ldap.json` | LDAP | PI details from LDAP (cached) |
+| `final_department_data.json` | ORCID + Projects | Complete dataset with ORCID |
+| `final_department_data_ldap.json` | LDAP + Projects | Complete dataset with LDAP |
+| `final_department_data.csv` | ORCID + Projects | Flattened CSV |
+| `final_department_data_ldap.csv` | LDAP + Projects | Flattened CSV |
+| `umn_schools_departments.json` | UMN Structure | Schools/departments only |
+| `nested_structure.json` | UMN + LDAP | Hierarchical organization with PIs |
+
+## Data Source Information
+
+### LDAP (ldap.umn.edu)
+- **Source**: University of Minnesota LDAP Directory
+- **Coverage**: All UMN-affiliated faculty
+- **Attributes**: Name, Title (Rank), Department, Organization
+- **Real-time**: Yes (cached with updates)
+- **Rate Limiting**: None (efficient - reuses single connection)
+
+### ORCID Public API
+- **Source**: ORCID (https://orcid.org)
+- **Coverage**: Researchers with ORCID profiles
+- **Attributes**: Name, Employment Title, Department, Organization
+- **Real-time**: Somewhat (last updated employment record)
+- **Rate Limiting**: Yes (0.5s delay between requests)
+
+## Technical Details
+
+### LDAP Implementation
+- Uses `ldap3` (pure Python, no system dependencies)
+- Single connection pooling for efficiency
+- Automatic fallback to anonymous bind
+- Department name normalization using official UMN structure
+- Caching to avoid redundant LDAP queries
+
+### Directory Organization Mapping
+PIs are automatically mapped to official UMN schools and departments based on:
+- LDAP department attributes
+- Pattern matching for abbreviations (SPH, CSENG, Medical, etc.)
+- Official UMN structure defined in `umn_structure.py`
+
+Unmapped PIs are placed in "Other Departments" category.
+
+## Examples
+
+### Get all professors in Medical School
+```python
+import json
+with open('nested_structure.json') as f:
+    data = json.load(f)
+med_school = data['University of Minnesota']['UMN Twin Cities']['Medical School']
+for dept_name, pis in med_school.items():
+    for pi in pis:
+        if pi['rank'] == 'Professor':
+            print(f"{pi['name']} - {dept_name}")
+```
+
+### Export specific department
+```python
+import json
+with open('nested_structure.json') as f:
+    data = json.load(f)
+cse = data['University of Minnesota']['UMN Twin Cities']['College of Science and Engineering']
+cs_dept = cse.get('Computer Science and Engineering', [])
+for pi in cs_dept:
+    print(f"{pi['name']}: {pi['rank']}")
+```
+
+## Troubleshooting
+
+### LDAP Connection Issues
+- Ensure you have UMN network access or VPN enabled
+- Check credentials in `.env` file
+- Script will fall back to anonymous bind if credentials fail
+
+### Missing LDAP Dependencies
+- Uses `ldap3` (pure Python) - no apt-get required
+- Install via: `pip install ldap3`
+
+### ORCID Timeouts
+- The ORCID lookup includes rate limiting (0.5s per request)
+- With 500+ PIs, expect 5-10 minutes for full run
+- Results are cached in `pi_details.json` for resume capability
+
