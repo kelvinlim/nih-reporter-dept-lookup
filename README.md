@@ -61,6 +61,7 @@ python main_ldap.py --lookup
 ```
 - Establishes a single LDAP connection and reuses it for all lookups (efficient)
 - Falls back to anonymous bind if credentials fail
+- Uses progressive LDAP filters with wildcard matching to handle credentials in surname fields (e.g., "Bellin MD") and verifies both first and last name to prevent wrong-person matches
 - Caches results in `pi_details_ldap.json`
 - Shows progress every 10 records
 

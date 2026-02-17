@@ -64,9 +64,9 @@ def get_pi_details(contact_pi_name, conn, org_name="University of Minnesota"):
         # Search using sn (surname) and givenName
         # Try multiple search attempts with different filter combinations
         filters = [
-            f"(&(sn={last_name})(givenName={first_name}))",
-            f"(&(sn={last_name})(givenName={first_name[0]}*))",
-            f"(sn={last_name})",
+            f"(&(sn={last_name})(givenName={first_name}*))",
+            f"(&(sn={last_name}*)(givenName={first_name}*))",
+            f"(&(sn={last_name}*)(givenName={first_name[0]}*))",
         ]
         
         attributes = ["cn", "sn", "givenName", "mail", "title", "ou", "o", "displayName"]
@@ -87,8 +87,10 @@ def get_pi_details(contact_pi_name, conn, org_name="University of Minnesota"):
                     ou = entry.ou[0] if entry.ou else None
                     organization = entry.o[0] if entry.o else None
                     
-                    # Verify this is a reasonable match
-                    if last_name.lower() in (surname or "").lower():
+                    # Verify this is a reasonable match - check both first AND last name
+                    if (last_name.lower() in (surname or "").lower() and
+                        given and first_name and
+                        first_name[0].lower() == given[0].lower()):
                         return {
                             "dn": entry.entry_dn,
                             "rank": title,

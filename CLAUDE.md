@@ -56,7 +56,7 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 **Key modules:**
 - `main_ldap.py` / `main.py` — Pipeline orchestrators (argparse CLI, 5/4 step functions respectively)
 - `fetch_grants.py` — NIH RePORTER v2 API client
-- `fetch_pi_details_ldap.py` — LDAP lookup (single connection pooling, anonymous bind fallback)
+- `fetch_pi_details_ldap.py` — LDAP lookup (single connection pooling, anonymous bind fallback, wildcard name matching to handle credentials in `sn` field)
 - `fetch_pi_details.py` — ORCID Public API v3.0 client (0.5s rate limit)
 - `umn_structure.py` — UMN org hierarchy definition + pattern-based department mapping (100+ patterns)
 - `build_nested_structure.py` — Builds University→School→Dept→PI hierarchy from LDAP data
@@ -69,6 +69,7 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 - **PI details caching**: Results saved to JSON every 10 records for resumability
 - **Department mapping**: `umn_structure.py:get_school_for_department()` returns a 3-tuple `(school, department, division)` using case-insensitive substring matching; division is `None` for departments without divisions; unmapped departments go to "Other Departments"
 - **Division support**: `UMN_STRUCTURE` uses dicts-of-lists format where each department maps to a list of divisions (empty list = no divisions). Currently only Department of Medicine has 11 divisions populated
+- **LDAP name matching**: `get_pi_details()` uses 3 progressively looser LDAP filters (`sn+givenName`, `sn*+givenName`, `sn*+initial`), all requiring both first and last name. Wildcards on `sn` handle credentials in the surname field (e.g., "Bellin MD"). A post-filter verification checks the first initial of the matched entry's `givenName` to prevent wrong-person matches
 - **LDAP credentials**: Read from `.env` via `python-dotenv`; never commit `.env`
 
 ## External APIs
