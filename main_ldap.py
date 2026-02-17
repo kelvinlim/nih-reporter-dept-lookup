@@ -5,6 +5,7 @@ import time
 import pandas as pd
 from fetch_grants import fetch_grants
 from fetch_pi_details_ldap import get_pi_details, create_ldap_connection
+from umn_structure import get_school_for_department
 
 # File Constants
 FILE_RAW = "projects_raw.json"
@@ -167,9 +168,54 @@ def step_lookup():
         json.dump(pi_details, f, indent=2)
     print(f"Saved PI LDAP details to {FILE_PI_DETAILS}")
 
+def step_refine(verbose=False):
+    """Refine PI details by mapping LDAP departments to official UMN school/department."""
+    print(f"--- [Step 4] Refining PI Details (Official Mapping) ---")
+    if not os.path.exists(FILE_PI_DETAILS):
+        print(f"Error: {FILE_PI_DETAILS} not found. Run --lookup first.")
+        return
+
+    with open(FILE_PI_DETAILS, "r") as f:
+        pi_details = json.load(f)
+
+    mapped = 0
+    unmapped = 0
+    unmapped_depts = set()
+
+    for pi_name, details in pi_details.items():
+        ldap_dept = details.get("department")
+        school_official, dept_official, div_official = get_school_for_department(ldap_dept)
+
+        if school_official:
+            mapped += 1
+        else:
+            unmapped += 1
+            if ldap_dept:
+                unmapped_depts.add(ldap_dept)
+
+        details["school_official"] = school_official
+        details["department_official"] = dept_official
+        details["division_official"] = div_official
+
+        if verbose:
+            status = "✓" if school_official else "✗"
+            div_str = f" / {div_official}" if div_official else ""
+            print(f"  {status} {pi_name}: \"{ldap_dept}\" → {school_official or 'UNMAPPED'} / {dept_official or 'N/A'}{div_str}")
+
+    with open(FILE_PI_DETAILS, "w") as f:
+        json.dump(pi_details, f, indent=2)
+
+    print(f"\nMapped: {mapped}, Unmapped: {unmapped} (of {len(pi_details)} PIs)")
+    if unmapped_depts:
+        print(f"\nUnmapped LDAP departments ({len(unmapped_depts)}):")
+        for dept in sorted(unmapped_depts):
+            print(f"  - {dept}")
+        print("To improve mapping, add patterns to umn_structure.py")
+    print(f"Saved refined PI details to {FILE_PI_DETAILS}")
+
 def step_join():
     """Join projects and PI details."""
-    print(f"--- [Step 4] Joining Data ---")
+    print(f"--- [Step 5] Joining Data ---")
     if not os.path.exists(FILE_BY_PI) or not os.path.exists(FILE_PI_DETAILS):
         print(f"Error: Missing input files. Ensure --reorganize and --lookup are run.")
         return
@@ -192,6 +238,9 @@ def step_join():
                 enriched["pi_rank"] = details.get("rank")
                 enriched["pi_department"] = details.get("department")
                 enriched["pi_school"] = details.get("school")
+                enriched["pi_school_official"] = details.get("school_official")
+                enriched["pi_department_official"] = details.get("department_official")
+                enriched["pi_division_official"] = details.get("division_official")
                 enriched["pi_ldap_dn"] = details.get("ldap_dn")
                 
                 final_data.append(enriched)
@@ -213,6 +262,8 @@ def main():
     parser.add_argument("--years", type=int, default=0, help="Number of years to fetch (0 for current year, N for last N years)")
     parser.add_argument("--reorganize", action="store_true", help="Organize grants by PI")
     parser.add_argument("--lookup", action="store_true", help="Lookup PI details on LDAP (UMN)")
+    parser.add_argument("--refine", action="store_true", help="Map LDAP departments to official UMN school/department")
+    parser.add_argument("--verbose", "-v", action="store_true", help="Show detailed mapping output (used with --refine)")
     parser.add_argument("--join", action="store_true", help="Join grants and PI details")
     
     args = parser.parse_args()
@@ -225,7 +276,10 @@ def main():
         
     if args.lookup:
         step_lookup()
-        
+
+    if args.refine:
+        step_refine(verbose=args.verbose)
+
     if args.join:
         step_join()
 

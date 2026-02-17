@@ -19,7 +19,9 @@ cp env_sample .env  # Configure LDAP credentials
 python main_ldap.py --projects --years 10   # Step 1: Fetch NIH grants
 python main_ldap.py --reorganize             # Step 2: Group by PI/Core Grant
 python main_ldap.py --lookup                 # Step 3: Enrich via LDAP
-python main_ldap.py --join                   # Step 4: Produce final JSON/CSV
+python main_ldap.py --refine                 # Step 4: Map LDAP depts → official UMN school/dept/division
+python main_ldap.py --refine --verbose       # Step 4: (with per-PI mapping output)
+python main_ldap.py --join                   # Step 5: Produce final JSON/CSV
 
 # ORCID pipeline — same steps, different enrichment source
 python main.py --projects --years 10
@@ -39,19 +41,20 @@ No test framework or linter is configured.
 
 ## Architecture
 
-**4-step ETL pipeline:**
+**5-step ETL pipeline (LDAP version):**
 
 ```
-NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.json → final_department_data_*.json/csv
+NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.json → (refine) → final_department_data_*.json/csv
 ```
 
 1. **Extract** (`fetch_grants.py`): Paginated NIH API calls, 500/page, 1s delay
 2. **Transform** (`main*.py:step_reorganize`): Groups projects by PI → Core Grant Number
 3. **Enrich** (`fetch_pi_details_ldap.py` or `fetch_pi_details.py`): Lookup PI rank/department
-4. **Load** (`main*.py:step_join`): Merge + flatten to JSON and CSV via pandas
+4. **Refine** (`main_ldap.py:step_refine`): Map LDAP dept strings → official school/dept/division via `umn_structure.py`
+5. **Load** (`main*.py:step_join`): Merge + flatten to JSON and CSV via pandas
 
 **Key modules:**
-- `main_ldap.py` / `main.py` — Pipeline orchestrators (argparse CLI, 4 step functions each)
+- `main_ldap.py` / `main.py` — Pipeline orchestrators (argparse CLI, 5/4 step functions respectively)
 - `fetch_grants.py` — NIH RePORTER v2 API client
 - `fetch_pi_details_ldap.py` — LDAP lookup (single connection pooling, anonymous bind fallback)
 - `fetch_pi_details.py` — ORCID Public API v3.0 client (0.5s rate limit)
@@ -64,7 +67,8 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 - **NIH project number parsing**: `extract_core_project_num()` strips leading application type code and suffix (e.g., `1U01DK127367-01` → `U01DK127367`)
 - **LDAP connection reuse**: A single connection is created in `step_lookup()` and passed to all `get_pi_details()` calls
 - **PI details caching**: Results saved to JSON every 10 records for resumability
-- **Department mapping**: `umn_structure.py:get_school_for_department()` uses case-insensitive substring matching against keyword patterns; unmapped departments go to "Other Departments"
+- **Department mapping**: `umn_structure.py:get_school_for_department()` returns a 3-tuple `(school, department, division)` using case-insensitive substring matching; division is `None` for departments without divisions; unmapped departments go to "Other Departments"
+- **Division support**: `UMN_STRUCTURE` uses dicts-of-lists format where each department maps to a list of divisions (empty list = no divisions). Currently only Department of Medicine has 11 divisions populated
 - **LDAP credentials**: Read from `.env` via `python-dotenv`; never commit `.env`
 
 ## External APIs

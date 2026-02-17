@@ -14,56 +14,79 @@ def build_nested_structure(pi_details_file):
     with open(pi_details_file, 'r') as f:
         pi_details = json.load(f)
     
-    # Start with official UMN structure template - convert dept strings to dicts
+    # Start with official UMN structure template
+    # Departments with divisions become nested dicts; departments without get empty PI lists
     base_structure = {}
     for uni_name, uni_data in UMN_STRUCTURE.items():
         base_structure[uni_name] = {}
         for campus_name, campus_data in uni_data.items():
             base_structure[uni_name][campus_name] = {}
-            for school_name, dept_list in campus_data.items():
-                # Convert list of department strings to dict with empty PI lists
-                base_structure[uni_name][campus_name][school_name] = {
-                    dept: [] for dept in dept_list
-                }
+            for school_name, dept_dict in campus_data.items():
+                base_structure[uni_name][campus_name][school_name] = {}
+                for dept_name, divisions in dept_dict.items():
+                    if divisions:
+                        # Department has divisions — create nested dict
+                        base_structure[uni_name][campus_name][school_name][dept_name] = {
+                            div: [] for div in divisions
+                        }
+                    else:
+                        # No divisions — flat PI list
+                        base_structure[uni_name][campus_name][school_name][dept_name] = []
     
     structure = base_structure
     
     # Track unmapped departments
     unmapped_depts = set()
     
-    # Organize PIs by school and department
+    # Organize PIs by school, department, and optionally division
     for pi_name, details in pi_details.items():
         ldap_dept_str = details.get("department")
         rank = details.get("rank")
         ldap_dn = details.get("ldap_dn")
-        
-        # Get school and normalized department
-        school_name, normalized_dept = get_school_for_department(ldap_dept_str)
-        
+
+        # Get school, normalized department, and optional division
+        school_name, normalized_dept, division = get_school_for_department(ldap_dept_str)
+
         if not school_name:
             if ldap_dept_str:  # Only track non-None unmapped departments
                 unmapped_depts.add(ldap_dept_str)
             school_name = "Other Departments"
             normalized_dept = ldap_dept_str or "Unknown"
-        
+            division = None
+
+        campus = structure["University of Minnesota"]["UMN Twin Cities"]
+
         # Ensure school exists in structure
-        if school_name not in structure["University of Minnesota"]["UMN Twin Cities"]:
-            structure["University of Minnesota"]["UMN Twin Cities"][school_name] = {}
-        
-        # Get the departments dict for this school
-        school_depts = structure["University of Minnesota"]["UMN Twin Cities"][school_name]
-        
+        if school_name not in campus:
+            campus[school_name] = {}
+
+        school_depts = campus[school_name]
+
         # Ensure department exists
         if normalized_dept not in school_depts:
-            school_depts[normalized_dept] = []
-        
-        # Add PI data
+            school_depts[normalized_dept] = [] if not division else {}
+
         pi_entry = {
             "name": pi_name,
             "rank": rank,
             "ldap_dn": ldap_dn
         }
-        school_depts[normalized_dept].append(pi_entry)
+
+        dept_node = school_depts[normalized_dept]
+
+        if division and isinstance(dept_node, dict):
+            # Place PI under the specific division
+            if division not in dept_node:
+                dept_node[division] = []
+            dept_node[division].append(pi_entry)
+        elif isinstance(dept_node, dict):
+            # Department has divisions but PI didn't match one — put in dept-level "Other"
+            if "Other" not in dept_node:
+                dept_node["Other"] = []
+            dept_node["Other"].append(pi_entry)
+        else:
+            # Department has no divisions — flat list
+            dept_node.append(pi_entry)
     
     # Sort everyone alphabetically
     for uni_name, uni_data in structure.items():
@@ -73,7 +96,16 @@ def build_nested_structure(pi_details_file):
                 school_data = campus_data[school_name]
                 sorted_depts = {}
                 for dept_name in sorted(school_data.keys()):
-                    sorted_depts[dept_name] = sorted(school_data[dept_name], key=lambda x: x["name"])
+                    dept_node = school_data[dept_name]
+                    if isinstance(dept_node, dict):
+                        # Department with divisions — sort each division's PI list
+                        sorted_divs = {}
+                        for div_name in sorted(dept_node.keys()):
+                            sorted_divs[div_name] = sorted(dept_node[div_name], key=lambda x: x["name"])
+                        sorted_depts[dept_name] = sorted_divs
+                    else:
+                        # Flat PI list
+                        sorted_depts[dept_name] = sorted(dept_node, key=lambda x: x["name"])
                 sorted_schools[school_name] = sorted_depts
             structure[uni_name][campus_name] = sorted_schools
     
@@ -112,7 +144,12 @@ def main():
     for school_name in sorted(campus.keys()):
         school_data = campus[school_name]
         num_depts = len(school_data)
-        num_pis = sum(len(pis) for pis in school_data.values())
+        num_pis = 0
+        for dept_node in school_data.values():
+            if isinstance(dept_node, dict):
+                num_pis += sum(len(pis) for pis in dept_node.values())
+            else:
+                num_pis += len(dept_node)
         total_pis += num_pis
         total_depts += num_depts
         print(f"    - {school_name}: {num_depts} departments, {num_pis} PIs")

@@ -64,13 +64,26 @@ python main_ldap.py --lookup
 - Caches results in `pi_details_ldap.json`
 - Shows progress every 10 records
 
-#### 4. Join Data
+#### 4. Refine PI Details (Official Mapping)
+```bash
+python main_ldap.py --refine
+```
+- Maps each PI's raw LDAP department string to an official UMN school, normalized department, and optional division using patterns in `umn_structure.py`
+- Adds `school_official`, `department_official`, and `division_official` fields to each entry in `pi_details_ldap.json`
+- Reports unmapped departments so you can add new patterns
+
+Use `--verbose` / `-v` to see each PI's mapping:
+```bash
+python main_ldap.py --refine --verbose
+```
+
+#### 5. Join Data
 ```bash
 python main_ldap.py --join
 ```
 
 **Output Files**:
-- `pi_details_ldap.json`: Cache of PI details from LDAP
+- `pi_details_ldap.json`: Cache of PI details from LDAP (includes `school_official`, `department_official`, and `division_official` after refine)
 - `final_department_data_ldap.json`: Full nested dataset with LDAP data
 - `final_department_data_ldap.csv`: Flattened CSV with LDAP data
 
@@ -105,9 +118,19 @@ python main.py --join
 
 ## Organizational Structure Files
 
-### UMN Schools and Departments Structure
+### Source: `umn_structure.py`
 
-Generate a clean hierarchical structure of UMN Twin Cities schools and departments (without PI data):
+The organizational hierarchy is defined in `umn_structure.py`, which was manually curated from UMN.edu public sources. It contains two key components:
+
+1. **`UMN_STRUCTURE` dict** — The official UMN Twin Cities hierarchy of schools/colleges and their departments (e.g., Medical School → Anesthesiology, Neurology, etc.). This serves as the canonical source for `umn_schools_departments.json` and the department mapping used when building `nested_structure.json`.
+
+2. **`get_school_for_department(dept_str)` function** — Maps free-text LDAP department strings to their official school, normalized department name, and optional division using 100+ case-insensitive keyword patterns. Returns a 3-tuple `(school, department, division)` where division is `None` for departments without divisions (e.g., `"anes"` → `("Medical School", "Anesthesiology", None)`, `"med cardiology"` → `("Medical School", "Medicine", "Cardiovascular")`). Departments that don't match any pattern fall back to `None` and are placed in "Other Departments" by the structure builder.
+
+To add support for new or unmapped departments, add a new keyword pattern entry to the `dept_patterns` dict in `get_school_for_department()`.
+
+### Generating `umn_schools_departments.json`
+
+`build_schools_structure.py` reads the `UMN_STRUCTURE` dict from `umn_structure.py` and writes it out as a sorted, clean JSON file (without any PI data):
 
 ```bash
 python build_schools_structure.py
@@ -119,19 +142,22 @@ python build_schools_structure.py
 ```
 University of Minnesota
   └─ UMN Twin Cities
-      ├─ Medical School (26 departments)
+      ├─ Medical School (26 departments, Medicine has 11 divisions)
       ├─ College of Science and Engineering (11 departments)
       ├─ College of Liberal Arts (36 departments)
       ├─ School of Public Health (7 departments)
       ├─ School of Dentistry (7 departments)
       ├─ College of Food, Agricultural and Natural Resource Sciences (10 departments)
       ├─ Carlson School of Management (7 departments)
+      ├─ Humphrey School of Public Affairs (1 department)
       ├─ School of Architecture (2 departments)
       ├─ School of Nursing (1 department)
       ├─ School of Pharmacy (6 departments)
       ├─ Graduate School (1 department)
       └─ Law School (1 department)
 ```
+
+Departments map to a list of divisions (empty list if no divisions). Currently only the Department of Medicine has divisions populated.
 
 ### Nested Structure with PI Data
 
@@ -185,7 +211,7 @@ Each PI entry includes:
 - Uses `ldap3` (pure Python, no system dependencies)
 - Single connection pooling for efficiency
 - Automatic fallback to anonymous bind
-- Department name normalization using official UMN structure
+- Department name normalization using official UMN structure with division support
 - Caching to avoid redundant LDAP queries
 
 ### Directory Organization Mapping
@@ -204,10 +230,18 @@ import json
 with open('nested_structure.json') as f:
     data = json.load(f)
 med_school = data['University of Minnesota']['UMN Twin Cities']['Medical School']
-for dept_name, pis in med_school.items():
-    for pi in pis:
-        if pi['rank'] == 'Professor':
-            print(f"{pi['name']} - {dept_name}")
+for dept_name, dept_node in med_school.items():
+    if isinstance(dept_node, dict):
+        # Department with divisions (e.g., Medicine)
+        for div_name, pis in dept_node.items():
+            for pi in pis:
+                if pi['rank'] == 'Professor':
+                    print(f"{pi['name']} - {dept_name} / {div_name}")
+    else:
+        # Flat department
+        for pi in dept_node:
+            if pi['rank'] == 'Professor':
+                print(f"{pi['name']} - {dept_name}")
 ```
 
 ### Export specific department
