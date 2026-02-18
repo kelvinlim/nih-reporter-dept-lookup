@@ -47,17 +47,17 @@ The `main_ldap.py` script provides LDAP-based PI enrichment with single connecti
 
 #### 1. Fetch Raw Grant Data
 ```bash
-python main_ldap.py --projects --years 10
+python3 main_ldap.py --projects --years 10
 ```
 
 #### 2. Reorganize Data
 ```bash
-python main_ldap.py --reorganize
+python3 main_ldap.py --reorganize
 ```
 
 #### 3. Lookup PI Details via LDAP
 ```bash
-python main_ldap.py --lookup
+python3 main_ldap.py --lookup
 ```
 - Establishes a single LDAP connection and reuses it for all lookups (efficient)
 - Falls back to anonymous bind if credentials fail
@@ -67,7 +67,7 @@ python main_ldap.py --lookup
 
 #### 4. Refine PI Details (Official Mapping)
 ```bash
-python main_ldap.py --refine
+python3 main_ldap.py --refine
 ```
 - Maps each PI's raw LDAP department string to an official UMN school, normalized department, and optional division using patterns in `umn_structure.py`
 - Adds `school_official`, `department_official`, and `division_official` fields to each entry in `pi_details_ldap.json`
@@ -75,18 +75,27 @@ python main_ldap.py --refine
 
 Use `--verbose` / `-v` to see each PI's mapping:
 ```bash
-python main_ldap.py --refine --verbose
+python3 main_ldap.py --refine --verbose
 ```
 
 #### 5. Join Data
 ```bash
-python main_ldap.py --join
+python3 main_ldap.py --join
 ```
+
+#### 6. Pack for Runway Import
+```bash
+python3 main_ldap.py --pack
+```
+- Combines the UMN organizational unit hierarchy and enriched project data into a single JSON file for Runway import
+- `units` key: school/department/division hierarchy (structure only, no PIs)
+- `projects` key: projects organized by PI → Core Grant Number, with all enriched fields
 
 **Output Files**:
 - `pi_details_ldap.json`: Cache of PI details from LDAP (includes `school_official`, `department_official`, and `division_official` after refine)
 - `final_department_data_ldap.json`: Full nested dataset with LDAP data
 - `final_department_data_ldap.csv`: Flattened CSV with LDAP data
+- `runway_import.json`: Combined units + projects for Runway import
 
 ### ORCID Version
 
@@ -94,22 +103,22 @@ The original `main.py` script uses ORCID for PI enrichment.
 
 #### 1. Fetch Raw Grant Data
 ```bash
-python main.py --projects --years 10
+python3 main.py --projects --years 10
 ```
 
 #### 2. Reorganize Data
 ```bash
-python main.py --reorganize
+python3 main.py --reorganize
 ```
 
 #### 3. Lookup PI Details via ORCID
 ```bash
-python main.py --lookup
+python3 main.py --lookup
 ```
 
 #### 4. Join Data
 ```bash
-python main.py --join
+python3 main.py --join
 ```
 
 **Output Files**:
@@ -134,7 +143,7 @@ To add support for new or unmapped departments, add a new keyword pattern entry 
 `build_schools_structure.py` reads the `UMN_STRUCTURE` dict from `umn_structure.py` and writes it out as a sorted, clean JSON file (without any PI data):
 
 ```bash
-python build_schools_structure.py
+python3 build_schools_structure.py
 ```
 
 **Output**: `umn_schools_departments.json`
@@ -165,7 +174,7 @@ Departments map to a list of divisions (empty list if no divisions). Currently o
 Generate hierarchical organization with PIs organized by school and department:
 
 ```bash
-python build_nested_structure.py
+python3 build_nested_structure.py
 ```
 
 **Output**: `nested_structure.json`
@@ -189,6 +198,7 @@ Each PI entry includes:
 | `final_department_data_ldap.csv` | LDAP + Projects | Flattened CSV |
 | `umn_schools_departments.json` | UMN Structure | Schools/departments only |
 | `nested_structure.json` | UMN + LDAP | Hierarchical organization with PIs |
+| `runway_import.json` | UMN + LDAP + Projects | Combined units + projects for Runway import |
 
 ## Data Source Information
 

@@ -50,7 +50,19 @@ def get_pi_details(contact_pi_name, conn, org_name="University of Minnesota"):
         if "," in contact_pi_name:
             parts = contact_pi_name.split(",")
             last_name = parts[0].strip()
-            first_name = parts[1].strip().split(" ")[0]  # Take first part of first name
+            first_parts = parts[1].strip().split()
+            # Skip leading initials (single letter or letter+period) to find
+            # the actual first name.
+            # e.g., "REDISH, A DAVID" → "David"
+            #       "DUDLEY, R. ADAMS" → "Adams"
+            #       "ROSSER, B R SIMON" → "Simon"
+            first_name = first_parts[0]
+            for part in first_parts:
+                stripped = part.rstrip(".")
+                if len(stripped) == 1 and len(first_parts) > first_parts.index(part) + 1:
+                    continue  # skip initial
+                first_name = part
+                break
         else:
             # Fallback for "First Last"
             parts = contact_pi_name.split(" ")
@@ -62,8 +74,10 @@ def get_pi_details(contact_pi_name, conn, org_name="University of Minnesota"):
 
     try:
         # Search using sn (surname) and givenName
-        # Try multiple search attempts with different filter combinations
+        # Try progressively looser filters; exact givenName first to avoid
+        # prefix collisions (e.g., "Carol" vs "Carolyn")
         filters = [
+            f"(&(sn={last_name})(givenName={first_name}))",
             f"(&(sn={last_name})(givenName={first_name}*))",
             f"(&(sn={last_name}*)(givenName={first_name}*))",
             f"(&(sn={last_name}*)(givenName={first_name[0]}*))",
@@ -71,13 +85,21 @@ def get_pi_details(contact_pi_name, conn, org_name="University of Minnesota"):
         
         attributes = ["cn", "sn", "givenName", "mail", "title", "ou", "o", "displayName"]
         
+        # Track best candidate across ALL filters.
+        # Only return early on an exact first-name match (score 2).
+        # This prevents e.g., "Carolyn" (prefix match via sn=Peterson)
+        # from beating "Carol" (exact match, but only found via sn=Peterson*
+        # because her sn is "Peterson PhD").
+        overall_best = None
+        overall_best_score = -1
+
         for search_filter in filters:
             try:
                 conn.search(LDAP_BASE_DN, search_filter, attributes=attributes)
-                
+
                 if not conn.entries:
                     continue
-                
+
                 for entry in conn.entries:
                     # Extract attributes
                     cn = entry.cn[0] if entry.cn else None
@@ -86,25 +108,38 @@ def get_pi_details(contact_pi_name, conn, org_name="University of Minnesota"):
                     title = entry.title[0] if entry.title else None
                     ou = entry.ou[0] if entry.ou else None
                     organization = entry.o[0] if entry.o else None
-                    
+
                     # Verify this is a reasonable match - check both first AND last name
-                    if (last_name.lower() in (surname or "").lower() and
-                        given and first_name and
-                        first_name[0].lower() == given[0].lower()):
-                        return {
+                    if not (last_name.lower() in (surname or "").lower() and
+                            given and first_name and
+                            first_name[0].lower() == given[0].lower()):
+                        continue
+
+                    # Score: exact first name > prefix > initial-only
+                    if given.lower() == first_name.lower():
+                        score = 2  # exact match
+                    elif given.lower().startswith(first_name.lower()):
+                        score = 1  # prefix match (e.g., "Carol" in "Carolina")
+                    else:
+                        score = 0  # initial-only match
+
+                    if score > overall_best_score:
+                        overall_best_score = score
+                        overall_best = {
                             "dn": entry.entry_dn,
                             "rank": title,
                             "department": ou,
                             "organization": organization or "University of Minnesota",
                             "source": "LDAP (UMN)"
                         }
-                
-                # If we got results but no good match, try next filter
-                
+
+                    if overall_best_score == 2:
+                        return overall_best  # exact match, done
+
             except Exception as e:
                 continue
-        
-        return None
+
+        return overall_best
         
     except Exception as e:
         print(f"    Error during LDAP lookup: {e}")

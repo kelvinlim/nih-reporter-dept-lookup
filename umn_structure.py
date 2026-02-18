@@ -159,6 +159,9 @@ UMN_STRUCTURE = {
             },
             "Graduate School": {
                 "Graduate Studies": []
+            },
+            "The Hormel Institute": {
+                "Research": []
             }
         }
     }
@@ -342,6 +345,7 @@ def get_school_for_department(dept_str):
         "grad dean": ("Graduate School", "Graduate Studies", None),
         "grad school": ("Graduate School", "Graduate Studies", None),
         "law school": ("Law School", "Law", None),
+        "hormel": ("The Hormel Institute", "Research", None),
     }
 
     # Try to match patterns

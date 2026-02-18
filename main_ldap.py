@@ -6,6 +6,7 @@ import pandas as pd
 from fetch_grants import fetch_grants
 from fetch_pi_details_ldap import get_pi_details, create_ldap_connection
 from umn_structure import get_school_for_department
+from build_schools_structure import build_structure_only
 
 # File Constants
 FILE_RAW = "projects_raw.json"
@@ -13,6 +14,7 @@ FILE_BY_PI = "projects_by_pi.json"
 FILE_PI_DETAILS = "pi_details_ldap.json"
 FILE_FINAL = "final_department_data_ldap.json"
 FILE_FINAL_CSV = "final_department_data_ldap.csv"
+FILE_RUNWAY = "runway_import.json"
 
 def extract_core_project_num(project_num):
     """
@@ -100,7 +102,7 @@ def step_reorganize():
     print(f"Reorganized data for {len(projects_by_pi)} PIs.")
     print(f"Saved to {FILE_BY_PI}")
 
-def step_lookup():
+def step_lookup(name_filter=None):
     """Enhance PI info using LDAP (UMN)."""
     print(f"--- [Step 3] PI Lookup (LDAP - UMN) ---")
     if not os.path.exists(FILE_BY_PI):
@@ -109,18 +111,25 @@ def step_lookup():
 
     with open(FILE_BY_PI, "r") as f:
         projects_by_pi = json.load(f)
-    
+
     pi_details = {}
-    
+
     if os.path.exists(FILE_PI_DETAILS):
         print(f"Found existing {FILE_PI_DETAILS}, loading cache...")
         with open(FILE_PI_DETAILS, "r") as f:
             pi_details = json.load(f)
-            
+
     # projects_by_pi keys are PI Names
     total_pis = len(projects_by_pi)
-    pis_to_process = [pi for pi in projects_by_pi if pi not in pi_details and pi != "Unknown"]
-    
+
+    if name_filter:
+        # Re-lookup PIs matching the name filter (case-insensitive)
+        name_filter_lower = name_filter.lower()
+        pis_to_process = [pi for pi in projects_by_pi if name_filter_lower in pi.lower() and pi != "Unknown"]
+        print(f"Filtering by name: \"{name_filter}\" — {len(pis_to_process)} matching PIs (will overwrite cached entries)")
+    else:
+        pis_to_process = [pi for pi in projects_by_pi if pi not in pi_details and pi != "Unknown"]
+
     print(f"Total PIs: {total_pis}. Already cached: {len(pi_details)}. To process: {len(pis_to_process)}")
     
     # Create single LDAP connection for all lookups
@@ -180,7 +189,7 @@ def step_refine(verbose=False):
 
     mapped = 0
     unmapped = 0
-    unmapped_depts = set()
+    unmapped_entries = []  # (pi_name, ldap_dept)
 
     for pi_name, details in pi_details.items():
         ldap_dept = details.get("department")
@@ -190,8 +199,7 @@ def step_refine(verbose=False):
             mapped += 1
         else:
             unmapped += 1
-            if ldap_dept:
-                unmapped_depts.add(ldap_dept)
+            unmapped_entries.append((pi_name, ldap_dept))
 
         details["school_official"] = school_official
         details["department_official"] = dept_official
@@ -206,11 +214,11 @@ def step_refine(verbose=False):
         json.dump(pi_details, f, indent=2)
 
     print(f"\nMapped: {mapped}, Unmapped: {unmapped} (of {len(pi_details)} PIs)")
-    if unmapped_depts:
-        print(f"\nUnmapped LDAP departments ({len(unmapped_depts)}):")
-        for dept in sorted(unmapped_depts):
-            print(f"  - {dept}")
-        print("To improve mapping, add patterns to umn_structure.py")
+    if unmapped_entries:
+        print(f"\nUnmapped PIs ({len(unmapped_entries)}):")
+        for pi_name, ldap_dept in sorted(unmapped_entries):
+            print(f"  - {pi_name}: \"{ldap_dept or 'None'}\"")
+        print("\nTo improve mapping, add patterns to umn_structure.py")
     print(f"Saved refined PI details to {FILE_PI_DETAILS}")
 
 def step_join():
@@ -256,32 +264,99 @@ def step_join():
     except Exception as e:
         print(f"Error saving CSV: {e}")
 
+def step_pack():
+    """Pack units hierarchy and enriched projects into a single file for Runway import."""
+    print(f"--- [Step 6] Packing for Runway Import ---")
+    if not os.path.exists(FILE_BY_PI) or not os.path.exists(FILE_PI_DETAILS):
+        print(f"Error: Missing input files. Ensure --reorganize and --refine are run.")
+        return
+
+    with open(FILE_BY_PI, "r") as f:
+        projects_by_pi = json.load(f)
+
+    with open(FILE_PI_DETAILS, "r") as f:
+        pi_details = json.load(f)
+
+    # Build "units" section from UMN_STRUCTURE
+    units = build_structure_only()
+
+    # Build "projects" section: PI → Core Grant → [enriched records]
+    packed_projects = {}
+    total_project_count = 0
+
+    for pi_name, core_groups in projects_by_pi.items():
+        details = pi_details.get(pi_name, {})
+        packed_projects[pi_name] = {}
+
+        for core_num, projects in core_groups.items():
+            enriched_list = []
+            for project in projects:
+                enriched = project.copy()
+                enriched["pi_rank"] = details.get("rank")
+                enriched["pi_department"] = details.get("department")
+                enriched["pi_school"] = details.get("school")
+                enriched["pi_school_official"] = details.get("school_official")
+                enriched["pi_department_official"] = details.get("department_official")
+                enriched["pi_division_official"] = details.get("division_official")
+                enriched["pi_ldap_dn"] = details.get("ldap_dn")
+                enriched_list.append(enriched)
+                total_project_count += 1
+
+            packed_projects[pi_name][core_num] = enriched_list
+
+    # Assemble and save
+    runway_data = {
+        "units": units,
+        "projects": packed_projects
+    }
+
+    with open(FILE_RUNWAY, "w") as f:
+        json.dump(runway_data, f, indent=2)
+    print(f"Saved Runway import file to {FILE_RUNWAY}")
+
+    # Summary
+    campus = units.get("University of Minnesota", {}).get("UMN Twin Cities", {})
+    total_schools = len(campus)
+    total_depts = sum(len(depts) for depts in campus.values())
+
+    total_pis = len(packed_projects)
+    total_core_grants = sum(len(cg) for cg in packed_projects.values())
+
+    print(f"\nSummary:")
+    print(f"  Units: {total_schools} schools, {total_depts} departments")
+    print(f"  Projects: {total_pis} PIs, {total_core_grants} core grants, {total_project_count} project records")
+
 def main():
     parser = argparse.ArgumentParser(description="NIH Reporter Department Utility (LDAP Version)")
     parser.add_argument("--projects", action="store_true", help="Fetch raw grants from NIH RePORTER")
     parser.add_argument("--years", type=int, default=0, help="Number of years to fetch (0 for current year, N for last N years)")
     parser.add_argument("--reorganize", action="store_true", help="Organize grants by PI")
     parser.add_argument("--lookup", action="store_true", help="Lookup PI details on LDAP (UMN)")
+    parser.add_argument("--name", type=str, default=None, help="Re-lookup only PIs matching this name (used with --lookup)")
     parser.add_argument("--refine", action="store_true", help="Map LDAP departments to official UMN school/department")
     parser.add_argument("--verbose", "-v", action="store_true", help="Show detailed mapping output (used with --refine)")
     parser.add_argument("--join", action="store_true", help="Join grants and PI details")
-    
+    parser.add_argument("--pack", action="store_true", help="Pack units + projects into single Runway import file")
+
     args = parser.parse_args()
-    
+
     if args.projects:
         step_projects(years=args.years)
-    
+
     if args.reorganize:
         step_reorganize()
-        
+
     if args.lookup:
-        step_lookup()
+        step_lookup(name_filter=args.name)
 
     if args.refine:
         step_refine(verbose=args.verbose)
 
     if args.join:
         step_join()
+
+    if args.pack:
+        step_pack()
 
     if not any(vars(args).values()):
         parser.print_help()
