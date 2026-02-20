@@ -1,0 +1,160 @@
+{
+  "University of Minnesota": {
+    "UMN Twin Cities": {
+      "Carlson School of Management": {
+        "Accounting": [],
+        "Business and Management": [],
+        "Finance": [],
+        "Management Information Systems": [],
+        "Marketing and Logistics Management": [],
+        "Organizational Behavior and Human Resources": [],
+        "Strategic Management and Entrepreneurship": []
+      },
+      "College of Food, Agricultural and Natural Resource Sciences": {
+        "Applied Economics": [],
+        "Biosystems and Agricultural Engineering": [],
+        "Entomology": [],
+        "Food Science and Nutrition": [],
+        "Forest Resources": [],
+        "Plant and Soil Sciences": [],
+        "School of Natural Resources": [],
+        "Veterinary Clinical Sciences": [],
+        "Veterinary Diagnostic and Biological Sciences": [],
+        "Veterinary Population Medicine": []
+      },
+      "College of Liberal Arts": {
+        "African American and African Studies": [],
+        "American Studies": [],
+        "Anthropology": [],
+        "Art": [],
+        "Asian Languages and Literatures": [],
+        "Central Asian Studies": [],
+        "Classics": [],
+        "Communication Studies": [],
+        "Comparative Literature": [],
+        "East Asian Studies": [],
+        "Economics": [],
+        "English": [],
+        "European Studies": [],
+        "French and Italian": [],
+        "German, Scandinavian and Dutch": [],
+        "Germano-Nordic Studies": [],
+        "Global Studies": [],
+        "History": [],
+        "Honors Program": [],
+        "Humanities": [],
+        "Jewish Studies": [],
+        "Lesbian, Gay, Bisexual, Transgender, Queer Studies": [],
+        "Linguistics": [],
+        "Music": [],
+        "Philosophy": [],
+        "Political Science": [],
+        "Psychology": [],
+        "Religious Studies": [],
+        "Scandinavian Studies": [],
+        "Slavic and East European Studies": [],
+        "Sociology": [],
+        "Spanish and Portuguese": [],
+        "Statistics": [],
+        "Studio Art": [],
+        "Theatre Arts and Dance": [],
+        "Women's Studies": []
+      },
+      "College of Science and Engineering": {
+        "Aerospace Engineering and Mechanics": [],
+        "Biomedical Engineering": [],
+        "Chemical Engineering and Materials Science": [],
+        "Chemistry": [],
+        "Civil, Environmental and Geo-Engineering": [],
+        "Computer Science and Engineering": [],
+        "Geological Sciences": [],
+        "Industrial and Systems Engineering": [],
+        "Mathematics": [],
+        "Mechanical Engineering": [],
+        "Physics": []
+      },
+      "Graduate School": {
+        "Graduate Studies": []
+      },
+      "Humphrey School of Public Affairs": {
+        "Public Policy": []
+      },
+      "Law School": {
+        "Law": []
+      },
+      "Medical School": {
+        "Anesthesiology": [],
+        "Biochemistry, Molecular Biology and Biophysics": [],
+        "Dean's Office": [],
+        "Dermatology": [],
+        "Emergency Medicine": [],
+        "Family Medicine and Community Health": [],
+        "Genetics, Cell Biology and Development": [],
+        "Immunology": [],
+        "Medicine": [
+          "Cardiovascular",
+          "Diabetes, Endocrinology and Metabolism",
+          "Gastroenterology, Hepatology and Nutrition",
+          "General Internal Medicine",
+          "Hematology, Oncology and Transplantation",
+          "Hospital Medicine",
+          "Infectious Diseases and International Medicine",
+          "Molecular Medicine",
+          "Nephrology and Hypertension",
+          "Pulmonary, Allergy, Critical Care and Sleep Medicine",
+          "Rheumatic and Autoimmune Diseases"
+        ],
+        "Microbiology and Immunology": [],
+        "Neurology": [],
+        "Neuroscience": [],
+        "Obstetrics, Gynecology and Reproductive Medicine": [],
+        "Oncology": [],
+        "Ophthalmology": [],
+        "Organizational Leadership, Policy and Development": [],
+        "Orthopaedic Surgery": [],
+        "Otolaryngology": [],
+        "Pathology": [],
+        "Pediatrics": [],
+        "Pharmacology": [],
+        "Physiology": [],
+        "Psychiatry": [],
+        "Radiology": [],
+        "Surgery": [],
+        "Urology": []
+      },
+      "School of Architecture": {
+        "Architecture": [],
+        "Urban Design": []
+      },
+      "School of Dentistry": {
+        "Endodontics": [],
+        "Oral Biology and Diagnostic Sciences": [],
+        "Oral and Maxillofacial Pathology": [],
+        "Oral and Maxillofacial Surgery": [],
+        "Pediatric Dentistry": [],
+        "Periodontics, Prosthodontics and Implant Dentistry": [],
+        "Restorative Dentistry": []
+      },
+      "School of Nursing": {
+        "Nursing": []
+      },
+      "School of Pharmacy": {
+        "Medicinal Chemistry": [],
+        "Pharmaceutical Chemistry": [],
+        "Pharmaceutics": [],
+        "Pharmacognosy": [],
+        "Pharmacology": [],
+        "Pharmacy": []
+      },
+      "School of Public Health": {
+        "Biostatistics": [],
+        "Division of Environmental Health Sciences": [],
+        "Division of Epidemiology and Community Health": [],
+        "Division of Health Policy and Management": [],
+        "Maternal and Child Health": [],
+        "Public Health": [],
+        "School of Public Health": []
+      }
+    }
+  }
+}

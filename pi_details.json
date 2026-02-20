@@ -1,0 +1,3422 @@
+{
+  "BAUER, MEREDITH ROSE": {
+    "rank": "Postdoctoral Fellow",
+    "department": "Neuroscience",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-1690-7956"
+  },
+  "PALMER, JACQUELINE A": {
+    "rank": "Assistant Professor",
+    "department": "Physical Therapy",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0003-0021-4589"
+  },
+  "RIVERA-LE\u00d3N, ADRIANNA M.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GILL, MATTHEW SIMON": {
+    "rank": "Associate Professor",
+    "department": "Genetics, Cell Biology and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-0818-8792"
+  },
+  "BELLIN, MELENA D.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "CHEN, XIAOLI ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0003-3326-5390"
+  },
+  "LUTSEY, PAMELA L.": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1572-1340"
+  },
+  "SHIPPEE, TETYANA P.": {
+    "rank": "Faculty, Professor",
+    "department": "Health Policy and Management",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1804-2527"
+  },
+  "CARROLL, DANA MOWLS": {
+    "rank": null,
+    "department": "Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4334-9515"
+  },
+  "SCHWERTFEGER, KATHRYN L": {
+    "rank": "Associate Professor",
+    "department": "Lab Medicine and Pathology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9755-7774"
+  },
+  "SACHS, JONATHAN N": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ROMANO, KELLY A.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DEPAUW, TAYLOR A": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0006-5235-753X"
+  },
+  "WILHELM, APRIL KATHERINE": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WILLIAMS, DRAKE WINSLOW": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Basic Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7718-2098"
+  },
+  "KASSIE, FEKADU ": {
+    "rank": "Associate Professor",
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1593-4108"
+  },
+  "MCMAHON, MATTHEW CHARLES": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BANTLE, ANNE E": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Medicine - Endocrine and Diabetes Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5006-5350"
+  },
+  "WOOD, DAVID KEVIN": {
+    "rank": "Professor",
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0001-5225-2144"
+  },
+  "BAZZARO, MARTINA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GARRY, DANIEL J.": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8970-7365"
+  },
+  "JENKINS, MARC KEVIN": {
+    "rank": "Faculty, Regents Professor",
+    "department": "Microbiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8009-7655"
+  },
+  "BINSTADT, BRYCE ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3127-3856"
+  },
+  "CULL, BENJAMIN ": {
+    "rank": "Research Faculty, Research Assistant Professor",
+    "department": "Entomology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6814-5669"
+  },
+  "JARDINE, PAUL JAMES": {
+    "rank": "Professor",
+    "department": "Diagnostic and Biological Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1090-0550"
+  },
+  "BANEK, CHRISTOPHER T": {
+    "rank": "Associate Professor (Tenured)",
+    "department": "Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9861-1402"
+  },
+  "GALLANT, KATHLEEN M HILL": {
+    "rank": "Associate Professor",
+    "department": "Food Science and Nutrition",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1528-8161"
+  },
+  "GOLBERSTEIN, EZRA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "KERMOADE, KLAITEN E": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "INGBAR, DAVID H": {
+    "rank": "Medical School Affiliates, Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1695-4493"
+  },
+  "AMAN, JOSHUA E": {
+    "rank": null,
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1242-062X"
+  },
+  "OLIVER, JONATHAN D": {
+    "rank": "Associate Professor",
+    "department": "Environmental Health Sciences",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-8738-112X"
+  },
+  "ASLANIDI, GEORGE V": {
+    "rank": null,
+    "department": "Comparative and Molecular Biosciences",
+    "school": "College of Veterinary Medicine University of minnesota",
+    "orcid_id": "0000-0002-2726-8627"
+  },
+  "FLEMING, JUSTIN TRACY": {
+    "rank": "Research Scientist",
+    "department": "Speech-Language-Hearing Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7070-1695"
+  },
+  "JACKLIN, KRISTEN ": {
+    "rank": "Director and Professor",
+    "department": "Memory Keepers Medical Discovery Team; Family Medicine and Biobehavioral Health ",
+    "school": "University of Minnesota Medical School Duluth Campus",
+    "orcid_id": "0000-0003-0031-5304"
+  },
+  "NOEL, JEAN-PAUL ": {
+    "rank": "Assistant Professor",
+    "department": "Department of Neuroscience",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0001-5297-3363"
+  },
+  "BATCHELOR, ERIC ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LOTH, KATIE ANN": {
+    "rank": "Assistant Professor",
+    "department": "Family Medicine and Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8934-2522"
+  },
+  "JOHNSON, CASEY PETER": {
+    "rank": "Associate Professor of Medical Imaging",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9826-7296"
+  },
+  "FINGER, ERIK BRIAN": {
+    "rank": null,
+    "department": "Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3899-6985"
+  },
+  "PERLINGEIRO, RITA C. R.": {
+    "rank": "Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0001-9412-1118"
+  },
+  "MAKIELSKI, KELLY M": {
+    "rank": "Assistant Professor",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7878-2370"
+  },
+  "GRADILONE, SERGIO A": {
+    "rank": "Faculty, Professor",
+    "department": "The Hormel Institute",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1753-3634"
+  },
+  "MASHEK, DOUGLAS G": {
+    "rank": "Faculty, Leader",
+    "department": "Biology of Aging Medical Discovery Team",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7033-3386"
+  },
+  "ALFORD, PATRICK W": {
+    "rank": null,
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7811-4134"
+  },
+  "NELSON, RYAN WILLIAM": {
+    "rank": "Student",
+    "department": "ECE",
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0003-7931-8010"
+  },
+  "SAUNDERS, BENJAMIN THOMAS": {
+    "rank": "Assistant Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-4733-1101"
+  },
+  "KUGLER, TRACY A": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "INGRAHAM, NICHOLAS E": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Pulmonary, Allergy, Critical Care and Sleep Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0292-0594"
+  },
+  "GAUGLER, JOSEPH E.": {
+    "rank": "Adjunct Faculty, Adjunct Professor",
+    "department": "Academics (Nursing)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4797-485X"
+  },
+  "YAMAMOTO, MASATO ": {
+    "rank": "Vice Chair of Surgical Science",
+    "department": "Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2721-6245"
+  },
+  "MANSKY, KIM CARPENTER": {
+    "rank": "Professor ",
+    "department": "Developmental and Surgical Science",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2826-5030"
+  },
+  "CAMELL, CHRISTINA ": {
+    "rank": "Associate Professor",
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7847-3543"
+  },
+  "DEHM, SCOTT M.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SEAQUIST, ELIZABETH R.": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1945-1034"
+  },
+  "NAKATO, HIROSHI ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9812-4025"
+  },
+  "RICHARD, JOCELYN M": {
+    "rank": "Assistant Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5750-0418"
+  },
+  "HORNING, MELISSA L": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MCPHERSON, SCOTT W": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "RUGGLES, STEVE ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "JUNGE, HARALD ": {
+    "rank": "Associate Professor",
+    "department": "OVNS",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2458-6010"
+  },
+  "ZIMMERMANN, JAN ": {
+    "rank": "Associate Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3345-6074"
+  },
+  "ELICEIRI, KEVIN WILLIAM": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PROVENZANO, PAOLO ": {
+    "rank": "Professor",
+    "department": "Biomedical Engineering, Medicine (Hematology, Oncology, and Transplantation), and Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9313-1370"
+  },
+  "ODDE, DAVID J.": {
+    "rank": "Professor",
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7731-2799"
+  },
+  "BAILEY, ZINZI DIANA": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5708-3754"
+  },
+  "FULKERSON, JAYNE ALLYN": {
+    "rank": "Professor",
+    "department": "School of Nursing",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2110-498X"
+  },
+  "MASOPUST, DAVID ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "STREIB, CHRISTOPHER ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1119-757X"
+  },
+  "KOOPMEINERS, JOSEPH S.": {
+    "rank": "Professor",
+    "department": "Biostatistics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6147-3168"
+  },
+  "CHEN, YUE ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MINER, JAMES R.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "COURTEMANCHE, NAOMI ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4374-4782"
+  },
+  "GORDON, WENDY RYAN": {
+    "rank": "Faculty, Professor",
+    "department": "Structural Biology and Biophysics (TMED)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7696-5560"
+  },
+  "AIHARA, HIDEKI ": {
+    "rank": "Professor",
+    "department": "Biochemistry, Molecular Biology, and Biophysics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7508-6230"
+  },
+  "VITEK, JERROLD L": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PENNELL, CHRISTOPHER A": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2901-6554"
+  },
+  "WAGNER, JOHN E.": {
+    "rank": "Faculty, Division of Blood and Marrow Transplantation",
+    "department": "Pediatrics",
+    "school": "University of Minnesota Medical School Twin Cities",
+    "orcid_id": "0000-0003-1996-6262"
+  },
+  "YEE, DOUGLAS ": {
+    "rank": "Professor",
+    "department": "Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3387-4009"
+  },
+  "GELLER, MELISSA ANN": {
+    "rank": "Professor",
+    "department": "OB/GYN",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4591-620X"
+  },
+  "WEIGEL, BRENDA J.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MORIARITY, BRANDEN S": {
+    "rank": "Associate Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3031-3767"
+  },
+  "FELICES, MARTIN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MILLER, JEFFREY S.": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-0339-4944"
+  },
+  "SCHILZ, AARON ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LANGE, CAROL A": {
+    "rank": "Professor",
+    "department": "Medicine and Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2751-3976"
+  },
+  "BECKMAN, KENNETH B": {
+    "rank": "Director",
+    "department": "UMN Genomics Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8876-0706"
+  },
+  "GRIFFIN, TIMOTHY J.": {
+    "rank": "Faculty, Faculty Director",
+    "department": "Center for Metabolomics and Proteomics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6801-2559"
+  },
+  "PETERSON, LISA A": {
+    "rank": "Faculty, Professor",
+    "department": "Environmental Health Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8715-4480"
+  },
+  "NELSON, HEATHER HAMMOND": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1901-9513"
+  },
+  "POYNTER, JENNY N.": {
+    "rank": "Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8460-3938"
+  },
+  "VILLALTA, PETER WILLIAM": {
+    "rank": "Director, Analytical Biochemistry Shared Resource",
+    "department": "Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0067-3083"
+  },
+  "LE, CHAP T.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WANG, JINHUA ": {
+    "rank": "professor",
+    "department": "masonic cancer center",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0003-4607-3742"
+  },
+  "SEELIG, DAVIS MARTIN": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HALLSTROM, TIMOTHY C.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "JAMESON, STEPHEN C": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "RIVERA-LE\u00d3N, ADRIANNA M. ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "KALENDER, GULDAMLA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "NTABA, DZIWE WILLARD": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BEALL, EVALYN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "JANG, IN HWA ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0009-9448-8433"
+  },
+  "ZHANG, RUI ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "EATON, ELLA JOY": {
+    "rank": "Graduate Research Assistant",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9861-0437"
+  },
+  "GRANICK, JENNIFER LEA": {
+    "rank": "Associate Professor",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8330-3848"
+  },
+  "GULLEEN, ELIZABETH A.": {
+    "rank": "Assistant Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-0035-5015"
+  },
+  "SCHACKER, TIMOTHY W": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "OSYPUK, THERESA LOUISE": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5770-3346"
+  },
+  "HILLMAN, HANNAH ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "VERKERKE, ANTHONY ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "REINEKE, THERESA M": {
+    "rank": "Professor",
+    "department": "Chemistry",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0001-7020-3450"
+  },
+  "BAHR, NATHAN ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9431-8938"
+  },
+  "BASTIAN, THOMAS W.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FIFE, BRIAN T": {
+    "rank": "Faculty, Leader",
+    "department": "Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9826-5637"
+  },
+  "BRAMANTE, CAROLYN T": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Medicine - General Internal Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5858-2080"
+  },
+  "XIE, JIASHU ": {
+    "rank": "Assistant Professor",
+    "department": "Center for Drug Design, College of Pharmacy",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6148-5203"
+  },
+  "MATAS, ARTHUR J": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "VANDE ZANDE, PETRA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "RAMIREZ, MELISSA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "CAMCHONG, Y. JAZMIN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ZHANG, MICHAEL JINGYUAN": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Medicine - Cardiology Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2537-2831"
+  },
+  "ZAIDI, SYED ARSLAN ABBAS": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PARKER, LAURIE L.": {
+    "rank": "Faculty, Professor",
+    "department": "Biochemistry, Molecular Biology, and Biophysics (CBS)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6234-3346"
+  },
+  "WARREN, JOHN ROBERT": {
+    "rank": "Associate to Full Professor",
+    "department": "Sociology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6079-5122"
+  },
+  "TITHOF, JEFFREY ": {
+    "rank": "Assistant Professor",
+    "department": "Mechanical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2083-0901"
+  },
+  "NASELARIS, THOMAS P": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FREEDMAN, TANYA S.": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5168-5829"
+  },
+  "VON DIEZMANN, LEXY ": {
+    "rank": "Assistant Professor",
+    "department": "Genetics, Cell Biology, and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8364-0027"
+  },
+  "GOTTSCHALK, AMY CHARLOTTE": {
+    "rank": "Graduate Research Assistant",
+    "department": "Department of Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0008-5028-4757"
+  },
+  "HALLEY, MADALENE ": {
+    "rank": "PhD Candidate Research Assistant",
+    "department": "GCD",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0009-0003-4530-4489"
+  },
+  "SELIMOVIC, ADEM ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BRADLEY, ELIZABETH W": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Orthopaedic Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8814-5524"
+  },
+  "ALBERT, FRANK WOLFGANG": {
+    "rank": "Medical School Affiliates, Associate Professor",
+    "department": "Genetics, Cell Biology and Development (TMED)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1380-8063"
+  },
+  "BAROCAS, VICTOR H": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WANG, CHONG ": {
+    "rank": "Assistant professor ",
+    "department": "Diagnostic and biological sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0523-3562"
+  },
+  "EVERSON-ROSE, SUSAN A.": {
+    "rank": "Faculty, Professor",
+    "department": "Medicine - General Internal Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9839-2537"
+  },
+  "SKIPPER, CALEB P": {
+    "rank": "Assistant Professor",
+    "department": "Department of Medicine - Infectious Diseases",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0000-8876"
+  },
+  "ZHANG, LEI ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3067-305X"
+  },
+  "SWANSON, MEGHAN RAE": {
+    "rank": "Associate Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8474-3458"
+  },
+  "SMITH, GORDON BRAWN": {
+    "rank": null,
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1107-3884"
+  },
+  "BURRACK, ADAM L": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "STRENG, MARTHA L": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LAMONT, ELISE ": {
+    "rank": "Researchers, Research Professional 6",
+    "department": "Microbiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7085-9740"
+  },
+  "LIANG, YUYING ": {
+    "rank": "Professor",
+    "department": "Veterinary and Biomedical Sciences",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0001-6002-6868"
+  },
+  "ZHANG, LIN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LUO, QIANYUN ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9453-8279"
+  },
+  "STENGER, TERRAN ": {
+    "rank": "PhD Student",
+    "department": "Medicine",
+    "school": "University of Minnesota Medical Center",
+    "orcid_id": "0000-0002-8199-0880"
+  },
+  "BOLD, TYLER DALLAS": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "KARA, PRAKASH ": {
+    "rank": "Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4285-1634"
+  },
+  "MENDONCA, LUIZA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SHIMIZU, YOJI ": {
+    "rank": "Faculty, Leader",
+    "department": "Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9760-0288"
+  },
+  "O'CONNOR, ROBERTA M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "RUAN, HAI-BIN ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Physiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3858-1272"
+  },
+  "SCHULDT, NATHAN ": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Pediatric Rheumatology, Allergy & Immunology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7692-4814"
+  },
+  "SUBRAMANIAN, SUBBAYA ": {
+    "rank": "Professor",
+    "department": "Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2544-480X"
+  },
+  "MOANA-FILHO, ESTEPHAN J": {
+    "rank": "Assistant Professor",
+    "department": "Diagnostic and Biological Sciences",
+    "school": "University of Minnesota School of Dentistry",
+    "orcid_id": "0000-0001-9642-944X"
+  },
+  "MURPHY, DANIEL PATRICK": {
+    "rank": null,
+    "department": "Department of Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0056-4530"
+  },
+  "FRIEDENBERG, STEVEN GENE": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7510-2322"
+  },
+  "WICKMAN, KEVIN D": {
+    "rank": "Vice-Head of Pharmacology",
+    "department": "Pharmacology",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-5179-9540"
+  },
+  "THOMAS, STEFANI ": {
+    "rank": "Assistant Professor",
+    "department": "Laboratory Medicine and Pathology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1679-5453"
+  },
+  "MCIVOR, R. SCOTT": {
+    "rank": "Professor",
+    "department": "Genetics, Cell Biology and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8726-0902"
+  },
+  "BELICA, CHRISTOPHER A": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "VULCHANOVA, LYUDMILA H": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PUGLISI, CHLOE ": {
+    "rank": "Doctoral Student",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0002-1131-8535"
+  },
+  "TISCHLER, ANNA DEGRAFF": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Microbiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8404-0250"
+  },
+  "SINGH, AMAR ": {
+    "rank": "Assistant Professor",
+    "department": "Surgery",
+    "school": "University of Minnesota Medical School Twin Cities",
+    "orcid_id": "0000-0002-4721-1513"
+  },
+  "CVETANOVIC, MARIJA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BIERLE, CRAIG JOHN": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Pediatric Infectious Diseases",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7890-7409"
+  },
+  "VALENTE, WILLIAM JOSEPH": {
+    "rank": "Resident",
+    "department": "Internal Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9330-944X"
+  },
+  "SCHREINER, PAMELA J": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9920-6257"
+  },
+  "ROBBINS, PAUL D.": {
+    "rank": "Associate Director",
+    "department": "Medical School- Institute on the Biology of Aging and Metabolism (iBAM)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1068-7099"
+  },
+  "REVELO, XAVIER ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Physiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2754-509X"
+  },
+  "NIEDERNHOFER, LAURA JANE": {
+    "rank": "Director, Institute on the Biology of Aging and Metabolism",
+    "department": "Biochemistry, Molecular Biology and Biophysics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1074-1385"
+  },
+  "TRETYAKOVA, NATALIA Y": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0621-6860"
+  },
+  "HOLMES, CAITLYN LEIGH": {
+    "rank": "Assistant Professor",
+    "department": "Microbiology and Immunology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5818-148X"
+  },
+  "RANALLO, PIPER ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GUNLICKS-STOESSEL, MEREDITH LYN": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Psychiatry & Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5194-113X"
+  },
+  "WILLETT, JULIA ": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Microbiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0524-8289"
+  },
+  "WELTER, ALEX LARSEN": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MANGIA, SILVIA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DUCA, FRANK ANTHONY": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "TURCOTTE, LUCIE MARIE": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4106-6172"
+  },
+  "FOK, ALEX SIU-LUN": {
+    "rank": "Director, Division of Biomaterials",
+    "department": "Restorative Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5745-9811"
+  },
+  "PANKOW, JAMES S": {
+    "rank": "Professor",
+    "department": "Epidemiology and Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7076-483X"
+  },
+  "NEUMARK-SZTAINER, DIANNE R": {
+    "rank": "Faculty, Regents Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9435-1669"
+  },
+  "KODANDARAMAIAH, SUHASA B": {
+    "rank": "Associate Professor",
+    "department": "Mechanical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7767-2644"
+  },
+  "RAJASINGHAM, RADHA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MOORE, MADELYN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SCHALLMO, MICHAEL-PAUL ": {
+    "rank": "Assistant Professor",
+    "department": "Psychiatry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8252-8607"
+  },
+  "PADRUTT, EMILY R": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MAURICE, NICHOLAS JOSEPH": {
+    "rank": "Professionals-in-Training, Post-Doctoral Associate",
+    "department": "Laboratory Medicine and Pathology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2667-472X"
+  },
+  "FRENCH, JARROD B": {
+    "rank": "Faculty, Professor",
+    "department": "The Hormel Institute",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6762-1309"
+  },
+  "DEBES, JOSE DANIEL": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DUDLEY, SAMUEL C": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5843-5961"
+  },
+  "KIM, NAM CHUL ": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Pharmacy Practice and Pharmaceutical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1332-3071"
+  },
+  "WALL, SARAH M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WILLIAMS, JESSE WARREN": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Physiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3815-0891"
+  },
+  "BLAES, ANNE H.": {
+    "rank": "Professor and BJ Kennedy Chair of Oncology",
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5433-4810"
+  },
+  "VOGEL, RACHEL ISAKSSON": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Obstetrics, Gynecology and Women's Health - Gynecologic Oncology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-0149-8464"
+  },
+  "MONROE, BLAKE ": {
+    "rank": "Postdoctoral Fellow",
+    "department": "Biochemistry, Molecular Biology, and Biophysics",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-7146-0907"
+  },
+  "LASKA, MELISSA N.": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3836-0269"
+  },
+  "MENDELSON, JENNA BLAIR": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LUCIANA, MONICA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ARNDT, WILLIAM ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8409-3133"
+  },
+  "OPITZ, ALEXANDER ": {
+    "rank": "Associate Professor",
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4851-1243"
+  },
+  "ALEXANDER, BRUCE H.": {
+    "rank": "Professor and Head",
+    "department": "School of Public Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9523-1914"
+  },
+  "HILL, KYLE X": {
+    "rank": "Assistant Professor",
+    "department": "Division of Environmental Health Sciences, School of Public Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9399-4988"
+  },
+  "BOISSONEAULT, JEFFREY B.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BERMAN, JESSE DAVID": {
+    "rank": "Assistant Professor",
+    "department": "Environmental Health Sciences",
+    "school": "University of Minnesota School of Public Health",
+    "orcid_id": "0000-0003-3037-556X"
+  },
+  "BERRY, KAITLYN M": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2928-6773"
+  },
+  "FONKOUE, IDA TCHUISSEU": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Physical Therapy",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3282-5739"
+  },
+  "SMITH, M KUMI": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5861-8100"
+  },
+  "THOMAS, KALI ST. MARIE": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ATWOOD, BRADY ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7441-2724"
+  },
+  "CONNOR, JENNIFER JO": {
+    "rank": "Associate Professor",
+    "department": "Family Medicine and Community Health",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0003-4403-1442"
+  },
+  "SLOSKY, LAUREN M": {
+    "rank": "Assistant Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9471-9117"
+  },
+  "ZANG, XIAO ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5722-8255"
+  },
+  "FAZIO, SAM ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SLOANE, PHILIP D": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DUNLAP-SMITH, AZALINE I": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ENGELHART, AARON E.": {
+    "rank": "Assistant Professor",
+    "department": "Genetics, Cell Biology, and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1849-7700"
+  },
+  "DUNLEAVY, KATIE M.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MCDONOUGH, DJ ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SUN, XIAORAN ": {
+    "rank": "Assistant Professor",
+    "department": "Family Social Science",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-8431-401X"
+  },
+  "DAILEY-KREMPEL, BRIANNA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GALE, MICHAEL ": {
+    "rank": "Professor and Chair ",
+    "department": "Microbiology and immunology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6332-7436"
+  },
+  "STONE, LAURA S": {
+    "rank": "Professor",
+    "department": "Anesthesiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7015-2101"
+  },
+  "DRISCOLL, MEGHAN KATRIEN": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7991-5614"
+  },
+  "SHENOY, CHETAN N": {
+    "rank": "Faculty, Professor",
+    "department": "Medicine - Cardiology Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8877-4999"
+  },
+  "KANTESARIA, SAURIN ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5495-836X"
+  },
+  "WERNIMONT, SARAH A": {
+    "rank": "Assistant Professor",
+    "department": "Obstetrics and Gynecology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6894-7837"
+  },
+  "PACAK, CHRISTINA A.": {
+    "rank": "Associate Professor",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7430-124X"
+  },
+  "DUERFELDT, ADAM SCOTT": {
+    "rank": "Associate Professor",
+    "department": "Medicinal Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3130-9890"
+  },
+  "MASON, SUSAN M.": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7635-9832"
+  },
+  "FLANARY, SHANNON M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HUFFMASTER, SOMMER L": {
+    "rank": "Research Associate",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8079-328X"
+  },
+  "ALEJANDRO, EMILYN ": {
+    "rank": "Assistant Professor",
+    "department": "Integrative Biology and Physiology",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-7941-8439"
+  },
+  "DONA, ALLISON C": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "AGUIRRE, JONATHAN ISRAEL": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WALSH, MELISSA ARIEL": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SMITH, OLIVIA C.": {
+    "rank": "MD/PhD Student ",
+    "department": "MSTP (MD/PhD Program) ",
+    "school": "University of Minnesota Medical School",
+    "orcid_id": "0000-0002-2788-9917"
+  },
+  "MAUPIN, CALLEN M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "STOCKER, AMANDA S": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DUARTE, HORACIO ADRIAN": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BOULWARE, DAVID R": {
+    "rank": "Faculty, Professor",
+    "department": "Medicine - Infectious Disease and International Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4715-0060"
+  },
+  "NICOL, MELANIE RAE": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Experimental and Clinical Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5513-5509"
+  },
+  "NAGEL, EMILY M": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Neonatology (Pediatrics)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5792-009X"
+  },
+  "MISONO, STEPHANIE ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BETANCOURT, JOVANY JORDAN": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HELGESON, ERIKA S.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BORIS-LAWRIE, KATHLEEN A.": {
+    "rank": "Faculty",
+    "department": "Host-Pathogen Interface Biology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6366-6270"
+  },
+  "TOTH, FERENC ": {
+    "rank": "Assistant Professor",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-6615-389X"
+  },
+  "WELLEN, BRIANNA C": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LOZADA, JOHN ROY": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LUCAS, ERIN D": {
+    "rank": "Post-doctoral fellow",
+    "department": "Laboratory Medicine and Pathology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7705-2069"
+  },
+  "HOUGARD, THOMAS R": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HENNING-SMITH, CARRIE E": {
+    "rank": "Associate Professor",
+    "department": "School of Public Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0273-0387"
+  },
+  "ROZEMA, NICHOLAS ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GEORG, GUNDA I.": {
+    "rank": "Faculty, Regents Professor",
+    "department": "Medicinal Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8900-9460"
+  },
+  "MEHUS, CHRISTOPHER J": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2471-0173"
+  },
+  "FALLON, KATHERINE SAGE": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MANSKY, LOUIS M.": {
+    "rank": "Professor and Director",
+    "department": "Institute for Molecular Virology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2391-1061"
+  },
+  "MARTINEZ, RYAN J": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2045-8794"
+  },
+  "CETERA, MAUREEN PATRICIA": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7551-6560"
+  },
+  "JOHNSON, LUKE AARON": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9069-1436"
+  },
+  "ALIOTA, MATTHEW T": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Veterinary and Biomedical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6902-9149"
+  },
+  "HOGQUIST, KRISTIN A.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LEVINSON, NICHOLAS MARK": {
+    "rank": "Associate Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4338-8087"
+  },
+  "KROOK-MAGNUSON, ESTHER ": {
+    "rank": "Assistant Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-6119-0165"
+  },
+  "NIEHAUS, THOMAS D": {
+    "rank": "Assistant Professor",
+    "department": "Plant and Microbial Biology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3575-8001"
+  },
+  "WISE, ERIC STEPHEN": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WANG, ZHENGQIANG ": {
+    "rank": "Professor and co-Director",
+    "department": "Center for Drug Design",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1326-5986"
+  },
+  "CARLSON, ERIN ELIZABETH": {
+    "rank": null,
+    "department": "Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8287-8893"
+  },
+  "PIEHLER, TIMOTHY F": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DORFMAN, KEVIN D": {
+    "rank": "Professor",
+    "department": "Chemical Engineering and Materials Science",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0003-0065-5157"
+  },
+  "ARRIAGA, EDGAR A": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WHEELER, HARLEY JAMES": {
+    "rank": null,
+    "department": "Speech-Language-Hearing Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4199-7241"
+  },
+  "ADKE, ANISHA P": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "IKRAMUDDIN, SAYEED ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "YANNOPOULOS, DEMETRIS ": {
+    "rank": "Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota Physicians",
+    "orcid_id": "0000-0002-7131-2015"
+  },
+  "NOYES, NOELLE ": {
+    "rank": "Associate Professor",
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6149-1008"
+  },
+  "VAN'T HOF, JEREMY R.": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Medicine - Cardiology Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9982-3685"
+  },
+  "HWANG, JUSTIN H.": {
+    "rank": "Assistant Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1686-7103"
+  },
+  "WU, XIAOPING ": {
+    "rank": "Assistant Professor (tenure track)",
+    "department": "Radiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6021-9088"
+  },
+  "SWANSON, JESSICA ": {
+    "rank": "Postdoc",
+    "department": "Department of Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8870-324X"
+  },
+  "VEGLIA, GIANLUIGI ": {
+    "rank": "Professor",
+    "department": "Biochemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2795-6964"
+  },
+  "GOMEZ-PASTOR, ROCIO ": {
+    "rank": "Assistant Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1136-5462"
+  },
+  "MASINO, MARK A": {
+    "rank": "Associate Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota Twin Cities",
+    "orcid_id": "0000-0001-9046-8659"
+  },
+  "HAMILTON HART, SARA ELIZABETH": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DONG, XIAO ": {
+    "rank": "Assistant Professor",
+    "department": "Genetics, Cell Biology and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9987-5760"
+  },
+  "WOJTCZAK, MAGDALENA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BRICKNER, MEGAN A": {
+    "rank": "Graduate Students",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3020-718X"
+  },
+  "BACHANOVA, VERONIKA S": {
+    "rank": "Professor of Medicine",
+    "department": "Division of Hematology, Oncology and Transplantation",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9325-432X"
+  },
+  "CRAIGHEAD, DANIEL HARRISON": {
+    "rank": "Assistant Professor",
+    "department": "School of Kinesiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8744-5349"
+  },
+  "BEEBE, TIMOTHY ": {
+    "rank": "Faculty",
+    "department": "School of Public Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4700-2436"
+  },
+  "MELTON-MEAUX, GENEVIEVE B": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5193-1663"
+  },
+  "DUDLEY, R. ADAMS ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8532-8552"
+  },
+  "PRISCO, SASHA ZHENG": {
+    "rank": "Assistant Professor",
+    "department": "Medicine/Cardiovascular Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9059-0635"
+  },
+  "BORLAND, JOHNATHAN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DILEEPAN, THAMOTHARAMPILLAI ": {
+    "rank": null,
+    "department": "Microbiology - Medical School",
+    "school": "University of Minnesota ",
+    "orcid_id": "0000-0002-2810-6996"
+  },
+  "LINDSEY, AMELIA RYAN ISIS": {
+    "rank": "Assistant Professor",
+    "department": "Department of Entomology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3354-7419"
+  },
+  "LEWIS, JORDAN PAUL": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FALBO, KIERRA J": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HERNANDEZ, EDITH ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HENDEL, KATHERINE R": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "CHEKOUO TEKOUGANG, THIERRY ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ERICKSON, BRITT KRISTINA": {
+    "rank": "Assistant Professor",
+    "department": "Department of Obstetrics, Gynecology and Women's Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5221-5538"
+  },
+  "BLAZAR, BRUCE R": {
+    "rank": "Regents Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9608-9841"
+  },
+  "SEEGMILLER, JESSE C": {
+    "rank": "Laboratory Director",
+    "department": "Laboratory Medicine and Pathology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2542-6502"
+  },
+  "PISHARADY, PRAMOD KUMAR": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0756-1199"
+  },
+  "MCALLISTER, ZACHARY D": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BYIERS, BREANNE J": {
+    "rank": "Research Associate Professor",
+    "department": "Educational Psychology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7645-1479"
+  },
+  "UGURBIL, KAMIL ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WANG, SONYA GRACE": {
+    "rank": "Medical School Affiliates, Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4429-0508"
+  },
+  "MARJANSKA, MALGORZATA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DE LA CRUZ-LYNCH, ARTHUR TRENTON": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "RANDOLPH, ANITA CHRISTINE": {
+    "rank": "Assistant Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0007-1578-015X"
+  },
+  "BLYTHE, EMILY ELIZABETH": {
+    "rank": "Assistant Professor",
+    "department": "Genetics, Cell Biology and Development",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0001-6363-2644"
+  },
+  "SPENCER, SADE MONIQUE": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8663-9056"
+  },
+  "KANDIMALLA, KARUNYA KUMAR": {
+    "rank": "Assistant Professor",
+    "department": "Pharmaceutics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7786-1915"
+  },
+  "SHEN, FRANCIS X": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SAUNDERS, GRETCHEN ": {
+    "rank": "Researchers, Research Professional 7",
+    "department": "Psychology (Twin Cities)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5972-9785"
+  },
+  "STELZNER, MARGARET E": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "TERVO-CLEMMENS, BRENDEN CRAIG": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9557-1126"
+  },
+  "ARMSTRONG, ALEXANDRA PR": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8498-2843"
+  },
+  "HOWELL, MICHAEL J": {
+    "rank": "Professor and Vice Chair",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7535-0724"
+  },
+  "MARCOTTE, ERIN ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Pediatric Epidemiology & Clinical Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9630-9701"
+  },
+  "NGUYEN, HONG-NGOC B.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GOLDSTROHM, AARON CHARLES": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FOX, CLAUDIA K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "KOTZ, CATHERINE M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "AITKEN, SARAH ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BURROWS, CATHERINE ANN": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Clinical Behavioral Neuroscience (Pediatrics)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2812-3953"
+  },
+  "GREISING, SARAH M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LEWIS, CHARLES P.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SUN, JU ": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Computer Science and Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2017-5903"
+  },
+  "MURETTA, JOSEPH M.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ELLERMANN, JUTTA M": {
+    "rank": "Professor with Tenure",
+    "department": "Radiology, Center for Magnetic Resonance Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7109-9656"
+  },
+  "AXTHELM, MICHAEL K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PICKER, LOUIS J.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BUI, KACEY LINNEA GUENTHER": {
+    "rank": "MD/PhD Candidate",
+    "department": "Medical Scientist Training Program",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7384-8286"
+  },
+  "WANG, JING ": {
+    "rank": "Assistant Professor",
+    "department": "Neurology",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-9883-4972"
+  },
+  "HILAKIVI-CLARKE, LEENA A.": {
+    "rank": "Professor ",
+    "department": "Food Science and Nutrition ",
+    "school": "The Hormel Institute, University of Minnesota ",
+    "orcid_id": "0000-0002-7052-6513"
+  },
+  "MARK, KRISTEN PATRICIA": {
+    "rank": "Faculty, Leader",
+    "department": "Family Medicine and Community Health (Twin Cities)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0524-3357"
+  },
+  "KAMDAR, FORUM D": {
+    "rank": "Assistant Professor of Medicine",
+    "department": "Cardiovascular Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3218-0467"
+  },
+  "ALLEN, EMILY J": {
+    "rank": "Research Support, Research Professional 6",
+    "department": "Psychology (Twin Cities)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8221-4875"
+  },
+  "DAVYDOVA, JULIA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PEREIRA, MARK A": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6704-5276"
+  },
+  "KAY, KENDRICK NORRIS": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Center for Magnetic Resonance Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6604-9155"
+  },
+  "LANGLOIS, RYAN ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0515-571X"
+  },
+  "KARACA-MANDIC, PINAR ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HUGHEY, CURTIS ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ARTINGER, KRISTIN ": {
+    "rank": "Executive, Administrative, and Managerial Staff, Associate Dean",
+    "department": "Administration (DENT)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3003-6042"
+  },
+  "SEDAGHAT, SANAZ ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8296-1811"
+  },
+  "LAKSHMINARAYAN, KAMAKSHI ": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8564-8986"
+  },
+  "CHEN, WEI ": {
+    "rank": "Professor",
+    "department": "Radilogy Department",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9608-1444"
+  },
+  "JOHNSON, MATTHEW DOUGLAS": {
+    "rank": null,
+    "department": "Dept of Pediatrics ",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1313-1742"
+  },
+  "MAXWELL, ANDREA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LI, LING ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "CONELEA, CHRISTINE A": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Psychiatry & Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2791-9802"
+  },
+  "KIM, DO-HYUNG ": {
+    "rank": "Professor",
+    "department": "Biochemistry, Molecular Biology, and Biophysics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2924-4370"
+  },
+  "ZILVERSTAND, ANNA ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Psychiatry & Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4889-9700"
+  },
+  "THOMAS, DAVID D": {
+    "rank": "Professor",
+    "department": "Biophysics, Molecular Biology and Biophysics",
+    "school": "University of Minnesota Twin Cities",
+    "orcid_id": "0000-0002-8822-2040"
+  },
+  "EBERT, KERRY DANAHY": {
+    "rank": "Associate Professor",
+    "department": "Speech-Language-Hearing Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7607-9742"
+  },
+  "COSTANTINI, TODD W": {
+    "rank": "Professor",
+    "department": "Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0215-5327"
+  },
+  "ADAMS, ANDREW B": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HERING, BERNHARD JOSEF": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "RAMACHANDRAN, SABARINATHAN ": {
+    "rank": "Associate Professor",
+    "department": "Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2239-8083"
+  },
+  "FORD, MANDY L": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WEBBER, BEAU RICHARD": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-3950-8747"
+  },
+  "KERLIN, AARON MICHAEL": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SKINNER, PAMELA J": {
+    "rank": "Professor",
+    "department": "Veterinary and Biomedical Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3388-1687"
+  },
+  "METZGER, JOSEPH MARK": {
+    "rank": "Professor and Chair",
+    "department": "IBP",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3882-4326"
+  },
+  "AKCAKAYA, MEHMET ": {
+    "rank": "Faculty, Professor",
+    "department": "Electrical and Computer Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6400-7736"
+  },
+  "SHEARER, RILEY ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "TRANQUILLO, ROBERT T": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HSIEH, PINGHSUN ": {
+    "rank": "Assistant Professor",
+    "department": "Genetics, Cell Biology, and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8294-6227"
+  },
+  "MICHAELI, SHALOM ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5426-8369"
+  },
+  "TRUONG, THU HA": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BISCHOF, JOHN C": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BENDER, JEFFREY B.": {
+    "rank": "Professor",
+    "department": "Environmental Health Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4645-9936"
+  },
+  "DEMERATH, ELLEN W.": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4585-4064"
+  },
+  "ZIERHUT, HEATHER ": {
+    "rank": "Medical School Affiliates, Associate Professor",
+    "department": "Genetics, Cell Biology and Development (TMED)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1941-664X"
+  },
+  "STEER, CLIFFORD JOHN": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BALBO, SILVIA ": {
+    "rank": "Associate Professor",
+    "department": "School of Public Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7686-0504"
+  },
+  "WALK, DAVID ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7941-1993"
+  },
+  "KUNIN-BATSON, ALICIA S": {
+    "rank": "Faculty, Leader",
+    "department": "Masonic Institute for the Developing Brain",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7607-5602"
+  },
+  "CUREOGLU, SEBAHATTIN ": {
+    "rank": "Professor",
+    "department": "Otolaryngology, Head and Neck Surgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9220-7073"
+  },
+  "MCGOVERN, ROBERT A": {
+    "rank": "Assistant Professor",
+    "department": "Neurosurgery",
+    "school": "University of Minnesota Health",
+    "orcid_id": "0000-0003-0752-1899"
+  },
+  "NORBY, FAYE ": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1975-0405"
+  },
+  "ROSSER, B R SIMON ": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8862-531X"
+  },
+  "NACHMAN, PATRICK H": {
+    "rank": "Professor of Medicine, Director, Division of Nephology and Hypertension",
+    "department": "Dept. of Medicine, Division of nephrology and Hypertension",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5890-2862"
+  },
+  "ONDREY, FRANK G.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "CARLSON, ELIZABETH A": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ALAM, AMER ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota Hormel Institute",
+    "orcid_id": "0000-0001-9580-4949"
+  },
+  "MORE, SWATI S": {
+    "rank": "Professor",
+    "department": "Center for Drug Design",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8733-2029"
+  },
+  "KOOB, MICHAEL D": {
+    "rank": "Associate Professor",
+    "department": "Laboratory Medicine and Pathology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7738-8232"
+  },
+  "BOSNAKOVSKI, DARKO ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7198-2019"
+  },
+  "BARTOLOMUCCI, ALESSANDRO ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6439-8829"
+  },
+  "LIU, JULIA CHANG": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MONTOYA, SAMANTHA A": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SPECTOR, LOGAN G.": {
+    "rank": "Faculty, Professor",
+    "department": "Pediatric Epidemiology & Clinical Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2516-0222"
+  },
+  "SONG, GUISHENG ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FARRAR, MICHAEL ARCHIBALD": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5569-0366"
+  },
+  "MACKINNON, COLUM D": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MANTYH, WILLIAM G": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2096-2461"
+  },
+  "NKIMBENG, MANKA ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7414-921X"
+  },
+  "WOZNIAK, JEFFREY ROBERT": {
+    "rank": "Faculty, Professor",
+    "department": "Psychiatry & Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7132-8519"
+  },
+  "HERSCHHORN, ALON ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PIERPONT, ELIZABETH IRENE": {
+    "rank": "Assistant Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7555-8613"
+  },
+  "GREENHAM, KATHLEEN M": {
+    "rank": "Assistant Professor",
+    "department": "Plant and Microbial Biology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7681-5263"
+  },
+  "BERNLOHR, DAVID A": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LEBRASSEUR, NATHAN K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BECKMAN, JOAN DENISE": {
+    "rank": "Lois & Richard King Assistant Professor of Medicine",
+    "department": "Medicine, Division of Hematology, Oncology, and Transplantation",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0001-7903-944X"
+  },
+  "GROSS, AMY C.": {
+    "rank": null,
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2809-8460"
+  },
+  "ROBERTS, COURTNEY C": {
+    "rank": "Assistant Professor",
+    "department": "Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8177-4013"
+  },
+  "HOU, JOSHUA H": {
+    "rank": "Assistant Professor",
+    "department": "Ophthalmology & Visual Neurosciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6620-8061"
+  },
+  "BAZURTO, JANNELL V.": {
+    "rank": "Assistant Professor",
+    "department": "Plant and Microbial Biology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9012-2260"
+  },
+  "COOPER, SCOTT E": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DEVARAJAN, MAHIMA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "LEE, JIWOO ": {
+    "rank": "Assistant Professor ",
+    "department": "School of Nursing",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2539-1098"
+  },
+  "NEWMAN, ERIC A": {
+    "rank": "Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-9296-6237"
+  },
+  "WILSON, SYLIA ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-0144-524X"
+  },
+  "ROTHWELL, PATRICK ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "OGLE, BRENDA M": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BOWSER, MICHAEL T": {
+    "rank": "Professor",
+    "department": "Department of Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1570-2414"
+  },
+  "LIPSCOMB, MICHAEL W": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HUCKFELDT, PETER ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "UMPIERRE, ANTHONY DAVID": {
+    "rank": "Assistant Professor",
+    "department": "Department of Neuroscience",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-1470-8881"
+  },
+  "DRAWZ, PAUL ENGLUND": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7301-9253"
+  },
+  "LEE, MICHAEL K": {
+    "rank": "Professor",
+    "department": "Ophthalmology and Visual Neurosciences",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0003-2691-4532"
+  },
+  "KRUEGER, ROBERT F": {
+    "rank": "Professor",
+    "department": "Psychology",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0001-9127-5509"
+  },
+  "LIAO, DEZHI ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "XU, MING ": {
+    "rank": "Associate Professor",
+    "department": "BMBB",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-4477-939X"
+  },
+  "NGUYEN, DANG HAI": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-4200-8778"
+  },
+  "GRAY, WILLIAM M": {
+    "rank": "Professor",
+    "department": "Plant & Microbial Biology",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-1320-290X"
+  },
+  "YANG, YI-MEI (AMY) ": {
+    "rank": "Associate Professor",
+    "department": "Biomedical Sciences",
+    "school": "University of Minnesota Twin Cities School of Medicine Duluth Campus",
+    "orcid_id": "0000-0003-1491-8106"
+  },
+  "TARR, GILLIAN ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Environmental Health Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7372-1034"
+  },
+  "PRINS, KURT W": {
+    "rank": "Adjunct Faculty, Adjunct Associate Professor",
+    "department": "Medicine - Cardiology Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0364-6742"
+  },
+  "DRAKE, JUSTIN MICHAEL": {
+    "rank": null,
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8329-7748"
+  },
+  "ORR, HARRY T.": {
+    "rank": "Professor",
+    "department": "Laboratory Medicine and Pathlogy",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6118-741X"
+  },
+  "ZHANG, WEI ": {
+    "rank": "Associate Professor",
+    "department": "Diagnostic and Biological Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9888-3889"
+  },
+  "FERTIG, ANGELA RICE": {
+    "rank": "Faculty, Professor",
+    "department": "Social Policy & Policy Analysis",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5240-3800"
+  },
+  "CHEN, LIN YEE": {
+    "rank": "Associate Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0700-814X"
+  },
+  "SHEN, XIAOTONG TOM": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MORAN, ANTOINETTE M.": {
+    "rank": "Division Chief Pediatric Endocrinology",
+    "department": "Pediatrics",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-2694-5147"
+  },
+  "LARSEN, BART ": {
+    "rank": "Assistant Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7896-4342"
+  },
+  "AKKIN, TANER ": {
+    "rank": "Professor",
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4660-8591"
+  },
+  "GREENSTEIN, DAVID IRWIN": {
+    "rank": "Associate Dean for Research, Professor",
+    "department": "Genetics, Cell Biology, and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8189-2087"
+  },
+  "SCHMIDT, DANIEL ": {
+    "rank": "Associate Professor",
+    "department": "Dept. of Genetics, Cell Biology & Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7609-4873"
+  },
+  "LEFEVRE, EMILIA M": {
+    "rank": "Post-doctoral associate ",
+    "department": "Neuroscience",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-6116-4549"
+  },
+  "BUSHNELL, GRACE GILMORE": {
+    "rank": "Assistant Professor",
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota, Twin Cities",
+    "orcid_id": "0000-0002-8891-803X"
+  },
+  "OKAFOR, ELIZABETH ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ISABELLA, ADAM JAMES": {
+    "rank": "Assistant Professor",
+    "department": "Genetics, Cell Biology, and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8107-6012"
+  },
+  "LUTSEY, PAMELA ": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1572-1340"
+  },
+  "DING, MINNA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "ALIFERIS, CONSTANTIN F.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HERMAN, ALEXANDER ": {
+    "rank": "Assistant Professor",
+    "department": "Psychiatry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-6229-433X"
+  },
+  "ALLEN, MICHELE L": {
+    "rank": "Associate Professor",
+    "department": "Family Medicine and Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8783-7182"
+  },
+  "PRATT, REBEKAH J.": {
+    "rank": "Faculty, Leader",
+    "department": "Masonic Cancer Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3561-8276"
+  },
+  "WIELAND, MARK L.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FRENCH, SIMONE A.": {
+    "rank": "Faculty, Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3413-5985"
+  },
+  "FU, STEVEN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "METZGER, GREGORY JOHN": {
+    "rank": "Professor",
+    "department": "Center for Magnetic Resonance Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3187-6529"
+  },
+  "STEPANOV, IRINA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SAFO, SANDRA E": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Biostatistics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9593-4778"
+  },
+  "FLOOD, SARAH M": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8507-425X"
+  },
+  "KAMP DUSH, CLAIRE M": {
+    "rank": "Professor",
+    "department": "Minnesota Population Center and Sociology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4307-6825"
+  },
+  "HECHT, STEPHEN S": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WIDGE, ALIK S.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "EBERLY, LYNN E": {
+    "rank": "Executive, Administrative, and Managerial Staff, Associate Dean",
+    "department": "Administration (SPH)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4763-330X"
+  },
+  "HAREL, NOAM ": {
+    "rank": "Faculty, Professor",
+    "department": "Center for Magnetic Resonance Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6034-3801"
+  },
+  "STROMNES, INGUNN MARGARETE": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PAN, WEI ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1159-0582"
+  },
+  "PARR, ANN M": {
+    "rank": "Professor",
+    "department": "Neurosurgery",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7228-2647"
+  },
+  "ARNOLD, SUSAN ": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Environmental Health Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1465-3761"
+  },
+  "STEINER, MARIE E": {
+    "rank": "Professor, Pediatrics",
+    "department": "School of Medicine, Department of Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4169-1920"
+  },
+  "ABASSI, MAHSA ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9601-3006"
+  },
+  "KRINGLE, EMILY ": {
+    "rank": "Assistant Professor (tenure-track)",
+    "department": "Kinesiology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4958-9568"
+  },
+  "SKUBITZ, AMY PATRICE": {
+    "rank": "Medical School Affiliates, Professor",
+    "department": "Obstetrics, Gynecology and Women's Health - Administration",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4672-3450"
+  },
+  "KHASABOV, SERGEY G": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BIRNBAUM, ANGELA K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WAGNER, CARSTON R.": {
+    "rank": "Professor & Dept. Head",
+    "department": "Medicinal Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7927-719X"
+  },
+  "BENSIGNOR , MEGAN O": {
+    "rank": "Assistant Professor ",
+    "department": "Pediatrics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9341-1858"
+  },
+  "FINESTACK, LIZBETH H": {
+    "rank": "Executive, Administrative, and Managerial Staff, Chair",
+    "department": "Speech-Language-Hearing Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5300-9282"
+  },
+  "OZ, GULIN ": {
+    "rank": "Faculty, Professor",
+    "department": "Center for Magnetic Resonance Research",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5769-183X"
+  },
+  "SCROGGINS, SABRINA MARIE": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "CICHOCKI, FRANK ": {
+    "rank": "Assistant Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3043-0653"
+  },
+  "FAIR, DAMIEN A": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8602-393X"
+  },
+  "COSTALONGA, MASSIMO ": {
+    "rank": "Full Professor with Tenure",
+    "department": "Diagnostic and Biological Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5922-3709"
+  },
+  "NETOFF, THEODEN I": {
+    "rank": "Faculty, Professor",
+    "department": "Biomedical Engineering",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0115-1930"
+  },
+  "KOCHARIAN, ADRINE ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "NIKPAY, SAYEH SANDER": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "KUSHNER, MATT G": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SYMONS, FRANK J": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "WU, IVAN H": {
+    "rank": "Faculty, Assistant Professor",
+    "department": "Epidemiology & Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0118-0555"
+  },
+  "GRIFFITH, THOMAS S": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7205-9859"
+  },
+  "GRAVES, STEVEN MICHAEL": {
+    "rank": "Assistant Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2291-1617"
+  },
+  "DISTEFANO, MARK D": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SHLAFER, REBECCA J.": {
+    "rank": "Faculty, Associate Professor",
+    "department": "General Pediatrics and Adolescent Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-7833-9053"
+  },
+  "POMERANTZ, WILLIAM CHARLES KRAUSE": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "BAUGHN, ANTHONY D": {
+    "rank": "Professor",
+    "department": "Microbiology & Immunology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1188-4238"
+  },
+  "MERINO, AIMEE ": {
+    "rank": "Assistant Professor",
+    "department": "Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4433-0127"
+  },
+  "THOMAS, MARK JOHN": {
+    "rank": "Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5721-5350"
+  },
+  "VANDERPOOL, CARIN K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "DOUGHERTY, BRENDAN J": {
+    "rank": "Faculty, Associate Professor",
+    "department": "Physical Therapy",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5995-8948"
+  },
+  "ALLEN, SHARON S": {
+    "rank": "Faculty, Professor",
+    "department": "Family Medicine and Community Health (Twin Cities)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2797-8001"
+  },
+  "BOYLE, ELIZABETH H": {
+    "rank": "Professor",
+    "department": "Sociology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3060-4684"
+  },
+  "MERMELSTEIN, PAUL G": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "EBNER, TIMOTHY J": {
+    "rank": "Professor and Head",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8464-3860"
+  },
+  "REILLY, CAVAN S.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "VINOGRADOV, SOPHIA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HAMID, ARIF A": {
+    "rank": "Assistant Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota Medical School Twin Cities",
+    "orcid_id": "0000-0001-7403-0067"
+  },
+  "CHAFEE, MATTHEW V": {
+    "rank": "Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9289-0239"
+  },
+  "MACDONALD, ANGUS W": {
+    "rank": "Faculty, Professor",
+    "department": "Psychology (Twin Cities)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-4588-931X"
+  },
+  "REDISH, A DAVID": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "GORDON, PETER M": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-3159-1881"
+  },
+  "FISCHER, NICHOLAS G": {
+    "rank": "Fellow - DDS/PhD",
+    "department": "MDRCBB",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2230-5158"
+  },
+  "SELMECKI, ANNA M.": {
+    "rank": "Associate Professor",
+    "department": "Microbiology and Immunology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3298-2400"
+  },
+  "ELIAS, MIKAEL H": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FREEMAN, MICHAEL F": {
+    "rank": "Assistant Professor",
+    "department": "Biochemistry, Molecular Biology and Biophysics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0491-9618"
+  },
+  "CLARKE, DUNCAN J.": {
+    "rank": "Associate Professor",
+    "department": "Genetics, Cell Biology & Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-7795-3294"
+  },
+  "ADRIANY, GREGOR ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6428-9005"
+  },
+  "LIM, HUBERT HYUNGIL": {
+    "rank": "Executive, Administrative, and Managerial Staff, Director",
+    "department": "Earl E. Bakken Medical Device Center",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5653-9679"
+  },
+  "LATHAM, MICHAEL PARKER": {
+    "rank": "Associate Professor",
+    "department": "Biochemistry, Molecular Biology, and Biophysics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2209-5798"
+  },
+  "GEORGIEFF, MICHAEL K.": {
+    "rank": "Professor",
+    "department": "Pediatrics",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0003-0844-6907"
+  },
+  "WINN, MATTHEW BRANDON": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "SIVARAMAKRISHNAN, SIVARAJ ": {
+    "rank": "Professor and Head",
+    "department": "Genetics, Cell Biology and Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9541-6994"
+  },
+  "GARDNER, MELISSA ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HOYE, THOMAS R.": {
+    "rank": "Professor",
+    "department": "Chemistry",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9318-1477"
+  },
+  "NAIKARE, HEMANT K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "HACKEL, BENJAMIN ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-3561-9463"
+  },
+  "TONKS, IAN ALBERT": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MCLOON, LINDA K.": {
+    "rank": "Faculty, Professor",
+    "department": "Ophthalmology & Visual Neurosciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9714-4681"
+  },
+  "CHEERAN, MAXIM CHACKO-JOSEPH": {
+    "rank": "Executive, Administrative, and Managerial Staff, Associate Dean",
+    "department": "Administration (CVM)",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5331-4746"
+  },
+  "O'CONNOR, MICHAEL BRENDAN": {
+    "rank": "Head",
+    "department": "Genetics, Cell biology and Development",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-3067-5506"
+  },
+  "WALCHECK, BRUCE K": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MUELLER, DANIEL L": {
+    "rank": "Faculty, Professor",
+    "department": "Medicine - Rheumatic and Autoimmune",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1621-0419"
+  },
+  "CAI, DONGMING ": {
+    "rank": "Professor, Director of N. Bud Grossman Center for Alzheimer's Disease Research and Care",
+    "department": "Neurology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-0601-6826"
+  },
+  "LIM, KELVIN O.": {
+    "rank": "Faculty, Professor",
+    "department": "Psychiatry & Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-2390-7268"
+  },
+  "TOLAR, JAKUB ": {
+    "rank": "Vice President",
+    "department": "Clinical Affairs",
+    "school": "University of Minnesota System",
+    "orcid_id": "0000-0002-0957-4380"
+  },
+  "ARAQUE, ALFONSO ": {
+    "rank": "Professor",
+    "department": "Neuroscience",
+    "school": "University of Minnesota ",
+    "orcid_id": "0000-0003-3840-1144"
+  },
+  "ROUGVIE, ANN E.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "KANG, NINGLING ": {
+    "rank": "Professor",
+    "department": "Hormel Institute",
+    "school": "Regents of the University of Minnesota",
+    "orcid_id": "0000-0002-4565-7976"
+  },
+  "PATTERSON, EDWARD E": {
+    "rank": "Professor",
+    "department": "Department of Veterinary Clinical Sciences, College of Veterinary Medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0001-0087-5304"
+  },
+  "AL'ABSI, MUSTAFA ": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota Twin Cities School of Medicine Duluth Campus",
+    "orcid_id": "0000-0003-4531-038X"
+  },
+  "KYBA, MICHAEL ": {
+    "rank": "Faculty, Professor",
+    "department": "Pediatric Blood & Marrow Transplant & Cellular Therapy",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5579-7534"
+  },
+  "HATSUKAMI, DOROTHY K": {
+    "rank": null,
+    "department": "Psychiatry and Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-1108-2609"
+  },
+  "STRAM, DANIEL O": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PARK, SUNGSHIM LANI": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "MURPHY, SHARON E": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "PETERSON, CAROL B.": {
+    "rank": "Professor",
+    "department": "Department of Psychiatry and Behavioral Sciences",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-9152-4552"
+  },
+  "LOWE, DAWN A": {
+    "rank": "Professor",
+    "department": "Department of Family Medicine and Community Health",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-5784-9289"
+  },
+  "SCHROEDER, JONATHAN P": {
+    "rank": "Research Scientist",
+    "department": "Institute for Social Research and Data Innovation",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-8438-2506"
+  },
+  "CAMPBELL, COLIN R": {
+    "rank": "Associate Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota Medical School",
+    "orcid_id": "0000-0002-7598-9656"
+  },
+  "RAO, J SUNIL": {
+    "rank": null,
+    "department": null,
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6450-3200"
+  },
+  "ERVASTI, JAMES M": {
+    "rank": "Professor",
+    "department": "Biochemistry, Molecular Biology & Biophysics",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-8259-5236"
+  },
+  "DREW, JULIA AR": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FURROW, EVA ": {
+    "rank": "Associate Professor",
+    "department": "Veterinary Clinical Sciences",
+    "school": "University of Minnesota College of Veterinary Medicine",
+    "orcid_id": "0000-0002-7339-2354"
+  },
+  "OXENHAM, ANDREW J.": {
+    "rank": "Adjunct Faculty, Adjunct Professor",
+    "department": "Otolaryngology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-9365-1157"
+  },
+  "JUCKETT, MARK ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "FITCH, CATHERINE A": {
+    "rank": "Associate Director",
+    "department": "Institute for Social Research and Data Innovation",
+    "school": "University of Minnesota",
+    "orcid_id": "0009-0006-4172-3354"
+  },
+  "WEI, LI-NA ": {
+    "rank": "Professor",
+    "department": "Pharmacology",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6376-8506"
+  },
+  "YOU, YUN ": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "OSBORN, MARK J": {
+    "rank": "Associate Professor",
+    "department": "Pediatrics",
+    "school": "Regents of the University of Minnesota",
+    "orcid_id": "0000-0003-1790-0841"
+  },
+  "ZASADZINSKI, JOSEPH ANTHONY": {
+    "rank": "3M Harry Heltzer Professor",
+    "department": "CEMS",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0001-5663-6989"
+  },
+  "RAYNOR, PETER C.": {
+    "rank": null,
+    "department": null,
+    "school": null,
+    "orcid_id": null
+  },
+  "VERCELLOTTI, GREGORY M": {
+    "rank": "Professor",
+    "department": "medicine",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-1324-0831"
+  },
+  "GUNNAR, MEGAN R": {
+    "rank": "Professor",
+    "department": "Institute of Child Development",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0003-2296-9739"
+  },
+  "CHOW, LISA SENYE": {
+    "rank": "Faculty, Professor",
+    "department": "Medicine - Endocrine and Diabetes Division",
+    "school": "University of Minnesota",
+    "orcid_id": "0000-0002-6210-2307"
+  }
+}

@@ -1,0 +1,3110 @@
+{
+  "University of Minnesota": {
+    "UMN Twin Cities": {
+      "Carlson School of Management": {
+        "Accounting": [],
+        "Business and Management": [
+          {
+            "name": "BELLIN, MELENA D.",
+            "rank": null,
+            "ldap_dn": "cn=Joshua J Bellin (belli191),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MCGOVERN, ROBERT A",
+            "rank": null,
+            "ldap_dn": "cn=Reid R McGovern (mcgov177),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NELSON, RYAN WILLIAM",
+            "rank": null,
+            "ldap_dn": "cn=Ryan W Nelson (nels9389),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCHILZ, AARON ",
+            "rank": "Administrative Director 1",
+            "ldap_dn": "cn=Aaron Schilz (schil226),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SHENOY, CHETAN N",
+            "rank": "Professor",
+            "ldap_dn": "cn=Chetan Shenoy (cshenoy),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STEINER, MARIE E",
+            "rank": null,
+            "ldap_dn": "cn=Madi Steiner (stei1727),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STRAM, DANIEL O",
+            "rank": null,
+            "ldap_dn": "cn=Brock W Stram (stram302),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Finance": [
+          {
+            "name": "PETERSON, CAROL B.",
+            "rank": "SS Supv 4-Student Fin Svcs NNE",
+            "ldap_dn": "cn=Christopher D Peterson (peter132),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Management Information Systems": [],
+        "Marketing and Logistics Management": [],
+        "Organizational Behavior and Human Resources": [],
+        "Strategic Management and Entrepreneurship": []
+      },
+      "College of Food, Agricultural and Natural Resource Sciences": {
+        "Applied Economics": [],
+        "Biosystems and Agricultural Engineering": [],
+        "Entomology": [
+          {
+            "name": "CULL, BENJAMIN ",
+            "rank": "Research Assistant Professor",
+            "ldap_dn": "cn=Benjamin Cull (cull0122),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LINDSEY, AMELIA RYAN ISIS",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Amelia Lindsey (alindsey),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Food Science and Nutrition": [
+          {
+            "name": "CHEN, XIAOLI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Xiaoli Chen (xlchen),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DUDLEY, R. ADAMS ",
+            "rank": null,
+            "ldap_dn": "cn=Henry Dudley (dudle082),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Forest Resources": [],
+        "Other": [
+          {
+            "name": "SCHULDT, NATHAN ",
+            "rank": "Grad School Committee Member (affiliated)",
+            "ldap_dn": "cn=Nancy Schuldt (nschuldt),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Plant and Soil Sciences": [],
+        "School of Natural Resources": [],
+        "Veterinary Clinical Sciences": [
+          {
+            "name": "ALIOTA, MATTHEW T",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Matthew T Aliota (mtaliota),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ARMSTRONG, ALEXANDRA PR",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Alexandra L Armstrong (rolan048),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BORIS-LAWRIE, KATHLEEN A.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kathleen Boris-Lawrie (kbl),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FRIEDENBERG, STEVEN GENE",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Steven G Friedenberg (fried255),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FURROW, EVA ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Eva Furrow (furro004),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GRANICK, JENNIFER LEA",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jennifer L Granick (grani003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JOHNSON, CASEY PETER",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Casey P Johnson (john5037),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KASSIE, FEKADU ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Fekadu Kassie (kassi012),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LIANG, YUYING ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Yuying Liang (liangy),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MAKIELSKI, KELLY M",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Kelly M Makielski (makie001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NAIKARE, HEMANT K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Hemant Naikare (naika031),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NOYES, NOELLE ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Noelle Noyes (nnoyes),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "O'CONNOR, ROBERTA M",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Roberta O'Connor (ocon0586),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SEELIG, DAVIS MARTIN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Davis Seelig (dseelig),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SKINNER, PAMELA J",
+            "rank": "Professor",
+            "ldap_dn": "cn=Pamela J Skinner (skinn002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TOTH, FERENC ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Ferenc Toth (ftoth),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WALCHECK, BRUCE K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Bruce Walcheck (walch003),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Veterinary Diagnostic and Biological Sciences": [],
+        "Veterinary Population Medicine": []
+      },
+      "College of Liberal Arts": {
+        "African American and African Studies": [],
+        "American Studies": [],
+        "Anthropology": [],
+        "Art": [],
+        "Asian Languages and Literatures": [],
+        "Central Asian Studies": [],
+        "Classics": [],
+        "Communication Studies": [
+          {
+            "name": "EBERT, KERRY DANAHY",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Kerry Ebert (kebert),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FINESTACK, LIZBETH H",
+            "rank": "Professor",
+            "ldap_dn": "cn=Lizbeth H Finestack (finestac),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FLEMING, JUSTIN TRACY",
+            "rank": "Rsch Pro 6-Applied Research",
+            "ldap_dn": "cn=Justin T Fleming (jtf),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WINN, MATTHEW BRANDON",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Matthew B Winn (mwinn),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Comparative Literature": [],
+        "East Asian Studies": [],
+        "Economics": [],
+        "Education": [
+          {
+            "name": "GALLANT, KATHLEEN M HILL",
+            "rank": null,
+            "ldap_dn": "cn=Stephanie M Gallant (galla374),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PADRUTT, EMILY R",
+            "rank": "Summer Grad School Fellow",
+            "ldap_dn": "cn=Emily R Padrutt (padru004),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PATTERSON, EDWARD E",
+            "rank": null,
+            "ldap_dn": "cn=Elizabeth G Patterson (patte939),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PEREIRA, MARK A",
+            "rank": null,
+            "ldap_dn": "cn=Meera M Pereira (perei108),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SYMONS, FRANK J",
+            "rank": "Interim Dean",
+            "ldap_dn": "cn=Frank J Symons (symon007),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "English": [],
+        "European Studies": [],
+        "French and Italian": [],
+        "German, Scandinavian and Dutch": [],
+        "Germano-Nordic Studies": [],
+        "Global Studies": [],
+        "History": [
+          {
+            "name": "RUGGLES, STEVE ",
+            "rank": "Regents Professor",
+            "ldap_dn": "cn=Steven Ruggles (ruggl001),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Honors Program": [],
+        "Humanities": [],
+        "Jewish Studies": [],
+        "Lesbian, Gay, Bisexual, Transgender, Queer Studies": [],
+        "Linguistics": [],
+        "Music": [],
+        "Other": [
+          {
+            "name": "BORLAND, JOHNATHAN ",
+            "rank": null,
+            "ldap_dn": "cn=Bryce Borland (borla030),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FAZIO, SAM ",
+            "rank": null,
+            "ldap_dn": "cn=Matthew Fazio (fazio034),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEBRASSEUR, NATHAN K",
+            "rank": null,
+            "ldap_dn": "cn=Jayna M Lebrasseur (lebra010),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LUO, QIANYUN ",
+            "rank": null,
+            "ldap_dn": "cn=Qiongsha Luo (luoxx608),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WHEELER, HARLEY JAMES",
+            "rank": "Grad Sch Fellow (S5) Ins Elig",
+            "ldap_dn": "cn=Harley J Wheeler (wheel488),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZHANG, LEI ",
+            "rank": null,
+            "ldap_dn": "cn=Lei Zhang (zhan3586),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZHANG, LIN ",
+            "rank": null,
+            "ldap_dn": "cn=Lin Zhang (zhan1598),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Philosophy": [],
+        "Political Science": [],
+        "Psychology": [
+          {
+            "name": "ALLEN, EMILY J",
+            "rank": "Rsch Pro 6-Clin Rsch Prj Mgmt",
+            "ldap_dn": "cn=Emily J Allen (prac0010),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BYIERS, BREANNE J",
+            "rank": "Research Associate Professor",
+            "ldap_dn": "cn=Breanne J Byiers (byier001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CRAIGHEAD, DANIEL HARRISON",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Daniel H Craighead (dcraighe),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DOUGHERTY, BRENDAN J",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Brendan J Dougherty (bdougher),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FONKOUE, IDA TCHUISSEU",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Ida-Arlaine T Fonkoue (fonko001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GROSS, AMY C.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Amy Gross (acgross),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KRINGLE, EMILY ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Emily Kringle (ekringle),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KRUEGER, ROBERT F",
+            "rank": "Professor",
+            "ldap_dn": "cn=Robert Krueger (krueg038),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KUNIN-BATSON, ALICIA S",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Alicia S Kunin-Batson (kunin003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LARSEN, BART ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Bart S Larsen (bart),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LOWE, DAWN A",
+            "rank": "Professor",
+            "ldap_dn": "cn=Dawn A Lowe (lowex017),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LUCIANA, MONICA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Monica M Luciana (lucia003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OXENHAM, ANDREW J.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Andrew J Oxenham (oxenham),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PALMER, JACQUELINE A",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jacqueline A Palmer (palmerj),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PIERPONT, ELIZABETH IRENE",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Rene Pierpont (pier0053),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SAUNDERS, GRETCHEN ",
+            "rank": "Rsch Pro 7-Biostatistics",
+            "ldap_dn": "cn=Gretchen R Saunders (saund247),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SWANSON, MEGHAN RAE",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Meghan R Swanson (swanson1),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WOJTCZAK, MAGDALENA ",
+            "rank": "Rsch Pro 7-Clin Rsch Prj Mgmt",
+            "ldap_dn": "cn=Magdalena Wojtczak (wojtc001),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Religious Studies": [],
+        "Scandinavian Studies": [],
+        "Slavic and East European Studies": [],
+        "Sociology": [
+          {
+            "name": "BOYLE, ELIZABETH H",
+            "rank": "Professor",
+            "ldap_dn": "cn=Elizabeth Heger Boyle (ehboyle),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KAMP DUSH, CLAIRE M",
+            "rank": "Professor",
+            "ldap_dn": "cn=Claire M Kamp Dush (kampdush),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Spanish and Portuguese": [],
+        "Statistics": [],
+        "Studio Art": [],
+        "Theatre Arts and Dance": [],
+        "Women's Studies": []
+      },
+      "College of Science and Engineering": {
+        "Aerospace Engineering and Mechanics": [],
+        "Biomedical Engineering": [
+          {
+            "name": "AKKIN, TANER ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Taner Akkin (akkin),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ALFORD, PATRICK W",
+            "rank": "Professor",
+            "ldap_dn": "cn=Patrick W Alford (pwalford),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BUSHNELL, GRACE GILMORE",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Grace Bushnell (ggb),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NETOFF, THEODEN I",
+            "rank": "Professor",
+            "ldap_dn": "cn=Tay I Netoff (tnetoff),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ODDE, DAVID J.",
+            "rank": "Professor",
+            "ldap_dn": "cn=David J Odde (oddex002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OGLE, BRENDA M",
+            "rank": "Professor",
+            "ldap_dn": "cn=Brenda M Ogle (ogle),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OPITZ, ALEXANDER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Alexander Opitz (aopitz),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PROVENZANO, PAOLO ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Paolo Provenzano (pprovenz),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SACHS, JONATHAN N",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jonathan N Sachs (jnsachs),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WOOD, DAVID KEVIN",
+            "rank": "Professor",
+            "ldap_dn": "cn=David K Wood (dkwood),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Chemical Engineering and Materials Science": [],
+        "Chemistry": [
+          {
+            "name": "BOWSER, MICHAEL T",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael Bowser (bowser),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CARLSON, ERIN ELIZABETH",
+            "rank": "Professor",
+            "ldap_dn": "cn=Erin E Carlson (carlsone),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DISTEFANO, MARK D",
+            "rank": "Professor",
+            "ldap_dn": "cn=Mark D Distefano (diste001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DUERFELDT, ADAM SCOTT",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Adam S Duerfeldt (aduerfel),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GEORG, GUNDA I.",
+            "rank": "Regents Professor",
+            "ldap_dn": "cn=Gunda Georg (georg),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HOYE, THOMAS R.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Thomas R Hoye (hoyex001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "POMERANTZ, WILLIAM CHARLES KRAUSE",
+            "rank": "Professor",
+            "ldap_dn": "cn=William C Pomerantz (wcp),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RAMIREZ, MELISSA ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Melissa Ramirez (ramirez),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "REINEKE, THERESA M",
+            "rank": "Professor",
+            "ldap_dn": "cn=Theresa M Reineke (treineke),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ROBERTS, COURTNEY C",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Courtney C Roberts (ccrob),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TONKS, IAN ALBERT",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ian Tonks (itonks),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TRETYAKOVA, NATALIA Y",
+            "rank": "Professor",
+            "ldap_dn": "cn=Natalia Y Tretyakova (trety001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WAGNER, CARSTON R.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Carston R Wagner (wagne003),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Civil, Environmental and Geo-Engineering": [],
+        "Computer Science and Engineering": [],
+        "Geological Sciences": [],
+        "Industrial and Systems Engineering": [],
+        "Mathematics": [
+          {
+            "name": "CHEKOUO TEKOUGANG, THIERRY ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Thierry Chekouo Tekougang (tchekouo),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HELGESON, ERIKA S.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Erika S Helgeson (helge),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KOOPMEINERS, JOSEPH S.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Joe Koopmeiners (koopm007),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PAN, WEI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Wei Pan (panxx014),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "REILLY, CAVAN S.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Cavan S Reilly (reill017),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SAFO, SANDRA E",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sandra Safo (ssafo),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SHEN, XIAOTONG TOM",
+            "rank": "Professor",
+            "ldap_dn": "cn=Xiaotong T Shen (xshen),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Mechanical Engineering": [
+          {
+            "name": "BISCHOF, JOHN C",
+            "rank": "Professor",
+            "ldap_dn": "cn=John C Bischof (bischof),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TITHOF, JEFFREY ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jeff Tithof (tithof),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Other": [
+          {
+            "name": "AKCAKAYA, MEHMET ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Mehmet Akcakaya (akcakaya),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BAROCAS, VICTOR H",
+            "rank": "Associate Dean",
+            "ldap_dn": "cn=Victor H Barocas (baroc001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DORFMAN, KEVIN D",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kevin Dorfman (dorfman),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FLANARY, SHANNON M",
+            "rank": "Graduate School Fellow",
+            "ldap_dn": "cn=Shannon M Flanary (flana073),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GELLER, MELISSA ANN",
+            "rank": null,
+            "ldap_dn": "cn=Meg Geller (gelle102),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HACKEL, BENJAMIN ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ben Hackel (hackel),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LIM, KELVIN O.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kelvin O Lim (kolim),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MCALLISTER, ZACHARY D",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=Zachary D Mcallister (mcall156),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NGUYEN, DANG HAI",
+            "rank": "IT Pro 2-Security Operations",
+            "ldap_dn": "cn=Dang Nguyen (danguyen),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SMITH, OLIVIA C.",
+            "rank": null,
+            "ldap_dn": "cn=Olivia R Smith (smit8997),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STONE, LAURA S",
+            "rank": null,
+            "ldap_dn": "cn=Logan Stone (ston0271),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SUN, JU ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Ju Sun (jusun),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TRANQUILLO, ROBERT T",
+            "rank": null,
+            "ldap_dn": "cn=Holden Tranquillo (tranq006),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VERCELLOTTI, GREGORY M",
+            "rank": null,
+            "ldap_dn": "cn=Matthew T Vercellotti (verce017),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WEIGEL, BRENDA J.",
+            "rank": null,
+            "ldap_dn": "cn=Lily E Weigel (weige070),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZAIDI, SYED ARSLAN ABBAS",
+            "rank": null,
+            "ldap_dn": "cn=Syed A Zaidi (zaidi025),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZASADZINSKI, JOSEPH ANTHONY",
+            "rank": "Professor",
+            "ldap_dn": "cn=Joseph A Zasadzinski (zasad008),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Physics": [
+          {
+            "name": "AIHARA, HIDEKI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Hideki Aihara (aihar001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ALBERT, FRANK WOLFGANG",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Frank W Albert (falbert),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BAZURTO, JANNELL V.",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jannell V Bazurto (jbazurto),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BLYTHE, EMILY ELIZABETH",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Emily E Blythe (eblythe),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CHEN, YUE ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Yue Chen (yuechen),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "COURTEMANCHE, NAOMI ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Naomi Courtemanche (ncourtem),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ELIAS, MIKAEL H",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Mikael H Elias (mhelias),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ENGELHART, AARON E.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Aaron E Engelhart (enge0213),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FREEMAN, MICHAEL F",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Michael F Freeman (mffreema),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GARDNER, MELISSA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Melissa K Gardner (klei0091),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GORDON, WENDY RYAN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Wendy R Gordon (wrgordon),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GRAY, WILLIAM M",
+            "rank": "Professor",
+            "ldap_dn": "cn=William M Gray (grayx051),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GREENHAM, KATHLEEN M",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Kathleen M Greenham (greenham),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GREENSTEIN, DAVID IRWIN",
+            "rank": "Professor",
+            "ldap_dn": "cn=David I Greenstein (green959),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ISABELLA, ADAM JAMES",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Adam J Isabella (aisabell),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LIAO, DEZHI ",
+            "rank": null,
+            "ldap_dn": "cn=Dixi Liao (liao0244),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MACDONALD, ANGUS W",
+            "rank": "Admin Associate 2 Supervisor",
+            "ldap_dn": "cn=Andrea MacDonald (amacdona),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NAKATO, HIROSHI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Hiroshi Nakato (nakat003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NIEHAUS, THOMAS D",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Thomas D Niehaus (tniehaus),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "O'CONNOR, MICHAEL BRENDAN",
+            "rank": "Professor (retired)",
+            "ldap_dn": "cn=Michael B O'Connor (moconnor),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PARKER, LAURIE L.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Laurie L Parker (llparker),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PENNELL, CHRISTOPHER A",
+            "rank": null,
+            "ldap_dn": "cn=Harrison P Pennell (penne117),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ROUGVIE, ANN E.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ann E Rougvie (rougv001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCHMIDT, DANIEL ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Daniel Schmidt (schmida),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SIVARAMAKRISHNAN, SIVARAJ ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Sivaraj Sivaramakrishnan (sivaraj),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "THOMAS, DAVID D",
+            "rank": "Professor",
+            "ldap_dn": "cn=David D Thomas (ddt),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VANDERPOOL, CARIN K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Cari Vanderpool (vand0371),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VEGLIA, GIANLUIGI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Gianluigi Veglia (vegli001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VON DIEZMANN, LEXY ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Lexy H von Diezmann (lvondiez),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "YANG, YI-MEI (AMY) ",
+            "rank": "Visiting Professor (affiliated)",
+            "ldap_dn": "cn=Yi Yang (yang1385),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZIERHUT, HEATHER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Heather Zierhut (zier0034),ou=People,o=University of Minnesota,c=US"
+          }
+        ]
+      },
+      "Graduate School": {
+        "Graduate Studies": [
+          {
+            "name": "ARNDT, WILLIAM ",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=William Arndt (arndt255),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BEALL, EVALYN ",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=Evalyn A Beall (beall029),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BELICA, CHRISTOPHER A",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=Christopher A Belica (belic028),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "EATON, ELLA JOY",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=Ella J Eaton (leex8363),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HALLEY, MADALENE ",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=Madalene D Halley (halle164),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JANG, IN HWA ",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=In Hwa Jang (jang0090),ou=People,o=University of Minnesota,c=US"
+          }
+        ]
+      },
+      "Law School": {
+        "Law": [
+          {
+            "name": "SHEN, FRANCIS X",
+            "rank": "Professor",
+            "ldap_dn": "cn=Francis X Shen (fxshen),ou=People,o=University of Minnesota,c=US"
+          }
+        ]
+      },
+      "Medical School": {
+        "Anesthesiology": [
+          {
+            "name": "BOISSONEAULT, JEFFREY B.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jeff B Boissoneault (jboisson),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Biochemistry, Molecular Biology and Biophysics": [
+          {
+            "name": "BERNLOHR, DAVID A",
+            "rank": "Professor (retired)",
+            "ldap_dn": "cn=David A Bernlohr (bernl001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CAMELL, CHRISTINA ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Christina Camell (ccamell),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GOLDSTROHM, AARON CHARLES",
+            "rank": "Professor",
+            "ldap_dn": "cn=Aaron Goldstrohm (agoldstr),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GRIFFIN, TIMOTHY J.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Timothy J Griffin (tgriffin),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KIM, DO-HYUNG ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Do-Hyung Kim (dhkim),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LATHAM, MICHAEL PARKER",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Michael P Latham (latha070),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MASHEK, DOUGLAS G",
+            "rank": "Professor",
+            "ldap_dn": "cn=Douglas Mashek (dmashek),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MENDONCA, LUIZA ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Luiza Mendonca (luiza),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MONROE, BLAKE ",
+            "rank": "Post-Doctoral Associate",
+            "ldap_dn": "cn=Blake Monroe (monro240),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MURETTA, JOSEPH M.",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Joseph M Muretta (muret003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MURPHY, SHARON E",
+            "rank": "Professor",
+            "ldap_dn": "cn=Sharon E Murphy (murph062),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NIEDERNHOFER, LAURA JANE",
+            "rank": "Professor",
+            "ldap_dn": "cn=Laura J Niedernhofer (lniedern),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ROBBINS, PAUL D.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Paul D Robbins (probbins),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TRUONG, THU HA",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Thu H Truong (thtruong),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VILLALTA, PETER WILLIAM",
+            "rank": "Rsch Dir 1-Gen Research Tech",
+            "ldap_dn": "cn=Peter W Villalta (villa001),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Biomaterials": [
+          {
+            "name": "FOK, ALEX SIU-LUN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Alex Fok (alexfok),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Dermatology": [],
+        "Emergency Medicine": [],
+        "Family Medicine and Community Health": [
+          {
+            "name": "AL'ABSI, MUSTAFA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Mustafa N al'Absi (malabsi),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JACKLIN, KRISTEN ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kristen Jacklin (kjacklin),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEFEVRE, EMILIA M",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Emilia Lefevre (elefevre),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCROGGINS, SABRINA MARIE",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Sabrina M Scroggins (sscroggi),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Genetics, Cell Biology and Development": [
+          {
+            "name": "YOU, YUN ",
+            "rank": "Rsch Pro 6-Research Ops/Admin",
+            "ldap_dn": "cn=Yun You (yyou),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Immunology": [],
+        "Medicine": {
+          "Cardiovascular": [
+            {
+              "name": "DUDLEY, SAMUEL C",
+              "rank": "Professor",
+              "ldap_dn": "cn=Samuel Dudley (sdudley),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "GARRY, DANIEL J.",
+              "rank": "Professor",
+              "ldap_dn": "cn=Daniel J Garry (garry),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "KAMDAR, FORUM D",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Forum D Kamdar (kamd0001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "PERLINGEIRO, RITA C. R.",
+              "rank": "Professor",
+              "ldap_dn": "cn=Rita Perlingeiro (perli032),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "PRINS, KURT W",
+              "rank": "Adjunct Associate Professor (affiliated)",
+              "ldap_dn": "cn=Kurt W Prins (prin0088),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "PRISCO, SASHA ZHENG",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Sasha Z Prisco (szprisco),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "VAN'T HOF, JEREMY R.",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Jeremy R Van't Hof (vanth008),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Diabetes, Endocrinology and Metabolism": [
+            {
+              "name": "BANTLE, ANNE E",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Anne E Bantle (bant0015),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "CHOW, LISA SENYE",
+              "rank": "Professor",
+              "ldap_dn": "cn=Lisa S Chow (chow0007),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Gastroenterology, Hepatology and Nutrition": [
+            {
+              "name": "SONG, GUISHENG ",
+              "rank": "Professor",
+              "ldap_dn": "cn=Guisheng Song (gsong),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "STEER, CLIFFORD JOHN",
+              "rank": "Professor",
+              "ldap_dn": "cn=Clifford J Steer (steer001),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "General Internal Medicine": [
+            {
+              "name": "EVERSON-ROSE, SUSAN A.",
+              "rank": "Professor",
+              "ldap_dn": "cn=Susan Everson-Rose (saer),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Hematology, Oncology and Transplantation": [
+            {
+              "name": "BECKMAN, JOAN DENISE",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Joan D Beckman (beckm092),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "BLAES, ANNE H.",
+              "rank": "Professor",
+              "ldap_dn": "cn=Anne H Blaes (blaes004),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "CICHOCKI, FRANK ",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Frank M Cichocki (cich0040),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "FELICES, MARTIN ",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Martin Felices (mfelices),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "HWANG, JUSTIN H.",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Justin Hwang (jhwang),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "JUCKETT, MARK ",
+              "rank": "Professor",
+              "ldap_dn": "cn=Mark B Juckett (juck0001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MILLER, JEFFREY S.",
+              "rank": "Professor",
+              "ldap_dn": "cn=Jeffrey S Miller (mille011),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "SKUBITZ, AMY PATRICE",
+              "rank": "Professor",
+              "ldap_dn": "cn=Keith Skubitz (skubi001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "YEE, DOUGLAS ",
+              "rank": "Professor",
+              "ldap_dn": "cn=Douglas Yee (yeexx006),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Hospital Medicine": [],
+          "Infectious Diseases and International Medicine": [
+            {
+              "name": "BOLD, TYLER DALLAS",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Tyler D Bold (tbold),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "BOULWARE, DAVID R",
+              "rank": "Professor",
+              "ldap_dn": "cn=David R Boulware (boulw001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "BURRACK, ADAM L",
+              "rank": "Assistant Professor (affiliated)",
+              "ldap_dn": "cn=Kristina A Burrack (kburrack),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DEBES, JOSE DANIEL",
+              "rank": "Professor",
+              "ldap_dn": "cn=Jose D Debes (debes003),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "GULLEEN, ELIZABETH A.",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Elizabeth A Gulleen (gulle023),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "HERSCHHORN, ALON ",
+              "rank": "Professor",
+              "ldap_dn": "cn=Alon Herschhorn (aherschh),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "RAJASINGHAM, RADHA ",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Radha Rajasingham (radha),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Molecular Medicine": [],
+          "Nephrology and Hypertension": [
+            {
+              "name": "DRAWZ, PAUL ENGLUND",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Paul E Drawz (draw0003),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MURPHY, DANIEL PATRICK",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Daniel P Murphy (murph670),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "NACHMAN, PATRICK H",
+              "rank": "Professor",
+              "ldap_dn": "cn=Patrick Nachman (pnachman),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Other": [
+            {
+              "name": "ABASSI, MAHSA ",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Mahsa Abassi (abass004),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "ADKE, ANISHA P",
+              "rank": "Graduate School Trainee",
+              "ldap_dn": "cn=Anisha Adke (adke0001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "ALLEN, SHARON S",
+              "rank": "Professor",
+              "ldap_dn": "cn=Sharon S Allen (allen001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "BETANCOURT, JOVANY JORDAN",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Jovany J Betancourt (betan041),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "BRICKNER, MEGAN A",
+              "rank": "Graduate School Trainee",
+              "ldap_dn": "cn=Megan A Brickner (brick225),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "BUI, KACEY LINNEA GUENTHER",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Kacey L Bui (kgbui),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "CARROLL, DANA MOWLS",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Dana M Carroll (dcarroll),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "CONNOR, JENNIFER JO",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Jennifer J Connor (conno043),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DAILEY-KREMPEL, BRIANNA ",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Brianna Dailey-Krempel (daile059),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DE LA CRUZ-LYNCH, ARTHUR TRENTON",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Arthur T de la Cruz-Lynch (delac086),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DEPAUW, TAYLOR A",
+              "rank": null,
+              "ldap_dn": "cn=Taylor A DePauw (depa0049),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DEVARAJAN, MAHIMA ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Mahima Devarajan (devar043),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DING, MINNA ",
+              "rank": null,
+              "ldap_dn": "cn=Minna Ding (ding0172),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DONA, ALLISON C",
+              "rank": null,
+              "ldap_dn": "cn=Allison C Dona (dona0296),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "DUNLAP-SMITH, AZALINE I",
+              "rank": "Graduate School Trainee",
+              "ldap_dn": "cn=Azaline I Dunlap-Smith (dunla139),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "FALBO, KIERRA J",
+              "rank": null,
+              "ldap_dn": "cn=Kierra J Falbo (falbo012),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "FALLON, KATHERINE SAGE",
+              "rank": "Graduate Fellow-extrnly funded",
+              "ldap_dn": "cn=Katherine S Fallon (fallo068),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "FU, STEVEN ",
+              "rank": "Professor",
+              "ldap_dn": "cn=Steven S Fu (stevefu),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "GOTTSCHALK, AMY CHARLOTTE",
+              "rank": "Graduate Fellow-extrnly funded",
+              "ldap_dn": "cn=Amy C Gottschalk (gotts047),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "HERNANDEZ, EDITH ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Edith Hernandez (hern0345),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "HILLMAN, HANNAH ",
+              "rank": "Graduate Fellow-extrnly funded",
+              "ldap_dn": "cn=Hannah N Hillman (hillm131),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "HOUGARD, THOMAS R",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Thomas R Hougard (houga006),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "HUGHEY, CURTIS ",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Curtis Hughey (chughey),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "KALENDER, GULDAMLA ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Guldamla Kalender (kalen021),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "KANTESARIA, SAURIN ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Saurin A Kantesaria (kante056),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "KERMOADE, KLAITEN E",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Klaiten E Kermoade (kermo013),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "KOCHARIAN, ADRINE ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Adrina Kocharian (kocha048),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "LOTH, KATIE ANN",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Katie Loth (kloth),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "LOZADA, JOHN ROY",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=John Roy Lozada (lozad026),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MARK, KRISTEN PATRICIA",
+              "rank": "Professor",
+              "ldap_dn": "cn=Kristen Mark (kpmark),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MAUPIN, CALLEN M",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Callen M Maupin (maupi025),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MAXWELL, ANDREA ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Andrea Maxwell (maxwe277),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MCMAHON, MATTHEW CHARLES",
+              "rank": "Graduate Fellow-extrnly funded",
+              "ldap_dn": "cn=Matthew McMahon (mcmah338),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MENDELSON, JENNA BLAIR",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Jenna Mendelson (mende192),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MERINO, AIMEE ",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Aimee M Merino (merin008),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MINER, JAMES R.",
+              "rank": "Head (With Faculty Rank)",
+              "ldap_dn": "cn=James R Miner (miner015),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MONTOYA, SAMANTHA A",
+              "rank": null,
+              "ldap_dn": "cn=Sam Montoya (monto112),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "OKAFOR, ELIZABETH ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Elizabeth Okafor (okafo039),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "PRATT, REBEKAH J.",
+              "rank": "Associate Professor",
+              "ldap_dn": "cn=Rebekah J Pratt (rjpratt),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "PUGLISI, CHLOE ",
+              "rank": "Graduate Fellow-extrnly funded",
+              "ldap_dn": "cn=Chloe Puglisi (pugli042),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "ROZEMA, NICHOLAS ",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Nick Rozema (rozem016),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "SELIMOVIC, ADEM ",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Adem Selimovic (selim023),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "SHEARER, RILEY ",
+              "rank": "Professional School Fellow",
+              "ldap_dn": "cn=Riley D Shearer (shear162),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "STELZNER, MARGARET E",
+              "rank": "Graduate School Trainee",
+              "ldap_dn": "cn=Margaret E Stelzner (stelz040),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "STENGER, TERRAN ",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Terran D Stenger (steng110),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "VALENTE, WILLIAM JOSEPH",
+              "rank": "NIH-NRSA Medical Fellow",
+              "ldap_dn": "cn=William J Valente (valen090),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "WANG, JINHUA ",
+              "rank": "Professor",
+              "ldap_dn": "cn=Jinhua Wang (wangjh),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "WELTER, ALEX LARSEN",
+              "rank": "Graduate School Fellow",
+              "ldap_dn": "cn=Alex L Welter (welte219),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "WERNIMONT, SARAH A",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Sarah A Wernimont (swernimo),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "WILHELM, APRIL KATHERINE",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=April Wilhelm (awilhelm),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "XU, MING ",
+              "rank": null,
+              "ldap_dn": "cn=Ming Xu (xu000147),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "ZHANG, MICHAEL JINGYUAN",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Michael J Zhang (mjzhang),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Pulmonary, Allergy, Critical Care and Sleep Medicine": [
+            {
+              "name": "INGBAR, DAVID H",
+              "rank": "Professor",
+              "ldap_dn": "cn=David H Ingbar (ingba001),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "INGRAHAM, NICHOLAS E",
+              "rank": "Assistant Professor",
+              "ldap_dn": "cn=Nick E Ingraham (ingra107),ou=People,o=University of Minnesota,c=US"
+            }
+          ],
+          "Rheumatic and Autoimmune Diseases": [
+            {
+              "name": "FIFE, BRIAN T",
+              "rank": "Professor",
+              "ldap_dn": "cn=Brian T Fife (bfife),ou=People,o=University of Minnesota,c=US"
+            },
+            {
+              "name": "MUELLER, DANIEL L",
+              "rank": "Professor",
+              "ldap_dn": "cn=Daniel L Mueller (muell002),ou=People,o=University of Minnesota,c=US"
+            }
+          ]
+        },
+        "Microbiology and Immunology": [
+          {
+            "name": "BAUGHN, ANTHONY D",
+            "rank": "Professor",
+            "ldap_dn": "cn=Anthony Baughn (abaughn),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DILEEPAN, THAMOTHARAMPILLAI ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=T Dileepan (dile0003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HOLMES, CAITLYN LEIGH",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Caitlyn Holmes (cholmes),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JENKINS, MARC KEVIN",
+            "rank": "Regents Professor",
+            "ldap_dn": "cn=Marc Jenkins (jenki002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LAMONT, ELISE ",
+            "rank": "Rsch Pro 6-Microbiology",
+            "ldap_dn": "cn=Elise A Lamont (lamo0062),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LANGLOIS, RYAN ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ryan A Langlois (langlois),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MANSKY, LOUIS M.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Louis M Mansky (mansky),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SLOANE, PHILIP D",
+            "rank": "Rsch Pro 1-Microbiology",
+            "ldap_dn": "cn=Alexander L Sloane (sloa0061),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STROMNES, INGUNN MARGARETE",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Ingunn M Stromnes (ingunn),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TISCHLER, ANNA DEGRAFF",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Anna Tischler (tischler),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VANDE ZANDE, PETRA ",
+            "rank": "Post-Doctoral Associate",
+            "ldap_dn": "cn=Petra Vande Zande (pvzande),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WILLETT, JULIA ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Julia Willett (jwillett),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Neurology": [
+          {
+            "name": "AMAN, JOSHUA E",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Joshua E Aman (aman0038),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CAI, DONGMING ",
+            "rank": "Professor - Tenure Track",
+            "ldap_dn": "cn=Dongming Cai (cai00268),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "COOPER, SCOTT E",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Scott Cooper (secooper),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HOWELL, MICHAEL J",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael J Howell (howel020),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JOHNSON, LUKE AARON",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Luke A Johnson (joh03032),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MACKINNON, COLUM D",
+            "rank": "Professor",
+            "ldap_dn": "cn=Colum MacKinnon (cmackinn),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MANTYH, WILLIAM G",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=William Mantyh (mant0126),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PACAK, CHRISTINA A.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Christina A Pacak (cpacak),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PISHARADY, PRAMOD KUMAR",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Pramod K Pisharady (pramodkp),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STREIB, CHRISTOPHER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Christopher D Streib (streib),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VITEK, JERROLD L",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jerrold L Vitek (vitek004),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WALK, DAVID ",
+            "rank": "Professor",
+            "ldap_dn": "cn=David Walk (walkx001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WANG, JING ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jing Wang (wang3444),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Neuroscience": [
+          {
+            "name": "ARAQUE, ALFONSO ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Alfonso Araque (araque),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BAUER, MEREDITH ROSE",
+            "rank": "Post-Doctoral Fellow",
+            "ldap_dn": "cn=Meredith R Bauer (watso554),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CVETANOVIC, MARIJA ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Marija Cvetanovic (mcvetano),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "EBNER, TIMOTHY J",
+            "rank": "Professor",
+            "ldap_dn": "cn=Timothy J Ebner (ebner001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GOMEZ-PASTOR, ROCIO ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Rocio Gomez-Pastor (rgomezpa),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HAMID, ARIF A",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Arif Hamid (hamid008),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KARA, PRAKASH ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Prakash Kara (pkara),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KERLIN, AARON MICHAEL",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Aaron M Kerlin (akerlin),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KROOK-MAGNUSON, ESTHER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Esther Krook-Magnuson (ekrookma),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEE, MICHAEL K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael K Lee (mklee),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MASINO, MARK A",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Mark A Masino (masino),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MCLOON, LINDA K.",
+            "rank": "Professor (retired)",
+            "ldap_dn": "cn=Steven McLoon (mcloons),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MERMELSTEIN, PAUL G",
+            "rank": "Professor",
+            "ldap_dn": "cn=Paul G Mermelstein (pmerm),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NASELARIS, THOMAS P",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Thomas P Naselaris (nase0005),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NEWMAN, ERIC A",
+            "rank": "Professor",
+            "ldap_dn": "cn=Eric Newman (ean),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NOEL, JEAN-PAUL ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jean-Paul Noel (noelx071),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "REDISH, A DAVID",
+            "rank": "Professor",
+            "ldap_dn": "cn=David Redish (redish),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RICHARD, JOCELYN M",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jocelyn Richard (richardj),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ROTHWELL, PATRICK ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Patrick E Rothwell (roth0169),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SAUNDERS, BENJAMIN THOMAS",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Benjamin T Saunders (bts),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SMITH, GORDON BRAWN",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Gordon B Smith (gbsmith),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STRENG, MARTHA L",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Martha L Streng (stren021),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SWANSON, JESSICA ",
+            "rank": "Post-Doctoral Fellow",
+            "ldap_dn": "cn=Jessica Swanson (swan1600),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "THOMAS, MARK JOHN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Mark J Thomas (tmhomas),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "UMPIERRE, ANTHONY DAVID",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Tony Umpierre (umpie002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VULCHANOVA, LYUDMILA H",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Lucy Vulchanova (vulch001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZIMMERMANN, JAN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jan Zimmermann (janz),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Obstetrics, Gynecology and Reproductive Medicine": [],
+        "Oncology": [
+          {
+            "name": "ERICKSON, BRITT KRISTINA",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Britt K Erickson (bkeric),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GORDON, PETER M",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Peter M Gordon (gord0047),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MORIARITY, BRANDEN S",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Branden S Moriarity (mori0164),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TURCOTTE, LUCIE MARIE",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Lucie M Turcotte (turc0023),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VOGEL, RACHEL ISAKSSON",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Rachel I Vogel (isak0023),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WEBBER, BEAU RICHARD",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Beau R Webber (webb0178),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Ophthalmology": [
+          {
+            "name": "HOU, JOSHUA H",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Joshua H Hou (jhhou),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JUNGE, HARALD ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Harald Junge (junge),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Organizational Leadership, Policy and Development": [],
+        "Orthopaedic Surgery": [
+          {
+            "name": "BRADLEY, ELIZABETH W",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Elizabeth W Bradley (ebradle1),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Otolaryngology": [
+          {
+            "name": "CUREOGLU, SEBAHATTIN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sebahattin Cureoglu (cureo003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LIM, HUBERT HYUNGIL",
+            "rank": "Professor",
+            "ldap_dn": "cn=Hubert H Lim (hlim),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MISONO, STEPHANIE ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Stephanie N Misono (smisono),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ONDREY, FRANK G.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Frank G Ondrey (ondre002),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Pathology": [],
+        "Pediatrics": [
+          {
+            "name": "BASTIAN, THOMAS W.",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Thomas W Bastian (bastian),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BECKMAN, KENNETH B",
+            "rank": "Rsch Pro 6-Applied Research",
+            "ldap_dn": "cn=Kara J Beckman (beckm118),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BENSIGNOR , MEGAN O",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Megan O Bensignor (moberle),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BIERLE, CRAIG JOHN",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Craig J Bierle (cjbierle),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BINSTADT, BRYCE ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Bryce A Binstadt (binstadt),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BOSNAKOVSKI, DARKO ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Darko Bosnakovski (darko),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BURROWS, CATHERINE ANN",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Casey Burrows (cburrows),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FOX, CLAUDIA K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Claudia K Fox (lusc0001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GEORGIEFF, MICHAEL K.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael K Georgieff (georg001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KOTZ, CATHERINE M",
+            "rank": "Non-Exempt Temporary or Casual",
+            "ldap_dn": "cn=Madeline R Kotz (kotz0023),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KYBA, MICHAEL ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael Kyba (kyba),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MARCOTTE, ERIN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Erin L Marcotte (marcotte),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MORAN, ANTOINETTE M.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Antoinette Moran (moran001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OSBORN, MARK J",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Mark J Osborn (osbor026),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "POYNTER, JENNY N.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jen Poynter (poynter),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SHLAFER, REBECCA J.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Rebecca J Shlafer (shlaf002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SPECTOR, LOGAN G.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Logan G Spector (spect012),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TOLAR, JAKUB ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jakub Tolar (tolar003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WAGNER, JOHN E.",
+            "rank": "Professor",
+            "ldap_dn": "cn=John E Wagner (wagne002),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Pharmacology": [
+          {
+            "name": "ATWOOD, BRADY ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Brady Atwood (atwoo034),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CAMPBELL, COLIN R",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Colin R Campbell (campb034),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DRAKE, JUSTIN MICHAEL",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Justin M Drake (jdrake),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DRISCOLL, MEGHAN KATRIEN",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Meghan K Driscoll (drisc269),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DUNLEAVY, KATIE M.",
+            "rank": "Rsch Pro 5-Biophysics",
+            "ldap_dn": "cn=Katie M Dunleavy (kmd),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FREEDMAN, TANYA S.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Tanya Freedman (tfreedma),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEVINSON, NICHOLAS MARK",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Nicholas M Levinson (nml),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LIPSCOMB, MICHAEL W",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Michael W Lipscomb (lips0046),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SLOSKY, LAUREN M",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Lauren M Slosky (lslosky),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SPENCER, SADE MONIQUE",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sade Spencer (spencers),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WEI, LI-NA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Li-Na Wei (weixx009),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WICKMAN, KEVIN D",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kevin D Wickman (wickm002),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Physiology": [
+          {
+            "name": "ALEJANDRO, EMILYN ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Emilyn U Alejandro (ealejand),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BARTOLOMUCCI, ALESSANDRO ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Alessandro Bartolomucci (abartolo),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BATCHELOR, ERIC ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Eric Batchelor (ebatchel),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DUCA, FRANK ANTHONY",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Frank A Duca (fduca),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LIU, JULIA CHANG",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Julia Liu (julialiu),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "METZGER, GREGORY JOHN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Joseph M Metzger (metzgerj),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "METZGER, JOSEPH MARK",
+            "rank": "Professor",
+            "ldap_dn": "cn=Joseph M Metzger (metzgerj),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "REVELO, XAVIER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Xavier Revelo (xrevelo),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RUAN, HAI-BIN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Hai-Bin Ruan (hruan),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VERKERKE, ANTHONY ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Anthony R Verkerke (averkerk),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WILLIAMS, JESSE WARREN",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jesse W Williams (jww),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Psychiatry": [
+          {
+            "name": "CAMCHONG, Y. JAZMIN ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jazmin Camchong (camch002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CONELEA, CHRISTINE A",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Christine A Conelea (cconelea),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GUNLICKS-STOESSEL, MEREDITH LYN",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Meredith L Gunlicks-Stoessel (mgunlick),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HATSUKAMI, DOROTHY K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Dorothy K Hatsukami (hatsu001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HERMAN, ALEXANDER ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Alexander B Herman (herma686),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KUSHNER, MATT G",
+            "rank": "Professor",
+            "ldap_dn": "cn=Matt G Kushner (kushn001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEWIS, CHARLES P.",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Charles P Lewis (lewi1538),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RANDOLPH, ANITA CHRISTINE",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Anita C Randolph (rando149),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ROMANO, KELLY A.",
+            "rank": "Post-Doctoral Associate",
+            "ldap_dn": "cn=Kelly A Romano (kromano),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCHALLMO, MICHAEL-PAUL ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Michael-Paul Schallmo (schal110),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TERVO-CLEMMENS, BRENDEN CRAIG",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Brenden C Tervo-Clemmens (btervocl),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "VINOGRADOV, SOPHIA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Sophia Vinogradov (svinogra),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WELLEN, BRIANNA C",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Brianna C Wellen (bwellen),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WIDGE, ALIK S.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Alik S Widge (awidge),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WOZNIAK, JEFFREY ROBERT",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jeffrey R Wozniak (jwozniak),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZILVERSTAND, ANNA ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Anna K Zilverstand (annaz),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Radiology": [
+          {
+            "name": "ELLERMANN, JUTTA M",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jutta M Ellermann (eller001),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Surgery": [
+          {
+            "name": "ADAMS, ANDREW B",
+            "rank": "Professor",
+            "ldap_dn": "cn=Andrew B Adams (adam1717),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BANEK, CHRISTOPHER T",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Christopher T Banek (cbanek),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "COSTANTINI, TODD W",
+            "rank": "Professor",
+            "ldap_dn": "cn=Todd W Costantini (cost0086),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DAVYDOVA, JULIA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Julia Davydova (davyd003),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FINGER, ERIK BRIAN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Erik B Finger (efinger),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HERING, BERNHARD JOSEF",
+            "rank": "Professor",
+            "ldap_dn": "cn=Bernhard J Hering (bhering),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "IKRAMUDDIN, SAYEED ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Sayeed Ikramuddin (ikram001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MATAS, ARTHUR J",
+            "rank": "Professor",
+            "ldap_dn": "cn=Arthur J Matas (matas001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PARR, ANN M",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ann M Parr (amparr),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RAMACHANDRAN, SABARINATHAN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sabarinathan Ramachandran (sramacha),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RAO, J SUNIL",
+            "rank": "Rsch Pro 6-Life Sci-Multidisc",
+            "ldap_dn": "cn=Joseph Sushil Rao (jrao),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SINGH, AMAR ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Amar Singh (singh423),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WISE, ERIC STEPHEN",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Eric S Wise (wise0147),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "YAMAMOTO, MASATO ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Masato Yamamoto (yamam016),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZHANG, RUI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Rui Zhang (ruizhang),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Urology": [
+          {
+            "name": "GRIFFITH, THOMAS S",
+            "rank": "Professor",
+            "ldap_dn": "cn=Thomas S Griffith (tgriffit),ou=People,o=University of Minnesota,c=US"
+          }
+        ]
+      },
+      "Other Departments": {
+        "CCAPS College in the Schools": [
+          {
+            "name": "NGUYEN, HONG-NGOC B.",
+            "rank": "Teaching Specialist (affiliated)",
+            "ldap_dn": "cn=Hannah Nguyen (nguye377),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Child Development Admin, Inst": [
+          {
+            "name": "CARLSON, ELIZABETH A",
+            "rank": "Rsch Mgr 3-Research Proj Mgmt",
+            "ldap_dn": "cn=Elizabeth A Carlson (carls032),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FAIR, DAMIEN A",
+            "rank": "Professor",
+            "ldap_dn": "cn=Damien A Fair (faird),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "THOMAS, KALI ST. MARIE",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kathleen M Thomas (thoma114),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WILSON, SYLIA ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sylia Wilson (syliaw),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Continuing Education": [
+          {
+            "name": "ERVASTI, JAMES M",
+            "rank": null,
+            "ldap_dn": "cn=Maya E Ervasti (ervas014),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GALE, MICHAEL ",
+            "rank": null,
+            "ldap_dn": "cn=Maija A Gale (gale0130),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MCPHERSON, SCOTT W",
+            "rank": null,
+            "ldap_dn": "cn=Samantha R McPherson (mcphe274),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MOORE, MADELYN ",
+            "rank": null,
+            "ldap_dn": "cn=Madelyn J Moore (moor2363),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WALSH, MELISSA ARIEL",
+            "rank": null,
+            "ldap_dn": "cn=Melissa L Walsh (wals0334),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WARREN, JOHN ROBERT",
+            "rank": null,
+            "ldap_dn": "cn=Jasmine A Warren (warre344),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Crookston": [
+          {
+            "name": "FISCHER, NICHOLAS G",
+            "rank": null,
+            "ldap_dn": "cn=Natalie R Fischer (fisc0710),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KIM, NAM CHUL ",
+            "rank": null,
+            "ldap_dn": "cn=Nao Kim (yama0030),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "D Registrar, Office of the": [
+          {
+            "name": "GRAVES, STEVEN MICHAEL",
+            "rank": "Teaching Specialist (affiliated)",
+            "ldap_dn": "cn=Peter H Graves (grav0045),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "D Temp Office Staff": [
+          {
+            "name": "NAGEL, EMILY M",
+            "rank": "Non-Exempt Temporary or Casual",
+            "ldap_dn": "cn=Emily B Nagel (nagel107),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Experimental & Clinical Pharm": [
+          {
+            "name": "BIRNBAUM, ANGELA K",
+            "rank": "Professor",
+            "ldap_dn": "cn=Angela Birnbaum (birnb002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LI, LING ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ling Li (lil),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NICOL, MELANIE RAE",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Melanie R Nicol (mrnicol),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "FSoS Administration": [
+          {
+            "name": "MEHUS, CHRISTOPHER J",
+            "rank": "Research Associate Professor",
+            "ldap_dn": "cn=Christopher J Mehus (cjmehus),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PIEHLER, TIMOTHY F",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Timothy F Piehler (tpiehler),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SUN, XIAORAN ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Xiaoran Sun (sunx0521),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "GRAD Dean's Office Admin": [
+          {
+            "name": "ARRIAGA, EDGAR A",
+            "rank": "Associate Dean",
+            "ldap_dn": "cn=Edgar Arriaga (arriaga),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "HHH Social Policy Academic Pro": [
+          {
+            "name": "FERTIG, ANGELA RICE",
+            "rank": "Professor",
+            "ldap_dn": "cn=Angie Fertig (arfertig),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "HR Benefits Spec Circumstances": [
+          {
+            "name": "LE, CHAP T.",
+            "rank": "Professor Emeritus",
+            "ldap_dn": "cn=Chap T Le (chap),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "M Athletics Administration": [
+          {
+            "name": "JOHNSON, MATTHEW DOUGLAS",
+            "rank": "Dir, Intercollegiate Athletics",
+            "ldap_dn": "cn=Matthew P Johnson (johnson1),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "MS Dean's Office Admin": [
+          {
+            "name": "SCHACKER, TIMOTHY W",
+            "rank": "Executive Vice Dean",
+            "ldap_dn": "cn=Timothy W Schacker (schac008),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SEAQUIST, ELIZABETH R.",
+            "rank": "AD for Med Specialties & PCare",
+            "ldap_dn": "cn=Elizabeth R Seaquist (seaqu001),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "MS MD/PHD Program": [
+          {
+            "name": "WALL, SARAH M",
+            "rank": "Professional School Fellow",
+            "ldap_dn": "cn=Sarah M Wall (wallx071),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "MS Research/Facilities": [
+          {
+            "name": "MELTON-MEAUX, GENEVIEVE B",
+            "rank": "Sr Assoc Dean-Informatics/DS",
+            "ldap_dn": "cn=Genevieve B Melton-Meaux (gmelton),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Morris": [
+          {
+            "name": "ALLEN, MICHELE L",
+            "rank": null,
+            "ldap_dn": "cn=Marissa Allen (alle1049),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "OIT Academic Clinical Affairs": [
+          {
+            "name": "SUBRAMANIAN, SUBBAYA ",
+            "rank": "IT Pro 3-Data Engineering",
+            "ldap_dn": "cn=Saranya Subramanian (saranya89),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Research and Innovation Office": [
+          {
+            "name": "LANGE, CAROL A",
+            "rank": "Healtheast",
+            "ldap_dn": "cn=Christine L Lange (clange),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Social Rsrch & Data Innovation": [
+          {
+            "name": "DREW, JULIA AR",
+            "rank": "Rsch Mgr 2-Data Management",
+            "ldap_dn": "cn=Julia A Drew (jrivdrew),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FITCH, CATHERINE A",
+            "rank": "Associate Director of ISRDI",
+            "ldap_dn": "cn=Catherine A Fitch (fitch),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FLOOD, SARAH M",
+            "rank": "Research Professor",
+            "ldap_dn": "cn=Sarah M Flood (floo0017),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KUGLER, TRACY A",
+            "rank": "Principal Research Scientist",
+            "ldap_dn": "cn=Tracy A Kugler (takugler),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCHROEDER, JONATHAN P",
+            "rank": "Principal Research Scientist",
+            "ldap_dn": "cn=Jonathan P Schroeder (jps),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "The Hormel Institute Research": [
+          {
+            "name": "ALAM, AMER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Amer Alam (aalam),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ASLANIDI, GEORGE V",
+            "rank": "Professor",
+            "ldap_dn": "cn=Georgiy Aslanidi (gaslanid),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FRENCH, JARROD B",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jarrod French (jfrench),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GRADILONE, SERGIO A",
+            "rank": "Professor",
+            "ldap_dn": "cn=Sergio Gradilone (sgradilo),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HILAKIVI-CLARKE, LEENA A.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Leena Hilakivi-Clarke (hilak001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KANG, NINGLING ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ningling Kang (nkang),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "U of M Alumni Association": [
+          {
+            "name": "SMITH, M KUMI",
+            "rank": "Assoc VP of Alumni Engagement",
+            "ldap_dn": "cn=Marissa Smith (marissas),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "UST": [
+          {
+            "name": "BAHR, NATHAN ",
+            "rank": null,
+            "ldap_dn": "cn=Natalie A Bahr (bahr0093),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Unknown": [
+          {
+            "name": "ALIFERIS, CONSTANTIN F.",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "AXTHELM, MICHAEL K",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "BACHANOVA, VERONIKA S",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "BAZZARO, MARTINA ",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "CHAFEE, MATTHEW V",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "CHEERAN, MAXIM CHACKO-JOSEPH",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "ELICEIRI, KEVIN WILLIAM",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "GREISING, SARAH M",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "GUNNAR, MEGAN R",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "HUFFMASTER, SOMMER L",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "KARACA-MANDIC, PINAR ",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "KHASABOV, SERGEY G",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "KODANDARAMAIAH, SUHASA B",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "MASOPUST, DAVID ",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "MOANA-FILHO, ESTEPHAN J",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "PICKER, LOUIS J.",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "RIVERA-LE\u00d3N, ADRIANNA M. ",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "SELMECKI, ANNA M.",
+            "rank": null,
+            "ldap_dn": null
+          },
+          {
+            "name": "YANNOPOULOS, DEMETRIS ",
+            "rank": null,
+            "ldap_dn": null
+          }
+        ]
+      },
+      "School of Architecture": {
+        "Architecture": [
+          {
+            "name": "CHEN, LIN YEE",
+            "rank": null,
+            "ldap_dn": "cn=Lin Chen (chen5745),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MORE, SWATI S",
+            "rank": "Professor",
+            "ldap_dn": "cn=Swati S More (morex002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WANG, ZHENGQIANG ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Zhengqiang ZQ Wang (wangx472),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "XIE, JIASHU ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jiashu Xie (jxie),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Urban Design": []
+      },
+      "School of Dentistry": {
+        "Endodontics": [],
+        "Oral Biology and Diagnostic Sciences": [
+          {
+            "name": "AITKEN, SARAH ",
+            "rank": "Graduate Fellow-extrnly funded",
+            "ldap_dn": "cn=Sarah F Aitken (aitke032),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ARTINGER, KRISTIN ",
+            "rank": "Associate Dean of Research",
+            "ldap_dn": "cn=Kristin B Artinger (kartinge),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BLAZAR, BRUCE R",
+            "rank": "Assoc. Vice President for CTSP",
+            "ldap_dn": "cn=Bruce R Blazar (blaza001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CETERA, MAUREEN PATRICIA",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Maureen Cetera (mcetera),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CLARKE, DUNCAN J.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Duncan J Clarke (clark140),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "COSTALONGA, MASSIMO ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Massimo Costalonga (costa002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DONG, XIAO ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Xiao Dong (dong0265),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GILL, MATTHEW SIMON",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Matthew S Gill (gill0558),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HSIEH, PINGHSUN ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=PingHsun B Hsieh (hsiehph),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JARDINE, PAUL JAMES",
+            "rank": "Professor",
+            "ldap_dn": "cn=Paul J Jardine (jardine),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MANSKY, KIM CARPENTER",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kim Mansky (kmansky),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MCIVOR, R. SCOTT",
+            "rank": "Professor",
+            "ldap_dn": "cn=Riley S McIvor (mcivo001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WANG, CHONG ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Chong Wang (wan01642),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WILLIAMS, DRAKE WINSLOW",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Drake W Williams (drakew),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZHANG, WEI ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Wei Zhang (zhangwei),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Oral and Maxillofacial Pathology": [
+          {
+            "name": "DEHM, SCOTT M.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Scott M Dehm (dehm),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FARRAR, MICHAEL ARCHIBALD",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael A Farrar (farra005),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HALLSTROM, TIMOTHY C.",
+            "rank": "Rsch Supv 4-Research Ops/Admin",
+            "ldap_dn": "cn=Caroline M Hallstrom (challstr),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HAMILTON HART, SARA ELIZABETH",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sara E Hamilton Hart (hamil062),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HECHT, STEPHEN S",
+            "rank": "Professor",
+            "ldap_dn": "cn=Stephen S Hecht (hecht002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HOGQUIST, KRISTIN A.",
+            "rank": null,
+            "ldap_dn": "cn=Kris Hogquist (hogqu001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "JAMESON, STEPHEN C",
+            "rank": "Professor",
+            "ldap_dn": "cn=Stephen C Jameson (james024),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KOOB, MICHAEL D",
+            "rank": "Professor",
+            "ldap_dn": "cn=Michael D Koob (koobx001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LUCAS, ERIN D",
+            "rank": "Post-Doctoral Fellow",
+            "ldap_dn": "cn=Erin Lucas (lucas341),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MARTINEZ, RYAN J",
+            "rank": "Instructor",
+            "ldap_dn": "cn=Ryan J Martinez (mart2441),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MAURICE, NICHOLAS JOSEPH",
+            "rank": "Post-Doctoral Associate",
+            "ldap_dn": "cn=Nicholas J Maurice (maurice),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ORR, HARRY T.",
+            "rank": "Regents Professor",
+            "ldap_dn": "cn=Harry T Orr (orrxx002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCHWERTFEGER, KATHRYN L",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kaylee Schwertfeger (schwe251),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SEEGMILLER, JESSE C",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jesse C Seegmiller (jseegmil),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SHIMIZU, YOJI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Yoji Shimizu (shimi002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "THOMAS, STEFANI ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Stefani Thomas (stefanit),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Oral and Maxillofacial Surgery": [],
+        "Pediatric Dentistry": [],
+        "Periodontics, Prosthodontics and Implant Dentistry": [],
+        "Restorative Dentistry": []
+      },
+      "School of Nursing": {
+        "Nursing": [
+          {
+            "name": "ADRIANY, GREGOR ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Gregor Adriany (adria001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "CHEN, WEI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Wei Chen (chenx075),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FORD, MANDY L",
+            "rank": "Teaching Specialist (affiliated)",
+            "ldap_dn": "cn=Malene Ford (ford0221),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FULKERSON, JAYNE ALLYN",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jayne Fulkerson (fulke001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HAREL, NOAM ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Noam Harel (harel002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HORNING, MELISSA L",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Melissa L Horning (horn0199),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "KAY, KENDRICK NORRIS",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Kendrick N Kay (kay),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEE, JIWOO ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Jiwoo Lee (leex5222),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MANGIA, SILVIA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Silvia Mangia (mangia),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MARJANSKA, MALGORZATA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Malgorzata Marjanska (gosia),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MICHAELI, SHALOM ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Shalom Michaeli (micha042),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NTABA, DZIWE WILLARD",
+            "rank": "Leader (With Faculty Rank)",
+            "ldap_dn": "cn=Dziwe W Ntaba (dziwe),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OZ, GULIN ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Gulin Oz (ozxxx001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "UGURBIL, KAMIL ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kamil Ugurbil (ugurb001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WU, XIAOPING ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Xiaoping Wu (wuxxx184),ou=People,o=University of Minnesota,c=US"
+          }
+        ]
+      },
+      "School of Pharmacy": {
+        "Medicinal Chemistry": [],
+        "Pharmaceutical Chemistry": [],
+        "Pharmaceutics": [],
+        "Pharmacognosy": [],
+        "Pharmacology": [],
+        "Pharmacy": [
+          {
+            "name": "KANDIMALLA, KARUNYA KUMAR",
+            "rank": "Associate Dean",
+            "ldap_dn": "cn=Karunya K Kandimalla (kkandima),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WIELAND, MARK L.",
+            "rank": null,
+            "ldap_dn": "cn=Mallory A Wieland (wiela041),ou=People,o=University of Minnesota,c=US"
+          }
+        ]
+      },
+      "School of Public Health": {
+        "Biostatistics": [],
+        "Division of Environmental Health Sciences": [],
+        "Division of Epidemiology and Community Health": [
+          {
+            "name": "AGUIRRE, JONATHAN ISRAEL",
+            "rank": "Research Assistant",
+            "ldap_dn": "cn=Jonathan A Aguirre (aguir138),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ALEXANDER, BRUCE H.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Bruce H Alexander (balex),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ARNOLD, SUSAN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Susan Arnold (arnol353),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BAILEY, ZINZI DIANA",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Zinzi Bailey (zbailey),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BALBO, SILVIA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Silvia Balbo (balbo006),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BEEBE, TIMOTHY ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Timothy J Beebe (beebe026),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BENDER, JEFFREY B.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jeff B Bender (bende002),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BERMAN, JESSE DAVID",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jesse Berman (berma186),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BERRY, KAITLYN M",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Kaitlyn M Berry (kmberry),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "BRAMANTE, CAROLYN T",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Carolyn T Bramante (bramante),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DEMERATH, ELLEN W.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ellen W Demerath (ewd),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "DUARTE, HORACIO ADRIAN",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Horacio Duarte (hduarte),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "EBERLY, LYNN E",
+            "rank": "Assoc Dean for Faculty Affairs",
+            "ldap_dn": "cn=Lynn Eberly (leberly),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "FRENCH, SIMONE A.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Simone A French (frenc001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GAUGLER, JOSEPH E.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Joseph E Gaugler (gaug0015),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "GOLBERSTEIN, EZRA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Ezra Golberstein (egolber),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HENDEL, KATHERINE R",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Katherine R Hendel (khendel),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HENNING-SMITH, CARRIE E",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Carrie E Henning-Smith (henn0329),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HILL, KYLE X",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Kyle X Hill (kxhill),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "HUCKFELDT, PETER ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Peter Huckfeldt (huckfeld),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LAKSHMINARAYAN, KAMAKSHI ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Kamakshi Lakshminarayan (laksh004),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LASKA, MELISSA N.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Melissa N Laska (nels5024),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LEWIS, JORDAN PAUL",
+            "rank": "Affiliate Professor (affiliated)",
+            "ldap_dn": "cn=Jordan P Lewis (jplewis),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LUTSEY, PAMELA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Pamela L Lutsey (lutsey),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "LUTSEY, PAMELA L.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Pamela L Lutsey (lutsey),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MASON, SUSAN M.",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Susan M Mason (smmason),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "MCDONOUGH, DJ ",
+            "rank": "Rsch Pro 6-Epidemiology",
+            "ldap_dn": "cn=Daniel J McDonough (mcdo0785),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NELSON, HEATHER HAMMOND",
+            "rank": "Professor",
+            "ldap_dn": "cn=Heather H Nelson (hhnelson),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NEUMARK-SZTAINER, DIANNE R",
+            "rank": "Regents Professor",
+            "ldap_dn": "cn=Dianne Neumark-Sztainer (neuma011),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NIKPAY, SAYEH SANDER",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sayeh S Nikpay (snikpay),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NKIMBENG, MANKA ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Manka Nkimbeng (manka),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "NORBY, FAYE ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Faye Norby (fnorby),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OLIVER, JONATHAN D",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Jonathan Oliver (joliver),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "OSYPUK, THERESA LOUISE",
+            "rank": "Professor",
+            "ldap_dn": "cn=Theresa L Osypuk (tosypuk),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PANKOW, JAMES S",
+            "rank": "Professor",
+            "ldap_dn": "cn=Jim Pankow (panko001),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PARK, SUNGSHIM LANI",
+            "rank": "Fellow (affiliated)",
+            "ldap_dn": "cn=Sungshim L Park (park1945),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "PETERSON, LISA A",
+            "rank": "Professor",
+            "ldap_dn": "cn=Lisa A Peterson (peter431),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RANALLO, PIPER ",
+            "rank": null,
+            "ldap_dn": "cn=Jamie Ranallo (john4000),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "RAYNOR, PETER C.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Peter C Raynor (praynor),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ROSSER, B R SIMON ",
+            "rank": "Professor",
+            "ldap_dn": "cn=B R Simon Rosser (rosser),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SCHREINER, PAMELA J",
+            "rank": "Professor",
+            "ldap_dn": "cn=Pamela Schreiner (schre012),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SEDAGHAT, SANAZ ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Sanaz Sedaghat (sedaghat),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SHIPPEE, TETYANA P.",
+            "rank": "Professor",
+            "ldap_dn": "cn=Tetyana P Shippee (tshippee),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "SKIPPER, CALEB P",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Caleb P Skipper (skipp015),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STEPANOV, IRINA ",
+            "rank": "Professor",
+            "ldap_dn": "cn=Irina Stepanov (stepa011),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "STOCKER, AMANDA S",
+            "rank": "Graduate School Fellow",
+            "ldap_dn": "cn=Amanda S Stocker (thom8116),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "TARR, GILLIAN ",
+            "rank": "Associate Professor",
+            "ldap_dn": "cn=Gillian A Tarr (gtarr),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WANG, SONYA GRACE",
+            "rank": "Professor",
+            "ldap_dn": "cn=Sonya Wang (sgwang),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "WU, IVAN H",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Ivan H Wu (wuivan),ou=People,o=University of Minnesota,c=US"
+          },
+          {
+            "name": "ZANG, XIAO ",
+            "rank": "Assistant Professor",
+            "ldap_dn": "cn=Xiao Zang (xzang),ou=People,o=University of Minnesota,c=US"
+          }
+        ],
+        "Division of Health Policy and Management": [],
+        "Maternal and Child Health": [],
+        "Public Health": [],
+        "School of Public Health": []
+      }
+    }
+  }
+}
