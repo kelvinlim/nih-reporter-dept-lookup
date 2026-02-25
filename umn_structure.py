@@ -308,7 +308,8 @@ def get_school_for_department(dept_str):
         "oral surgery": ("School of Dentistry", "Oral and Maxillofacial Surgery", None),
         "lmp": ("School of Dentistry", "Oral and Maxillofacial Pathology", None),
         "gcd": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
-        "dent": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
+        "dent research": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
+        "dent ortho": ("School of Dentistry", "Orthodontics", None),
         "dentistry": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
 
         # Nursing

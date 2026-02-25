@@ -437,7 +437,7 @@
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Kim Mansky (kmansky),ou=People,o=University of Minnesota,c=US",
     "school_official": "School of Dentistry",
-    "department_official": "Oral Biology and Diagnostic Sciences",
+    "department_official": "Orthodontics",
     "division_official": null
   },
   "CAMELL, CHRISTINA ": {
@@ -2758,8 +2758,8 @@
     "department": "Sr Vice President Health Sci",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Bruce R Blazar (blaza001),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Dentistry",
-    "department_official": "Oral Biology and Diagnostic Sciences",
+    "school_official": "Medical School",
+    "department_official": "Pediatrics",
     "division_official": null
   },
   "SEEGMILLER, JESSE C": {
