@@ -15,6 +15,7 @@ FILE_PI_DETAILS = "pi_details_ldap.json"
 FILE_FINAL = "final_department_data_ldap.json"
 FILE_FINAL_CSV = "final_department_data_ldap.csv"
 FILE_RUNWAY = "runway_import.json"
+FILE_OVERRIDES = "pi_overrides.json"
 
 def extract_core_project_num(project_num):
     """
@@ -187,13 +188,45 @@ def step_refine(verbose=False):
     with open(FILE_PI_DETAILS, "r") as f:
         pi_details = json.load(f)
 
+    # Load overrides if available
+    pi_overrides = {}
+    dept_overrides = {}
+    if os.path.exists(FILE_OVERRIDES):
+        with open(FILE_OVERRIDES, "r") as f:
+            overrides = json.load(f)
+        pi_overrides = overrides.get("pi_overrides", {})
+        dept_overrides = overrides.get("department_overrides", {})
+        print(f"Loaded overrides: {len(pi_overrides)} PI-level, {len(dept_overrides)} department-level")
+
     mapped = 0
     unmapped = 0
+    overridden_pi = 0
+    overridden_dept = 0
     unmapped_entries = []  # (pi_name, ldap_dept)
 
     for pi_name, details in pi_details.items():
         ldap_dept = details.get("department")
-        school_official, dept_official, div_official = get_school_for_department(ldap_dept)
+        source = "P"  # default: pattern match
+
+        # Priority 1: PI-level override
+        if pi_name in pi_overrides:
+            ov = pi_overrides[pi_name]
+            school_official = ov.get("school_official")
+            dept_official = ov.get("department_official")
+            div_official = ov.get("division_official")
+            overridden_pi += 1
+            source = "O"
+        # Priority 2: Department-level override
+        elif ldap_dept and ldap_dept in dept_overrides:
+            ov = dept_overrides[ldap_dept]
+            school_official = ov.get("school_official")
+            dept_official = ov.get("department_official")
+            div_official = ov.get("division_official")
+            overridden_dept += 1
+            source = "D"
+        # Priority 3: Pattern matching
+        else:
+            school_official, dept_official, div_official = get_school_for_department(ldap_dept)
 
         if school_official:
             mapped += 1
@@ -206,19 +239,26 @@ def step_refine(verbose=False):
         details["division_official"] = div_official
 
         if verbose:
-            status = "✓" if school_official else "✗"
+            status = source if school_official else "✗"
             div_str = f" / {div_official}" if div_official else ""
-            print(f"  {status} {pi_name}: \"{ldap_dept}\" → {school_official or 'UNMAPPED'} / {dept_official or 'N/A'}{div_str}")
+            label = {
+                "O": f"PI override",
+                "D": f"dept override \"{ldap_dept}\"",
+                "P": f"\"{ldap_dept}\""
+            }.get(source, f"\"{ldap_dept}\"")
+            print(f"  {status} {pi_name}: {label} → {school_official or 'UNMAPPED'} / {dept_official or 'N/A'}{div_str}")
 
     with open(FILE_PI_DETAILS, "w") as f:
         json.dump(pi_details, f, indent=2)
 
     print(f"\nMapped: {mapped}, Unmapped: {unmapped} (of {len(pi_details)} PIs)")
+    if overridden_pi or overridden_dept:
+        print(f"Overrides applied: {overridden_pi} PI-level, {overridden_dept} department-level")
     if unmapped_entries:
         print(f"\nUnmapped PIs ({len(unmapped_entries)}):")
         for pi_name, ldap_dept in sorted(unmapped_entries):
             print(f"  - {pi_name}: \"{ldap_dept or 'None'}\"")
-        print("\nTo improve mapping, add patterns to umn_structure.py")
+        print(f"\nTo fix: add entries to {FILE_OVERRIDES} or patterns to umn_structure.py")
     print(f"Saved refined PI details to {FILE_PI_DETAILS}")
 
 def step_join():

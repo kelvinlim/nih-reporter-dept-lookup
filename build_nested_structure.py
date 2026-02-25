@@ -44,8 +44,13 @@ def build_nested_structure(pi_details_file):
         rank = details.get("rank")
         ldap_dn = details.get("ldap_dn")
 
-        # Get school, normalized department, and optional division
-        school_name, normalized_dept, division = get_school_for_department(ldap_dept_str)
+        # Use pre-computed official fields from refine step if available,
+        # otherwise fall back to pattern matching
+        school_name = details.get("school_official")
+        normalized_dept = details.get("department_official")
+        division = details.get("division_official")
+        if school_name is None and normalized_dept is None:
+            school_name, normalized_dept, division = get_school_for_department(ldap_dept_str)
 
         if not school_name:
             if ldap_dept_str:  # Only track non-None unmapped departments

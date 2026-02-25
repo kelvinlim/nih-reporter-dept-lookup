@@ -52,7 +52,7 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 1. **Extract** (`fetch_grants.py`): Paginated NIH API calls, 500/page, 1s delay
 2. **Transform** (`main*.py:step_reorganize`): Groups projects by PI → Core Grant Number
 3. **Enrich** (`fetch_pi_details_ldap.py` or `fetch_pi_details.py`): Lookup PI rank/department
-4. **Refine** (`main_ldap.py:step_refine`): Map LDAP dept strings → official school/dept/division via `umn_structure.py`
+4. **Refine** (`main_ldap.py:step_refine`): Map LDAP dept strings → official school/dept/division via `pi_overrides.json` (if present) then `umn_structure.py` pattern matching
 5. **Load** (`main*.py:step_join`): Merge + flatten to JSON and CSV via pandas
 6. **Pack** (`main_ldap.py:step_pack`): Combine units hierarchy + enriched projects into single Runway import file (`units` key = org hierarchy, `projects` key = enriched grant data)
 
@@ -77,6 +77,7 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 | `final_department_data.json/csv` | Final merged dataset (ORCID) |
 | `umn_schools_departments.json` | UMN org hierarchy (no PI data) |
 | `nested_structure.json` | Hierarchical org structure with PIs embedded |
+| `pi_overrides.json` | Manual PI/department mapping overrides (survives re-runs) |
 | `runway_import.json` | Combined units + projects for Runway import |
 
 ## Important Patterns
@@ -84,7 +85,8 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 - **NIH project number parsing**: `extract_core_project_num()` strips leading application type code and suffix (e.g., `1U01DK127367-01` → `U01DK127367`)
 - **LDAP connection reuse**: A single connection is created in `step_lookup()` and passed to all `get_pi_details()` calls
 - **PI details caching**: Results saved to JSON every 10 records for resumability. Use `--name` filter with `--lookup` to re-process specific PIs (overwrites their cached entries)
-- **Department mapping**: `umn_structure.py:get_school_for_department()` returns a 3-tuple `(school, department, division)` using case-insensitive substring matching; division is `None` for departments without divisions; unmapped departments go to "Other Departments". To add new mappings, add keyword patterns to the `dept_patterns` dict in `get_school_for_department()`
+- **Department mapping**: `umn_structure.py:get_school_for_department()` returns a 3-tuple `(school, department, division)` using word-boundary regex matching; division is `None` for departments without divisions; unmapped departments go to "Other Departments". To add new mappings, add keyword patterns to the `dept_patterns` dict in `get_school_for_department()`
+- **PI overrides**: `pi_overrides.json` provides manual corrections that survive pipeline re-runs. Two override types: `pi_overrides` (keyed by PI name, highest priority) and `department_overrides` (keyed by raw LDAP dept string). Applied in `step_refine()` before pattern matching. Include a `reason` field for documentation
 - **Division support**: `UMN_STRUCTURE` uses dicts-of-lists format where each department maps to a list of divisions (empty list = no divisions). Currently only Department of Medicine has 11 divisions populated. In `nested_structure.json`, divided departments become nested dicts (`{Division → [PIs]}`) while undivided departments are flat lists (`[PIs]`)
 - **LDAP name matching**: `get_pi_details()` uses 4 progressively looser LDAP filters: (1) exact `sn`+`givenName`, (2) exact `sn`+`givenName*`, (3) `sn*`+`givenName*`, (4) `sn*`+`initial*`. Wildcards on `sn` handle credentials in the surname field (e.g., "Bellin MD"). A post-filter scoring system (exact givenName=2, prefix=1, initial-only=0) selects the best candidate across all filters, returning early only on exact matches
 - **LDAP credentials**: Read from `.env` via `python-dotenv`; never commit `.env`

@@ -1,0 +1,12 @@
+{
+  "pi_overrides": {
+    "BLAZAR, BRUCE R": {
+      "school_official": "Medical School",
+      "department_official": "Pediatrics",
+      "division_official": null,
+      "reason": "LDAP dept is admin title (Sr Vice President Health Sci)"
+    }
+  },
+  "department_overrides": {
+  }
+}

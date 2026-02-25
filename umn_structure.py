@@ -2,6 +2,7 @@
 Official UMN Twin Cities Schools and Colleges Organizational Structure
 Based on UMN.edu public sources
 """
+import re
 
 UMN_STRUCTURE = {
     "University of Minnesota": {
@@ -308,14 +309,12 @@ def get_school_for_department(dept_str):
         "oral surgery": ("School of Dentistry", "Oral and Maxillofacial Surgery", None),
         "lmp": ("School of Dentistry", "Oral and Maxillofacial Pathology", None),
         "gcd": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
-        "dent research": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
-        "dent ortho": ("School of Dentistry", "Orthodontics", None),
+        "dent": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
         "dentistry": ("School of Dentistry", "Oral Biology and Diagnostic Sciences", None),
 
         # Nursing
         "nursing": ("School of Nursing", "Nursing", None),
-        "sch of nurs": ("School of Nursing", "Nursing", None),
-        "son ": ("School of Nursing", "Nursing", None),
+        "son": ("School of Nursing", "Nursing", None),
 
         # Public Health
         "sph": ("School of Public Health", "Division of Epidemiology and Community Health", None),
@@ -351,9 +350,9 @@ def get_school_for_department(dept_str):
         "hormel": ("The Hormel Institute", "Research", None),
     }
 
-    # Try to match patterns
+    # Try to match patterns (word-boundary regex to avoid false substring matches)
     for pattern, (school, dept, division) in dept_patterns.items():
-        if pattern in dept_lower:
+        if re.search(r'\b' + re.escape(pattern) + r'\b', dept_lower):
             return school, dept, division
 
     # Default fallback
