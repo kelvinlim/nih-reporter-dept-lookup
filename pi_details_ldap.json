@@ -886,8 +886,8 @@
     "department": "Masonic Inst Developing Brain",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Dziwe W Ntaba (dziwe),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": null,
+    "department_official": "Masonic Inst Developing Brain",
     "division_official": null
   },
   "BEALL, EVALYN ": {
@@ -1606,8 +1606,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Silvia Mangia (mangia),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "DUCA, FRANK ANTHONY": {
@@ -2542,8 +2542,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Xiaoping Wu (wuxxx184),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "SWANSON, JESSICA ": {
@@ -2803,8 +2803,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Kamil Ugurbil (ugurb001),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "WANG, SONYA GRACE": {
@@ -2821,8 +2821,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Malgorzata Marjanska (gosia),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "DE LA CRUZ-LYNCH, ARTHUR TRENTON": {
@@ -3127,8 +3127,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Kendrick N Kay (kay),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "LANGLOIS, RYAN ": {
@@ -3388,8 +3388,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Shalom Michaeli (micha042),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "TRUONG, THU HA": {
@@ -4162,8 +4162,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Greg Metzger PhD (gmetzger),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "STEPANOV, IRINA ": {
@@ -4234,8 +4234,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Noam Harel (harel002),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "STROMNES, INGUNN MARGARETE": {
@@ -4360,8 +4360,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Gulin Oz (ozxxx001),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "SCROGGINS, SABRINA MARIE": {
@@ -4693,8 +4693,8 @@
     "department": "Magnetic Resonance Res, Ctr Fr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Gregor Adriany (adria001),ou=People,o=University of Minnesota,c=US",
-    "school_official": "School of Nursing",
-    "department_official": "Nursing",
+    "school_official": "Medical School",
+    "department_official": "Radiology",
     "division_official": null
   },
   "LIM, HUBERT HYUNGIL": {

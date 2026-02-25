@@ -271,6 +271,7 @@ def get_school_for_department(dept_str):
         "peds": ("Medical School", "Pediatrics", None),
         "psychiatry": ("Medical School", "Psychiatry", None),
         "radiology": ("Medical School", "Radiology", None),
+        "magnetic resonance": ("Medical School", "Radiology", None),
         "surgery": ("Medical School", "Surgery", None),
         "internal medicine": ("Medical School", "Medicine", "General Internal Medicine"),
         "obstetrics": ("Medical School", "Obstetrics, Gynecology and Reproductive Medicine", None),
@@ -312,7 +313,8 @@ def get_school_for_department(dept_str):
 
         # Nursing
         "nursing": ("School of Nursing", "Nursing", None),
-        "son": ("School of Nursing", "Nursing", None),
+        "sch of nurs": ("School of Nursing", "Nursing", None),
+        "son ": ("School of Nursing", "Nursing", None),
 
         # Public Health
         "sph": ("School of Public Health", "Division of Epidemiology and Community Health", None),
