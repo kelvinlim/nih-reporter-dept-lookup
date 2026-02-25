@@ -796,8 +796,8 @@
     "department": "Analytical BiochemistryCC",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Peter W Villalta (villa001),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Analytical BiochemistryCC",
+    "school_official": "Medical School",
+    "department_official": "Biochemistry, Molecular Biology and Biophysics",
     "division_official": null
   },
   "LE, CHAP T.": {
@@ -886,8 +886,8 @@
     "department": "Masonic Inst Developing Brain",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Dziwe W Ntaba (dziwe),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Masonic Inst Developing Brain",
+    "school_official": "Medical School",
+    "department_official": "Pediatrics",
     "division_official": null
   },
   "BEALL, EVALYN ": {
@@ -1174,8 +1174,8 @@
     "department": "ORSU Orthopaedic Clin Ops/Adm",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Elizabeth W Bradley (ebradle1),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "ORSU Orthopaedic Clin Ops/Adm",
+    "school_official": "Medical School",
+    "department_official": "Orthopaedic Surgery",
     "division_official": null
   },
   "ALBERT, FRANK WOLFGANG": {
@@ -1741,8 +1741,8 @@
     "department": "Pharm Practice Pharm Sciences",
     "school": "UMN Duluth",
     "ldap_dn": "cn=Nam Chul Kim (kimn),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Pharm Practice Pharm Sciences",
+    "school_official": "College of Pharmacy",
+    "department_official": "Pharmacy",
     "division_official": null
   },
   "WALL, SARAH M": {
@@ -3487,8 +3487,8 @@
     "department": "NSU Neurosurgery Dept Admin",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Robert A McGovern (rmcgover),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "NSU Neurosurgery Dept Admin",
+    "school_official": "Medical School",
+    "department_official": "Neurosurgery",
     "division_official": null
   },
   "NORBY, FAYE ": {
@@ -4261,8 +4261,8 @@
     "department": "NSU Neurosurgery Dept Admin",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Ann M Parr (amparr),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "NSU Neurosurgery Dept Admin",
+    "school_official": "Medical School",
+    "department_official": "Neurosurgery",
     "division_official": null
   },
   "ARNOLD, SUSAN ": {
@@ -5305,8 +5305,8 @@
     "department": "ORSU Orthopaedic Clin Ops/Adm",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Mai Nguyen (nguy4225),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "ORSU Orthopaedic Clin Ops/Adm",
+    "school_official": "Medical School",
+    "department_official": "Orthopaedic Surgery",
     "division_official": null
   },
   "LECY, EMILY ELIZABETH": {
@@ -5467,8 +5467,8 @@
     "department": "CTSI Biomedical Informatics",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Wei Shen (weixx006),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "CTSI Biomedical Informatics",
+    "school_official": "Medical School",
+    "department_official": "Medicine",
     "division_official": null
   },
   "NIELSEN, KIRSTEN ": {
@@ -5566,8 +5566,8 @@
     "department": "Therapeutics Disc & Devl, Inst",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Vadim J Gurvich (vadimg),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Therapeutics Disc & Devl, Inst",
+    "school_official": "Medical School",
+    "department_official": "Pharmacology",
     "division_official": null
   },
   "NAHAS, ZIAD ": {
@@ -5620,8 +5620,8 @@
     "department": "Spirituality and Healing, Ctr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Roni L Evans (evans972),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Spirituality and Healing, Ctr",
+    "school_official": "Medical School",
+    "department_official": "Family Medicine and Community Health",
     "division_official": null
   },
   "MESIK, JURAJ ": {
@@ -5683,8 +5683,8 @@
     "department": "NSU Neurosurgery Dept Admin",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Julianna G Goenaga (goena003),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "NSU Neurosurgery Dept Admin",
+    "school_official": "Medical School",
+    "department_official": "Neurosurgery",
     "division_official": null
   },
   "PUSKARICH, MICHAEL A.": {
@@ -5764,8 +5764,8 @@
     "department": "Animal Science, Dept of",
     "school": "UMN Other",
     "ldap_dn": "cn=Yang Da (yda),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Animal Science, Dept of",
+    "school_official": "College of Food, Agricultural and Natural Resource Sciences",
+    "department_official": "Animal Science",
     "division_official": null
   },
   "PILSKI, ALEXANDER N": {
@@ -5809,8 +5809,8 @@
     "department": "Therapeutics Disc & Devl, Inst",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Henry L Wong (hlwong),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Therapeutics Disc & Devl, Inst",
+    "school_official": "Medical School",
+    "department_official": "Pharmacology",
     "division_official": null
   },
   "KOWALEWSKI, TIMOTHY M": {
@@ -5945,7 +5945,7 @@
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Peter Crawford (crawforp),ou=People,o=University of Minnesota,c=US",
     "school_official": "Medical School",
-    "department_official": "Dean's Office",
+    "department_official": "Medicine",
     "division_official": null
   },
   "LARGAESPADA, DAVID ANDREW": {
@@ -6214,9 +6214,9 @@
     "department": "CancerCenter Clinical Research",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Noelle Gillis (gilli431),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "CancerCenter Clinical Research",
-    "division_official": null
+    "school_official": "Medical School",
+    "department_official": "Medicine",
+    "division_official": "Hematology, Oncology and Transplantation"
   },
   "GREENFIELD, BRENNA ": {
     "rank": "Associate Professor",
@@ -6250,8 +6250,8 @@
     "department": "D Biology",
     "school": "UMN Duluth",
     "ldap_dn": "cn=Huai Deng (dengh),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "D Biology",
+    "school_official": "College of Biological Sciences",
+    "department_official": "Biology",
     "division_official": null
   },
   "TITUS, MARGARET A": {
@@ -6268,8 +6268,8 @@
     "department": "Animal Science, Dept of",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Thomas W Molitor (molit001),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Animal Science, Dept of",
+    "school_official": "College of Food, Agricultural and Natural Resource Sciences",
+    "department_official": "Animal Science",
     "division_official": null
   },
   "RUDSER, KYLE ": {
@@ -6331,8 +6331,8 @@
     "department": "MS Academic Affairs",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Rahel G Ghebre (ghebr004),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "MS Academic Affairs",
+    "school_official": "Medical School",
+    "department_official": "Dean's Office",
     "division_official": null
   },
   "THAYER, STANLEY A": {
@@ -6367,8 +6367,8 @@
     "department": "Social Work Admin, School of",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Lynette M Renner (renn0042),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Social Work Admin, School of",
+    "school_official": "College of Liberal Arts",
+    "department_official": "Social Work",
     "division_official": null
   },
   "GRZYWACZ, BARTOSZ ": {
@@ -6412,8 +6412,8 @@
     "department": "D CEHSP Administration",
     "school": "UMN Duluth",
     "ldap_dn": "cn=Jessica D Hanson (jdhanson),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "D CEHSP Administration",
+    "school_official": "College of Liberal Arts",
+    "department_official": "Education",
     "division_official": null
   },
   "OLSON, JULIE K": {
@@ -6655,8 +6655,8 @@
     "department": "Animal Science, Dept of",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Christopher Faulk (cfaulk),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Animal Science, Dept of",
+    "school_official": "College of Food, Agricultural and Natural Resource Sciences",
+    "department_official": "Animal Science",
     "division_official": null
   },
   "NEPRASH, HANNAH TOBY": {
@@ -6727,8 +6727,8 @@
     "department": "TC Medical Lab Sciences CAHP",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Jennifer A Brown (brown200),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "TC Medical Lab Sciences CAHP",
+    "school_official": "Medical School",
+    "department_official": "Laboratory Medicine and Pathology",
     "division_official": null
   },
   "SCHLEISS, MARK R.": {
@@ -6808,8 +6808,8 @@
     "department": "Pharmaceuticl Care & Hlth Syst",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Joel F Farley (farl0032),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Pharmaceuticl Care & Hlth Syst",
+    "school_official": "College of Pharmacy",
+    "department_official": "Pharmacy",
     "division_official": null
   },
   "LIN, KEVIN JENG-YEN": {
@@ -6952,8 +6952,8 @@
     "department": "U of MN Genomics Center",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Daryl M Gohl (dmgohl),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "U of MN Genomics Center",
+    "school_official": "Medical School",
+    "department_official": "Genetics, Cell Biology and Development",
     "division_official": null
   },
   "KIKYO, NOBUAKI ": {
@@ -7006,8 +7006,8 @@
     "department": "Oral Med/Maxillofacial Imaging",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Mike T John (johnx055),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Oral Med/Maxillofacial Imaging",
+    "school_official": "School of Dentistry",
+    "department_official": "Oral and Maxillofacial Surgery",
     "division_official": null
   },
   "SIMONE, DONALD ": {
@@ -7132,8 +7132,8 @@
     "department": "Spirituality and Healing, Ctr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Gert Bronfort (bronf003),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Spirituality and Healing, Ctr",
+    "school_official": "Medical School",
+    "department_official": "Family Medicine and Community Health",
     "division_official": null
   },
   "HUBEL, ALLISON ": {
@@ -7492,8 +7492,8 @@
     "department": "Learning Health Sys, Ctr for",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Casey Eddington (eddin022),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Learning Health Sys, Ctr for",
+    "school_official": "Medical School",
+    "department_official": "Medicine",
     "division_official": null
   },
   "GUEDES, ALONSO ": {
@@ -7501,8 +7501,8 @@
     "department": "CVM Research Office",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Alonso Guedes (guede003),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "CVM Research Office",
+    "school_official": "College of Veterinary Medicine",
+    "department_official": "Veterinary Clinical Sciences",
     "division_official": null
   },
   "NAJT, CHARLES P": {
@@ -7564,8 +7564,8 @@
     "department": "Spirituality and Healing, Ctr",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Brent Leininger (lein0122),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Spirituality and Healing, Ctr",
+    "school_official": "Medical School",
+    "department_official": "Family Medicine and Community Health",
     "division_official": null
   },
   "LIU, SHUJUN ": {
@@ -7582,8 +7582,8 @@
     "department": "Animal Science, Dept of",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Mathia L Colwell (mcolwell),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Animal Science, Dept of",
+    "school_official": "College of Food, Agricultural and Natural Resource Sciences",
+    "department_official": "Animal Science",
     "division_official": null
   },
   "GIANAKAS, STEVEN P": {
@@ -7870,8 +7870,8 @@
     "department": "Geography,Environment,Society",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Steven M Manson (manson),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Geography,Environment,Society",
+    "school_official": "College of Liberal Arts",
+    "department_official": "Geography, Environment and Society",
     "division_official": null
   },
   "NIELSON, JESSICA LEIGH": {
@@ -8104,8 +8104,8 @@
     "department": "R Bioscience/Biotechnology",
     "school": "UMN Rochester",
     "ldap_dn": "cn=Rendong Yang (yang4414),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "R Bioscience/Biotechnology",
+    "school_official": "College of Biological Sciences",
+    "department_official": "Biotechnology",
     "division_official": null
   },
   "SIMMONS, GLENN EDWARD": {
@@ -8248,8 +8248,8 @@
     "department": "Pharmaceuticl Care & Hlth Syst",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Serguei V Pakhomov (pakh0002),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Pharmaceuticl Care & Hlth Syst",
+    "school_official": "College of Pharmacy",
+    "department_official": "Pharmacy",
     "division_official": null
   },
   "PRAVETONI, MARCO ": {
@@ -8923,8 +8923,8 @@
     "department": "Carcinogenesis ChemopreventnCC",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Scott J Walmsley (swalmsle),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Carcinogenesis ChemopreventnCC",
+    "school_official": "Medical School",
+    "department_official": "Laboratory Medicine and Pathology",
     "division_official": null
   },
   "BELCHER, JOHN D": {
@@ -8941,8 +8941,8 @@
     "department": "Hubbard Schl Journal/Mass Comm",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Sherri J Katz (sjkatz),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Hubbard Schl Journal/Mass Comm",
+    "school_official": "College of Liberal Arts",
+    "department_official": "Communication Studies",
     "division_official": null
   },
   "CHU, HAITAO ": {
@@ -9562,8 +9562,8 @@
     "department": "ORSU Orthopaedic Clin Ops/Adm",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Marc F Swiontkowski (swion001),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "ORSU Orthopaedic Clin Ops/Adm",
+    "school_official": "Medical School",
+    "department_official": "Orthopaedic Surgery",
     "division_official": null
   },
   "SMITH, LAURA B": {
@@ -9661,8 +9661,8 @@
     "department": "Hubbard Schl Journal/Mass Comm",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Rebekah H Nagler (nagle026),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Hubbard Schl Journal/Mass Comm",
+    "school_official": "College of Liberal Arts",
+    "department_official": "Communication Studies",
     "division_official": null
   },
   "ZEIDLER, ZACHARY E": {
@@ -9688,8 +9688,8 @@
     "department": "Bioprod&Biosys Eng, Dept of",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Yi-ru Chen (chenx137),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Bioprod&Biosys Eng, Dept of",
+    "school_official": "College of Science and Engineering",
+    "department_official": "Bioproducts and Biosystems Engineering",
     "division_official": null
   },
   "EBRAHIMI, DIAKO ": {
@@ -9805,8 +9805,8 @@
     "department": "Ed/Hum Serv",
     "school": "UMN Duluth",
     "ldap_dn": "cn=Allison Anderson (and08163),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Ed/Hum Serv",
+    "school_official": "College of Liberal Arts",
+    "department_official": "Education",
     "division_official": null
   },
   "COLES, LISA D": {
@@ -10192,8 +10192,8 @@
     "department": "Therapeutics Disc & Devl, Inst",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Michael A Walters (mwalters),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Therapeutics Disc & Devl, Inst",
+    "school_official": "Medical School",
+    "department_official": "Pharmacology",
     "division_official": null
   },
   "ARMSTRONG, SANDRA KAY": {
@@ -10309,8 +10309,8 @@
     "department": "CTSI Clin Rsrch Infrastrc Svcs",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Susan J Wolf (kost0016),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "CTSI Clin Rsrch Infrastrc Svcs",
+    "school_official": "Medical School",
+    "department_official": "Medicine",
     "division_official": null
   },
   "ERICSON, MARK ": {
@@ -10633,8 +10633,8 @@
     "department": "R Bioscience/Biotechnology",
     "school": "UMN Rochester",
     "ldap_dn": "cn=Sunghwan Sohn (ssohn),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "R Bioscience/Biotechnology",
+    "school_official": "College of Biological Sciences",
+    "department_official": "Biotechnology",
     "division_official": null
   },
   "BOLAN, PATRICK JOHN": {
@@ -10741,8 +10741,8 @@
     "department": "Therapeutics Disc & Devl, Inst",
     "school": "UMN Twin Cities",
     "ldap_dn": "cn=Vadim J Gurvich (vadimg),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "Therapeutics Disc & Devl, Inst",
+    "school_official": "Medical School",
+    "department_official": "Pharmacology",
     "division_official": null
   },
   "ALLPRESS, CALEB JAMES": {
@@ -10840,8 +10840,8 @@
     "department": "D Biology",
     "school": "UMN Duluth",
     "ldap_dn": "cn=Jennifer O Liang (joliang),ou=People,o=University of Minnesota,c=US",
-    "school_official": null,
-    "department_official": "D Biology",
+    "school_official": "College of Biological Sciences",
+    "department_official": "Biology",
     "division_official": null
   },
   "MALDONADO-ORTIZ, JOS\u00c9 ORLANDO": {

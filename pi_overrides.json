@@ -5,8 +5,176 @@
       "department_official": "Pediatrics",
       "division_official": null,
       "reason": "LDAP dept is admin title (Sr Vice President Health Sci)"
+    },
+    "CRAWFORD, PETER A": {
+      "school_official": "Medical School",
+      "department_official": "Medicine",
+      "division_official": null,
+      "reason": "LDAP dept is admin (MS Research/Facilities)"
     }
   },
   "department_overrides": {
+    "Animal Science, Dept of": {
+      "school_official": "College of Food, Agricultural and Natural Resource Sciences",
+      "department_official": "Animal Science",
+      "division_official": null,
+      "reason": "CFANS department"
+    },
+    "Bioprod&Biosys Eng, Dept of": {
+      "school_official": "College of Science and Engineering",
+      "department_official": "Bioproducts and Biosystems Engineering",
+      "division_official": null,
+      "reason": "CSE department"
+    },
+    "CVM Research Office": {
+      "school_official": "College of Veterinary Medicine",
+      "department_official": "Veterinary Clinical Sciences",
+      "division_official": null,
+      "reason": "CVM admin unit"
+    },
+    "NSU Neurosurgery Dept Admin": {
+      "school_official": "Medical School",
+      "department_official": "Neurosurgery",
+      "division_official": null,
+      "reason": "Neurosurgery admin unit"
+    },
+    "ORSU Orthopaedic Clin Ops/Adm": {
+      "school_official": "Medical School",
+      "department_official": "Orthopaedic Surgery",
+      "division_official": null,
+      "reason": "Orthopaedic Surgery admin unit"
+    },
+    "Masonic Inst Developing Brain": {
+      "school_official": "Medical School",
+      "department_official": "Pediatrics",
+      "division_official": null,
+      "reason": "Institute within Medical School"
+    },
+    "Analytical BiochemistryCC": {
+      "school_official": "Medical School",
+      "department_official": "Biochemistry, Molecular Biology and Biophysics",
+      "division_official": null,
+      "reason": "Analytical Biochemistry core facility"
+    },
+    "Carcinogenesis ChemopreventnCC": {
+      "school_official": "Medical School",
+      "department_official": "Laboratory Medicine and Pathology",
+      "division_official": null,
+      "reason": "Cancer center core facility"
+    },
+    "CancerCenter Clinical Research": {
+      "school_official": "Medical School",
+      "department_official": "Medicine",
+      "division_official": "Hematology, Oncology and Transplantation",
+      "reason": "Cancer center clinical research"
+    },
+    "Pharm Practice Pharm Sciences": {
+      "school_official": "College of Pharmacy",
+      "department_official": "Pharmacy",
+      "division_official": null,
+      "reason": "College of Pharmacy department"
+    },
+    "Pharmaceuticl Care & Hlth Syst": {
+      "school_official": "College of Pharmacy",
+      "department_official": "Pharmacy",
+      "division_official": null,
+      "reason": "College of Pharmacy department"
+    },
+    "Oral Med/Maxillofacial Imaging": {
+      "school_official": "School of Dentistry",
+      "department_official": "Oral and Maxillofacial Surgery",
+      "division_official": null,
+      "reason": "School of Dentistry department"
+    },
+    "Geography,Environment,Society": {
+      "school_official": "College of Liberal Arts",
+      "department_official": "Geography, Environment and Society",
+      "division_official": null,
+      "reason": "CLA department"
+    },
+    "Hubbard Schl Journal/Mass Comm": {
+      "school_official": "College of Liberal Arts",
+      "department_official": "Communication Studies",
+      "division_official": null,
+      "reason": "Hubbard School of Journalism"
+    },
+    "Social Work Admin, School of": {
+      "school_official": "College of Liberal Arts",
+      "department_official": "Social Work",
+      "division_official": null,
+      "reason": "School of Social Work"
+    },
+    "Ed/Hum Serv": {
+      "school_official": "College of Liberal Arts",
+      "department_official": "Education",
+      "division_official": null,
+      "reason": "Education and Human Service Professions"
+    },
+    "D Biology": {
+      "school_official": "College of Biological Sciences",
+      "department_official": "Biology",
+      "division_official": null,
+      "reason": "CBS Biology department"
+    },
+    "D CEHSP Administration": {
+      "school_official": "College of Liberal Arts",
+      "department_official": "Education",
+      "division_official": null,
+      "reason": "CEHD administration (Duluth)"
+    },
+    "R Bioscience/Biotechnology": {
+      "school_official": "College of Biological Sciences",
+      "department_official": "Biotechnology",
+      "division_official": null,
+      "reason": "UMN Rochester bioscience program"
+    },
+    "Therapeutics Disc & Devl, Inst": {
+      "school_official": "Medical School",
+      "department_official": "Pharmacology",
+      "division_official": null,
+      "reason": "Institute for Therapeutics Discovery and Development"
+    },
+    "U of MN Genomics Center": {
+      "school_official": "Medical School",
+      "department_official": "Genetics, Cell Biology and Development",
+      "division_official": null,
+      "reason": "Genomics center core facility"
+    },
+    "Spirituality and Healing, Ctr": {
+      "school_official": "Medical School",
+      "department_official": "Family Medicine and Community Health",
+      "division_official": null,
+      "reason": "Center for Spirituality and Healing"
+    },
+    "CTSI Biomedical Informatics": {
+      "school_official": "Medical School",
+      "department_official": "Medicine",
+      "division_official": null,
+      "reason": "Clinical and Translational Science Institute"
+    },
+    "CTSI Clin Rsrch Infrastrc Svcs": {
+      "school_official": "Medical School",
+      "department_official": "Medicine",
+      "division_official": null,
+      "reason": "Clinical and Translational Science Institute"
+    },
+    "MS Academic Affairs": {
+      "school_official": "Medical School",
+      "department_official": "Dean's Office",
+      "division_official": null,
+      "reason": "Medical School academic affairs"
+    },
+    "Learning Health Sys, Ctr for": {
+      "school_official": "Medical School",
+      "department_official": "Medicine",
+      "division_official": null,
+      "reason": "Center for Learning Health System Sciences"
+    },
+    "TC Medical Lab Sciences CAHP": {
+      "school_official": "Medical School",
+      "department_official": "Laboratory Medicine and Pathology",
+      "division_official": null,
+      "reason": "Medical Laboratory Sciences program"
+    }
   }
 }

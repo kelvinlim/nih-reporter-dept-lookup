@@ -12,7 +12,9 @@ It provides **two approaches** for PI enrichment:
 *   **Reorganize**: Groups projects by PI and Core Grant Number, sorted by project number.
 *   **Enrich (LDAP)**: Lookups PI details using UMN LDAP directory (faster, more accurate for UMN).
 *   **Enrich (ORCID)**: Lookups PI details using ORCID Public API (institution-independent).
+*   **Refine**: Maps LDAP departments to official school/department/division with manual override support.
 *   **Join**: Merges all data into final datasets (JSON & CSV).
+*   **Pack**: Produces a single Runway import file with org hierarchy and enriched project data.
 *   **Structure**: Generates hierarchical organization of UMN schools and departments.
 
 ## Setup
@@ -68,15 +70,49 @@ python3 main_ldap.py --lookup
 #### 4. Refine PI Details (Official Mapping)
 ```bash
 python3 main_ldap.py --refine
+python3 main_ldap.py --refine --verbose   # Show per-PI mapping with source
 ```
-- Maps each PI's raw LDAP department string to an official UMN school, normalized department, and optional division using patterns in `umn_structure.py`
-- Adds `school_official`, `department_official`, and `division_official` fields to each entry in `pi_details_ldap.json`
-- Reports unmapped departments so you can add new patterns
+- Maps each PI's raw LDAP department string to official UMN school/department/division
+- Resolution order (highest priority first):
+  1. **PI-level override** from `pi_overrides.json` — for individual corrections
+  2. **Department-level override** from `pi_overrides.json` — for admin units/centers
+  3. **Pattern matching** via `umn_structure.py` — 100+ word-boundary regex patterns
+  4. **Fallback** — unmapped
+- Adds `school_official`, `department_official`, and `division_official` fields to `pi_details_ldap.json`
+- Verbose output shows mapping source: `O` = PI override, `D` = dept override, `P` = pattern match, `✗` = unmapped
 
-Use `--verbose` / `-v` to see each PI's mapping:
-```bash
-python3 main_ldap.py --refine --verbose
+#### Correcting Mismatched PIs
+
+When a PI's LDAP department is wrong (admin title, retired, etc.), add an entry to `pi_overrides.json` instead of editing code:
+
+```json
+{
+  "pi_overrides": {
+    "LASTNAME, FIRSTNAME": {
+      "school_official": "Medical School",
+      "department_official": "Pediatrics",
+      "division_official": null,
+      "reason": "LDAP dept is admin title"
+    }
+  },
+  "department_overrides": {
+    "Some Admin Unit Name": {
+      "school_official": "Medical School",
+      "department_official": "Neurosurgery",
+      "division_official": null,
+      "reason": "Admin unit for Neurosurgery"
+    }
+  }
+}
 ```
+
+- **PI overrides**: Keyed by PI name exactly as it appears in `pi_details_ldap.json` (e.g., `"BLAZAR, BRUCE R"`)
+- **Department overrides**: Keyed by the raw LDAP department string (e.g., `"NSU Neurosurgery Dept Admin"`)
+- Set `school_official` to `null` to explicitly skip a PI/department
+- The `reason` field is for documentation only
+- A helper file `unmapped_none_pis.json` contains empty templates for PIs with no LDAP record — fill in and merge into `pi_overrides.json`
+
+After editing overrides, re-run `--refine` to apply them.
 
 #### 5. Join Data
 ```bash
@@ -192,6 +228,8 @@ Each PI entry includes:
 | `projects_by_pi.json` | Internal | Data organized by PI |
 | `pi_details.json` | ORCID | PI details from ORCID |
 | `pi_details_ldap.json` | LDAP | PI details from LDAP (cached) |
+| `pi_overrides.json` | Manual | PI/department mapping overrides (survives re-runs) |
+| `unmapped_none_pis.json` | Generated | Templates for PIs with no LDAP record |
 | `final_department_data.json` | ORCID + Projects | Complete dataset with ORCID |
 | `final_department_data_ldap.json` | LDAP + Projects | Complete dataset with LDAP |
 | `final_department_data.csv` | ORCID + Projects | Flattened CSV |
@@ -226,12 +264,10 @@ Each PI entry includes:
 - Caching to avoid redundant LDAP queries
 
 ### Directory Organization Mapping
-PIs are automatically mapped to official UMN schools and departments based on:
-- LDAP department attributes
-- Pattern matching for abbreviations (SPH, CSENG, Medical, etc.)
-- Official UMN structure defined in `umn_structure.py`
-
-Unmapped PIs are placed in "Other Departments" category.
+PIs are mapped to official UMN schools and departments using a layered approach:
+1. **Manual overrides** in `pi_overrides.json` (PI-level and department-level)
+2. **Word-boundary regex patterns** in `umn_structure.py` (100+ patterns for abbreviations like SPH, CSENG, etc.)
+3. **Fallback**: Unmapped PIs are placed in "Other Departments" category
 
 ## Examples
 

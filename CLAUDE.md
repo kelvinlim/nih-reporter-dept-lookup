@@ -77,7 +77,8 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 | `final_department_data.json/csv` | Final merged dataset (ORCID) |
 | `umn_schools_departments.json` | UMN org hierarchy (no PI data) |
 | `nested_structure.json` | Hierarchical org structure with PIs embedded |
-| `pi_overrides.json` | Manual PI/department mapping overrides (survives re-runs) |
+| `pi_overrides.json` | Manual PI/department mapping overrides (survives re-runs, used by `--refine`) |
+| `unmapped_none_pis.json` | Template for PIs with no LDAP record (fill in and merge into `pi_overrides.json`) |
 | `runway_import.json` | Combined units + projects for Runway import |
 
 ## Important Patterns
@@ -86,7 +87,13 @@ NIH RePORTER API → projects_raw.json → projects_by_pi.json → pi_details_*.
 - **LDAP connection reuse**: A single connection is created in `step_lookup()` and passed to all `get_pi_details()` calls
 - **PI details caching**: Results saved to JSON every 10 records for resumability. Use `--name` filter with `--lookup` to re-process specific PIs (overwrites their cached entries)
 - **Department mapping**: `umn_structure.py:get_school_for_department()` returns a 3-tuple `(school, department, division)` using word-boundary regex matching; division is `None` for departments without divisions; unmapped departments go to "Other Departments". To add new mappings, add keyword patterns to the `dept_patterns` dict in `get_school_for_department()`
-- **PI overrides**: `pi_overrides.json` provides manual corrections that survive pipeline re-runs. Two override types: `pi_overrides` (keyed by PI name, highest priority) and `department_overrides` (keyed by raw LDAP dept string). Applied in `step_refine()` before pattern matching. Include a `reason` field for documentation
+- **PI overrides**: `pi_overrides.json` provides manual corrections applied in `step_refine()` before pattern matching. Resolution order: (1) PI-level override → (2) department-level override → (3) pattern matching → (4) unmapped. Two sections:
+  - `pi_overrides`: Keyed by PI name (e.g., `"BLAZAR, BRUCE R"`), for individual corrections when LDAP dept is wrong/missing
+  - `department_overrides`: Keyed by raw LDAP dept string (e.g., `"NSU Neurosurgery Dept Admin"`), for admin units that should map to a specific school/dept
+  - Each entry has `school_official`, `department_official`, `division_official` (nullable), and `reason` (documentary)
+  - Set `school_official` to `null` to explicitly mark as unmapped/skip
+  - `unmapped_none_pis.json`: Helper file with empty templates for PIs with no LDAP record, ready to fill in and merge into `pi_overrides`
+  - Verbose output shows source: `O` = PI override, `D` = dept override, `P` = pattern match, `✗` = unmapped
 - **Division support**: `UMN_STRUCTURE` uses dicts-of-lists format where each department maps to a list of divisions (empty list = no divisions). Currently only Department of Medicine has 11 divisions populated. In `nested_structure.json`, divided departments become nested dicts (`{Division → [PIs]}`) while undivided departments are flat lists (`[PIs]`)
 - **LDAP name matching**: `get_pi_details()` uses 4 progressively looser LDAP filters: (1) exact `sn`+`givenName`, (2) exact `sn`+`givenName*`, (3) `sn*`+`givenName*`, (4) `sn*`+`initial*`. Wildcards on `sn` handle credentials in the surname field (e.g., "Bellin MD"). A post-filter scoring system (exact givenName=2, prefix=1, initial-only=0) selects the best candidate across all filters, returning early only on exact matches
 - **LDAP credentials**: Read from `.env` via `python-dotenv`; never commit `.env`
