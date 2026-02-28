@@ -88,6 +88,11 @@ NIH RePORTER API (VA filter) → va_projects_raw.json → va_projects_by_pi.json
 - `umn_structure.py` — UMN org hierarchy definition + pattern-based department mapping (100+ patterns)
 - `build_nested_structure.py` — Builds University→School→Dept→PI hierarchy from LDAP data
 - `build_schools_structure.py` — Generates UMN structure without PI data
+- `schemas/` — Shared JSON schema definitions and CPOS pre-computation utilities
+  - `schemas/__init__.py` — `load_schemas()`, `precompute_cpos()` helpers
+  - `schemas/base_project_schema.json` / `base_user_schema.json` — Common fields
+  - `schemas/va_project_schema.json` / `va_user_schema.json` — VA-specific extensions
+  - `schemas/umn_user_schema.json` — UMN-specific user fields (includes ORCID iD)
 
 ## Data Files
 
@@ -128,6 +133,9 @@ NIH RePORTER API (VA filter) → va_projects_raw.json → va_projects_by_pi.json
 - **LDAP credentials**: Read from `.env` via `python-dotenv`; never commit `.env`
 - **VA pipeline**: Uses same NIH RePORTER API with `agencies: ["VA"]` filter. No LDAP — PI emails are name-based placeholders (`firstname.lastname@va.placeholder`). VA website scraping (optional) adds `total_award_amount`, `location`, `research_service`. Scraping matches projects by core project number since API and website use different suffix formats. `--skip-details` skips detail page scraping (listing pages only). Runway hierarchy: Organization → Site (auto-discovered from `org_city, org_state`) → Unit (placeholder for future GRECC/COIN/CCDOR)
 - **VA website scraping**: Two phases — (1) listing pages (`projects-FY{YEAR}.cfm`) build project_num→pid index, (2) detail pages (`proj-details-FY{YEAR}.cfm?pid={pid}`) extract total award, location, service. FY2025+ has "Location" column; earlier years have "Service" column. Caching + checkpointing every 10 records for resumability
+- **CPOS pre-computation**: Export pipelines pre-compute `cpos.*` attributes in `step_pack()` via `schemas.precompute_cpos()`. VA uses `total_award_amount` from scraping (`use_total_award=True`), UMN uses FY amount × estimated years. The import (`import_bulk.py`) only auto-fills CPOS when `metadata.auto_populate_cpos` is `true` (default for backward compat); new exports set it to `false`
+- **Runway import metadata fields**: `auto_populate_cpos` (bool, default true), `cpos_defaults` (dict of static CPOS fallback values), `dedup_key` (attribute key for duplicate detection, default `grant_info.award_number`), `effort_defaults` (effort creation config)
+- **Shared schemas**: Schema definitions live in `schemas/` as JSON files, loaded by `load_schemas()`. Both pipelines share base fields; VA adds `total_award_amount`, `portfolio`, `research_service`
 
 ## External APIs
 

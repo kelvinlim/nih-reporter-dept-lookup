@@ -1,0 +1,16 @@
+{
+  "grant_info": {
+    "_section": {"label": "Grant Information", "color": "green"},
+    "award_number": {"type": "string", "title": "Award Number"},
+    "core_project_num": {"type": "string", "title": "Core Project Number"},
+    "award_amount": {"type": "number", "title": "Award Amount (FY)"},
+    "total_award_amount": {"type": "number", "title": "Total Award Amount"},
+    "funding_agency": {"type": "string", "title": "Funding Agency"},
+    "portfolio": {"type": "string", "title": "Portfolio"},
+    "research_service": {"type": "string", "title": "Research Service"},
+    "project_start_date": {"type": "string", "format": "date", "title": "Start Date"},
+    "project_end_date": {"type": "string", "format": "date", "title": "End Date"},
+    "budget_start": {"type": "string", "format": "date", "title": "Budget Start"},
+    "budget_end": {"type": "string", "format": "date", "title": "Budget End"}
+  }
+}

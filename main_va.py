@@ -6,6 +6,7 @@ import datetime
 import pandas as pd
 from fetch_va_grants import fetch_va_grants
 from scrape_va_details import build_listing_index, scrape_detail_page
+from schemas import load_schemas, precompute_cpos
 
 # File Constants
 FILE_RAW = "va_projects_raw.json"
@@ -364,33 +365,8 @@ def step_pack():
     # 1. Hierarchy
     hierarchy_levels = ["Organization", "Site", "Unit"]
 
-    # 2. Schemas
-    schemas = {
-        "user": {
-            "general": {
-                "_section": {"label": "General", "color": "blue"},
-                "rank": {"type": "string", "title": "Academic Rank"},
-                "nih_investigator_id": {"type": "string", "title": "NIH Investigator ID"},
-                "is_investigator": {"type": "boolean", "title": "Investigator"}
-            }
-        },
-        "project": {
-            "grant_info": {
-                "_section": {"label": "Grant Information", "color": "green"},
-                "award_number": {"type": "string", "title": "Award Number"},
-                "core_project_num": {"type": "string", "title": "Core Project Number"},
-                "award_amount": {"type": "number", "title": "Award Amount (FY)"},
-                "total_award_amount": {"type": "number", "title": "Total Award Amount"},
-                "funding_agency": {"type": "string", "title": "Funding Agency"},
-                "portfolio": {"type": "string", "title": "Portfolio"},
-                "research_service": {"type": "string", "title": "Research Service"},
-                "project_start_date": {"type": "string", "format": "date", "title": "Start Date"},
-                "project_end_date": {"type": "string", "format": "date", "title": "End Date"},
-                "budget_start": {"type": "string", "format": "date", "title": "Budget Start"},
-                "budget_end": {"type": "string", "format": "date", "title": "Budget End"}
-            }
-        }
-    }
+    # 2. Schemas (loaded from shared JSON files)
+    schemas = load_schemas("va_user_schema.json", "va_project_schema.json")
 
     # 3. Build users, projects, and discover sites
     users = []
@@ -533,43 +509,56 @@ def step_pack():
             proj_num = proj.get("project_num")
             scraped = va_details.get(proj_num, {}) if proj_num else {}
 
+            # Build grant_info attributes
+            attrs = {
+                "grant_info.award_number": proj.get("project_num", ""),
+                "grant_info.core_project_num": core_num,
+                "grant_info.award_amount": proj.get("award_amount"),
+                "grant_info.funding_agency": "VA",
+            }
+            # Total award from scraping
+            total_award = scraped.get("total_award_amount")
+            if total_award:
+                attrs["grant_info.total_award_amount"] = total_award
+            # Portfolio / Research service
+            portfolio = scraped.get("portfolio")
+            if portfolio:
+                attrs["grant_info.portfolio"] = portfolio
+            research_svc = scraped.get("research_service")
+            if research_svc:
+                attrs["grant_info.research_service"] = research_svc
+
+            if start:
+                attrs["grant_info.project_start_date"] = start
+            if end:
+                attrs["grant_info.project_end_date"] = end
+            if budget_start:
+                attrs["grant_info.budget_start"] = budget_start
+            if budget_end:
+                attrs["grant_info.budget_end"] = budget_end
+
+            # Pre-compute CPOS fields (VA uses total_award_amount from scraping)
+            cpos_location = f"VA Medical Center, {site}" if site != "Unknown Site" else "VA Medical Center"
+            cpos_fields = precompute_cpos(
+                attrs, status="current", abstract=abstract,
+                location=cpos_location, use_total_award=True,
+            )
+            # VA-specific: use full agency name for CPOS support_source
+            cpos_fields["cpos.support_source"] = "Department of Veterans Affairs"
+            attrs.update(cpos_fields)
+
             project_entry = {
                 "title": title,
                 "pi_email": email,
                 "pi_name": pi_name,
                 "status": "current",
                 "unit_path": unit_path,
-                "attributes": {
-                    "grant_info.award_number": proj.get("project_num", ""),
-                    "grant_info.core_project_num": core_num,
-                    "grant_info.award_amount": proj.get("award_amount"),
-                    "grant_info.funding_agency": "VA",
-                }
+                "attributes": attrs,
             }
-            # Total award from scraping
-            total_award = scraped.get("total_award_amount")
-            if total_award:
-                project_entry["attributes"]["grant_info.total_award_amount"] = total_award
-            # Portfolio / Research service
-            portfolio = scraped.get("portfolio")
-            if portfolio:
-                project_entry["attributes"]["grant_info.portfolio"] = portfolio
-            research_svc = scraped.get("research_service")
-            if research_svc:
-                project_entry["attributes"]["grant_info.research_service"] = research_svc
-
             if co_pis:
                 project_entry["co_pis"] = co_pis
             if abstract:
                 project_entry["abstract"] = abstract
-            if start:
-                project_entry["attributes"]["grant_info.project_start_date"] = start
-            if end:
-                project_entry["attributes"]["grant_info.project_end_date"] = end
-            if budget_start:
-                project_entry["attributes"]["grant_info.budget_start"] = budget_start
-            if budget_end:
-                project_entry["attributes"]["grant_info.budget_end"] = budget_end
 
             projects.append(project_entry)
 
@@ -587,6 +576,13 @@ def step_pack():
             "description": "VA-funded researchers and grants",
             "created": str(date.today()),
             "source": "va-grant-pipeline (NIH RePORTER API + VA website)",
+            "auto_populate_cpos": False,
+            "cpos_defaults": {
+                "contribution_type": "award",
+                "potential_overlap": "None",
+                "support_source": "Department of Veterans Affairs"
+            },
+            "dedup_key": "grant_info.award_number",
             "effort_defaults": {
                 "create_effort": True,
                 "default_person_months": 3.0,

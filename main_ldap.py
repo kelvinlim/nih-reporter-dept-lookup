@@ -7,6 +7,7 @@ from fetch_grants import fetch_grants
 from fetch_pi_details_ldap import get_pi_details, create_ldap_connection
 from umn_structure import get_school_for_department
 from build_schools_structure import build_structure_only
+from schemas import load_schemas, precompute_cpos
 
 # File Constants
 FILE_RAW = "projects_raw.json"
@@ -387,30 +388,8 @@ def step_pack():
     # 2. Hierarchy levels (matches UMN structure)
     hierarchy_levels = ["University", "Campus", "College/School", "Department", "Division"]
 
-    # 3. Schemas for user and project resource types
-    schemas = {
-        "user": {
-            "general": {
-                "_section": {"label": "General", "color": "blue"},
-                "rank": {"type": "string", "title": "Academic Rank"},
-                "orcid_id": {"type": "string", "title": "ORCID iD"},
-                "is_investigator": {"type": "boolean", "title": "Investigator"}
-            }
-        },
-        "project": {
-            "grant_info": {
-                "_section": {"label": "Grant Information", "color": "green"},
-                "award_number": {"type": "string", "title": "Award Number"},
-                "core_project_num": {"type": "string", "title": "Core Project Number"},
-                "award_amount": {"type": "number", "title": "Award Amount"},
-                "funding_agency": {"type": "string", "title": "Funding Agency"},
-                "project_start_date": {"type": "string", "format": "date", "title": "Start Date"},
-                "project_end_date": {"type": "string", "format": "date", "title": "End Date"},
-                "budget_start": {"type": "string", "format": "date", "title": "Budget Start"},
-                "budget_end": {"type": "string", "format": "date", "title": "Budget End"}
-            }
-        }
-    }
+    # 3. Schemas (loaded from shared JSON files)
+    schemas = load_schemas("umn_user_schema.json", "base_project_schema.json")
 
     # 4. Build users and projects
     users = []
@@ -534,31 +513,41 @@ def step_pack():
                         copi_user["attributes"]["general.rank"] = copi_rank
                     users.append(copi_user)
 
+            # Build grant_info attributes
+            attrs = {
+                "grant_info.award_number": proj.get("project_num", ""),
+                "grant_info.core_project_num": core_num,
+                "grant_info.award_amount": proj.get("award_amount"),
+                "grant_info.funding_agency": "NIH",
+            }
+            if start:
+                attrs["grant_info.project_start_date"] = start
+            if end:
+                attrs["grant_info.project_end_date"] = end
+            if budget_start:
+                attrs["grant_info.budget_start"] = budget_start
+            if budget_end:
+                attrs["grant_info.budget_end"] = budget_end
+
+            # Pre-compute CPOS fields (UMN uses FY amount × project years)
+            cpos_fields = precompute_cpos(
+                attrs, status="current", abstract=abstract,
+                location="University of Minnesota",
+            )
+            attrs.update(cpos_fields)
+
             project_entry = {
                 "title": title,
                 "pi_email": email,
                 "pi_name": pi_name,
                 "status": "current",
                 "unit_path": unit_path,
-                "attributes": {
-                    "grant_info.award_number": proj.get("project_num", ""),
-                    "grant_info.core_project_num": core_num,
-                    "grant_info.award_amount": proj.get("award_amount"),
-                    "grant_info.funding_agency": "NIH",
-                }
+                "attributes": attrs,
             }
             if co_pis:
                 project_entry["co_pis"] = co_pis
             if abstract:
                 project_entry["abstract"] = abstract
-            if start:
-                project_entry["attributes"]["grant_info.project_start_date"] = start
-            if end:
-                project_entry["attributes"]["grant_info.project_end_date"] = end
-            if budget_start:
-                project_entry["attributes"]["grant_info.budget_start"] = budget_start
-            if budget_end:
-                project_entry["attributes"]["grant_info.budget_end"] = budget_end
 
             projects.append(project_entry)
 
@@ -575,6 +564,13 @@ def step_pack():
             "description": "University of Minnesota NIH-funded researchers and grants",
             "created": str(date.today()),
             "source": "nih-reporter-dept-lookup LDAP pipeline",
+            "auto_populate_cpos": False,
+            "cpos_defaults": {
+                "contribution_type": "award",
+                "potential_overlap": "None",
+                "location": "University of Minnesota"
+            },
+            "dedup_key": "grant_info.award_number",
             "effort_defaults": {
                 "create_effort": True,
                 "default_person_months": 3.0,

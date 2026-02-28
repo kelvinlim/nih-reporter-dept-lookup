@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-02-28
+
+### Added
+- **Shared schema module** (`schemas/`): JSON schema definitions and CPOS pre-computation utilities shared across pipelines
+  - `base_project_schema.json` / `base_user_schema.json` — common fields
+  - `va_project_schema.json` / `va_user_schema.json` — VA-specific extensions (total_award_amount, portfolio, research_service)
+  - `umn_user_schema.json` — UMN-specific user fields (ORCID iD)
+  - `schemas/__init__.py` — `load_schemas()` and `precompute_cpos()` helpers
+- **CPOS pre-computation in export**: Both pipelines now pre-compute all `cpos.*` attributes in `step_pack()` instead of relying on hardcoded derivation in Runway's `import_bulk.py`
+  - VA pipeline uses scraped `total_award_amount` for `cpos.award_amount` and per-site location
+  - LDAP pipeline uses FY amount x estimated project years and global UMN location
+- **New Runway import metadata fields**:
+  - `auto_populate_cpos` (boolean, default true): When false, skips CPOS auto-derivation in import — new exports set this to false since CPOS is pre-computed
+  - `cpos_defaults` (dict): Static CPOS fallback values applied to all projects (e.g., contribution_type, potential_overlap, support_source)
+  - `dedup_key` (string): Configurable attribute key for duplicate project detection (default: `grant_info.award_number`)
+
+### Changed
+- **Runway `import_bulk.py`**: CPOS auto-population gated behind `auto_populate_cpos` flag; dedup logic uses configurable `dedup_key`; `cpos_defaults` applied as fallbacks before auto-population
+- **`main_va.py` / `main_ldap.py`**: Schema definitions loaded from shared JSON files instead of inline dicts; project attributes include pre-computed `cpos.*` fields
+- All backward-compatible — old JSON files without new metadata keys work identically
+
 ## 2026-02-25
 
 ### Added

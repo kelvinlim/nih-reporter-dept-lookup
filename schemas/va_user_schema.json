@@ -1,0 +1,8 @@
+{
+  "general": {
+    "_section": {"label": "General", "color": "blue"},
+    "rank": {"type": "string", "title": "Academic Rank"},
+    "nih_investigator_id": {"type": "string", "title": "NIH Investigator ID"},
+    "is_investigator": {"type": "boolean", "title": "Investigator"}
+  }
+}
