@@ -416,7 +416,7 @@ def step_pack():
         if profile_id:
             pi_profile_map[pi_name] = profile_id
 
-        unit_path = ["Department of Veterans Affairs", site]
+        unit_path = [site]
 
         # Get rank from principal_investigators
         rank = None
