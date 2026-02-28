@@ -31,6 +31,7 @@ def fetch_grants(org_name="UNIVERSITY OF MINNESOTA", years=None):
                 "ProjectNum",
                 "ProjectTitle",
                 "ContactPiName",
+                "PrincipalInvestigators",
                 "FiscalYear",
                 "AwardAmount",
                 "ProjectStartDate",

@@ -120,16 +120,35 @@ def step_lookup(name_filter=None):
         with open(FILE_PI_DETAILS, "r") as f:
             pi_details = json.load(f)
 
-    # projects_by_pi keys are PI Names
-    total_pis = len(projects_by_pi)
+    # Collect all PI names: contact PIs (dict keys) + co-PIs from principal_investigators
+    all_pi_names = set(pi for pi in projects_by_pi if pi != "Unknown")
+    co_pi_count = 0
+    for pi_name, core_groups in projects_by_pi.items():
+        for core_num, proj_list in core_groups.items():
+            for proj in proj_list:
+                for pi_entry in proj.get("principal_investigators") or []:
+                    # Convert "First Middle Last" to "LAST, FIRST MIDDLE" format
+                    last = pi_entry.get("last_name", "").strip().upper()
+                    first = pi_entry.get("first_name", "").strip().upper()
+                    middle = pi_entry.get("middle_name", "").strip().upper()
+                    if not last:
+                        continue
+                    name = f"{last}, {first} {middle}".strip() if first else last
+                    if name != "Unknown" and name not in all_pi_names:
+                        all_pi_names.add(name)
+                        co_pi_count += 1
+
+    total_pis = len(all_pi_names)
+    if co_pi_count:
+        print(f"Found {co_pi_count} additional co-PIs from principal_investigators arrays")
 
     if name_filter:
         # Re-lookup PIs matching the name filter (case-insensitive)
         name_filter_lower = name_filter.lower()
-        pis_to_process = [pi for pi in projects_by_pi if name_filter_lower in pi.lower() and pi != "Unknown"]
+        pis_to_process = [pi for pi in all_pi_names if name_filter_lower in pi.lower()]
         print(f"Filtering by name: \"{name_filter}\" — {len(pis_to_process)} matching PIs (will overwrite cached entries)")
     else:
-        pis_to_process = [pi for pi in projects_by_pi if pi not in pi_details and pi != "Unknown"]
+        pis_to_process = [pi for pi in all_pi_names if pi not in pi_details]
 
     print(f"Total PIs: {total_pis}. Already cached: {len(pi_details)}. To process: {len(pis_to_process)}")
     
@@ -398,6 +417,7 @@ def step_pack():
     projects = []
     email_set = set()
     skipped_no_dept = 0
+    copi_fallback_count = 0
     skipped_no_email = 0
 
     for pi_name, core_groups in projects_by_pi.items():
@@ -466,6 +486,54 @@ def step_pack():
 
             abstract = (proj.get("abstract_text") or "").strip()
 
+            # Build co-PI list from principal_investigators array
+            co_pis = []
+            for pi_entry in proj.get("principal_investigators") or []:
+                # Convert "First Middle Last" to "LAST, FIRST MIDDLE" format
+                copi_last = pi_entry.get("last_name", "").strip().upper()
+                copi_first_raw = pi_entry.get("first_name", "").strip().upper()
+                copi_middle = pi_entry.get("middle_name", "").strip().upper()
+                if not copi_last:
+                    continue
+                copi_name = f"{copi_last}, {copi_first_raw} {copi_middle}".strip() if copi_first_raw else copi_last
+                if copi_name == pi_name:
+                    continue  # Skip contact PI (already the main PI)
+                copi_details = pi_details.get(copi_name, {})
+                copi_x500 = _extract_x500_from_dn(copi_details.get("ldap_dn"))
+                copi_email = f"{copi_x500}@umn.edu" if copi_x500 else None
+                if copi_email:
+                    co_pis.append(copi_email)
+                # Also add co-PI as a user if they have an email
+                if copi_email and copi_email not in email_set:
+                    copi_school = copi_details.get("school_official")
+                    copi_dept = copi_details.get("department_official")
+                    copi_div = copi_details.get("division_official")
+                    if copi_school and copi_dept:
+                        copi_unit_path = ["UMN Twin Cities", copi_school, copi_dept]
+                        if copi_div:
+                            copi_unit_path.append(copi_div)
+                    else:
+                        # Fallback for co-PIs with unmapped LDAP departments
+                        copi_unit_path = ["UMN Twin Cities", "Other Departments"]
+                        copi_fallback_count += 1
+                    email_set.add(copi_email)
+                    copi_parts = copi_name.split(", ", 1)
+                    copi_last = copi_parts[0].strip().title() if copi_parts else copi_name.title()
+                    copi_first = copi_parts[1].strip().title() if len(copi_parts) > 1 else ""
+                    copi_first = copi_first.split()[0] if copi_first.split() else copi_first
+                    copi_user = {
+                        "email": copi_email,
+                        "first_name": copi_first,
+                        "last_name": copi_last,
+                        "unit_path": copi_unit_path,
+                        "is_investigator": True,
+                        "attributes": {}
+                    }
+                    copi_rank = copi_details.get("rank")
+                    if copi_rank:
+                        copi_user["attributes"]["general.rank"] = copi_rank
+                    users.append(copi_user)
+
             project_entry = {
                 "title": title,
                 "pi_email": email,
@@ -479,6 +547,8 @@ def step_pack():
                     "grant_info.funding_agency": "NIH",
                 }
             }
+            if co_pis:
+                project_entry["co_pis"] = co_pis
             if abstract:
                 project_entry["abstract"] = abstract
             if start:
@@ -491,6 +561,11 @@ def step_pack():
                 project_entry["attributes"]["grant_info.budget_end"] = budget_end
 
             projects.append(project_entry)
+
+    # Add "Other Departments" unit to the tree if any co-PIs needed the fallback
+    if copi_fallback_count > 0:
+        campus_node = unit_tree.get("children", [{}])[0]  # "UMN Twin Cities"
+        campus_node.setdefault("children", []).append({"name": "Other Departments"})
 
     # 5. Assemble final import file
     from datetime import date
@@ -527,6 +602,8 @@ def step_pack():
         print(f"  Skipped (no email): {skipped_no_email} PIs")
     if skipped_no_dept:
         print(f"  Skipped (no dept mapping): {skipped_no_dept} PIs")
+    if copi_fallback_count:
+        print(f"  Co-PIs in Other Departments (unmapped): {copi_fallback_count}")
 
 def main():
     parser = argparse.ArgumentParser(description="NIH Reporter Department Utility (LDAP Version)")
