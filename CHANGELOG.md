@@ -4,9 +4,9 @@
 
 ### Added
 - **Shared schema module** (`schemas/`): JSON schema definitions and CPOS pre-computation utilities shared across pipelines
-  - `base_project_schema.json` / `base_user_schema.json` — common fields
-  - `va_project_schema.json` / `va_user_schema.json` — VA-specific extensions (total_award_amount, portfolio, research_service)
-  - `umn_user_schema.json` — UMN-specific user fields (ORCID iD)
+  - `base_person_schema.json` / `base_project_schema.json` — common fields
+  - `va_person_schema.json` / `va_project_schema.json` — VA-specific extensions (total_award_amount, portfolio, research_service)
+  - `umn_person_schema.json` — UMN-specific person fields (ORCID iD)
   - `schemas/__init__.py` — `load_schemas()` and `precompute_cpos()` helpers
 - **CPOS pre-computation in export**: Both pipelines now pre-compute all `cpos.*` attributes in `step_pack()` instead of relying on hardcoded derivation in Runway's `import_bulk.py`
   - VA pipeline uses scraped `total_award_amount` for `cpos.award_amount` and per-site location
@@ -15,11 +15,24 @@
   - `auto_populate_cpos` (boolean, default true): When false, skips CPOS auto-derivation in import — new exports set this to false since CPOS is pre-computed
   - `cpos_defaults` (dict): Static CPOS fallback values applied to all projects (e.g., contribution_type, potential_overlap, support_source)
   - `dedup_key` (string): Configurable attribute key for duplicate project detection (default: `grant_info.award_number`)
+- **CPOS organization config** in VA unit tree: Each site node carries `config.cpos_organization` with orgname, city, state (full name), and country
+- **State abbreviation expansion**: `_state_abbrev_to_full()` converts 2-letter state codes to full names for CPOS organization metadata
+- **ORCID iD field** added to VA and UMN person schemas
+- **Schema tests** (`tests/test_schemas.py`): Validates schema file existence, JSON structure, and `load_schemas()` returns `"person"` key
 
 ### Changed
-- **Runway `import_bulk.py`**: CPOS auto-population gated behind `auto_populate_cpos` flag; dedup logic uses configurable `dedup_key`; `cpos_defaults` applied as fallbacks before auto-population
+- **Renamed "user" to "person"** across the pipeline to align with Runway v2 resource types:
+  - `schemas/__init__.py`: `load_schemas()` returns `"person"` key instead of `"user"`
+  - Schema files renamed: `*_user_schema.json` → `*_person_schema.json`
+  - Export output uses `"persons"` array key instead of `"users"` in both `main_va.py` and `main_ldap.py`
+- **VA site naming**: Site names simplified from "City, ST" to just "City" (state info moved to `config.cpos_organization`)
+- **Runway `import_bulk.py`**: CPOS auto-population gated behind `auto_populate_cpos` flag; dedup logic uses configurable `dedup_key`; `cpos_defaults` applied as fallbacks before auto-population; `"persons"`/`"users"` key normalization for backward compatibility
 - **`main_va.py` / `main_ldap.py`**: Schema definitions loaded from shared JSON files instead of inline dicts; project attributes include pre-computed `cpos.*` fields
 - All backward-compatible — old JSON files without new metadata keys work identically
+
+### Fixed
+- **VA unit_path double-prefix**: Removed root name from `unit_path` (validator prepends it), fixing 4697 validation errors on import
+- **Summary print bug**: Fixed `schemas['user']` → `schemas['person']` in pack summary output
 
 ## 2026-02-25
 

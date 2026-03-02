@@ -389,7 +389,7 @@ def step_pack():
     hierarchy_levels = ["University", "Campus", "College/School", "Department", "Division"]
 
     # 3. Schemas (loaded from shared JSON files)
-    schemas = load_schemas("umn_user_schema.json", "base_project_schema.json")
+    schemas = load_schemas("umn_person_schema.json", "base_project_schema.json")
 
     # 4. Build users and projects
     users = []
@@ -580,7 +580,7 @@ def step_pack():
         "hierarchy_levels": hierarchy_levels,
         "units": unit_tree,
         "schemas": schemas,
-        "users": users,
+        "persons": users,
         "projects": projects,
     }
 
@@ -593,7 +593,7 @@ def step_pack():
     print(f"  Hierarchy: {' -> '.join(hierarchy_levels)}")
     print(f"  Users: {len(users)} investigators")
     print(f"  Projects: {len(projects)} grants (most recent per core number)")
-    print(f"  Schemas: user ({len(schemas['user'])} categories), project ({len(schemas['project'])} categories)")
+    print(f"  Schemas: person ({len(schemas['person'])} categories), project ({len(schemas['project'])} categories)")
     if skipped_no_email:
         print(f"  Skipped (no email): {skipped_no_email} PIs")
     if skipped_no_dept:

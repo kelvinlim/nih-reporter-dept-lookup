@@ -1,0 +1,7 @@
+{
+  "general": {
+    "_section": {"label": "General", "color": "blue"},
+    "rank": {"type": "string", "title": "Academic Rank"},
+    "is_investigator": {"type": "boolean", "title": "Investigator"}
+  }
+}

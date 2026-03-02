@@ -31,6 +31,29 @@ def extract_core_project_num(project_num):
     return base
 
 
+_STATE_ABBREV = {
+    "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas",
+    "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware",
+    "DC": "District of Columbia", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii",
+    "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+    "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine",
+    "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota",
+    "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska",
+    "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico",
+    "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+    "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "PR": "Puerto Rico",
+    "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota",
+    "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont",
+    "VA": "Virginia", "WA": "Washington", "WV": "West Virginia",
+    "WI": "Wisconsin", "WY": "Wyoming",
+}
+
+
+def _state_abbrev_to_full(abbrev: str) -> str:
+    """Convert US state abbreviation to full name. Returns abbrev if not found."""
+    return _STATE_ABBREV.get(abbrev.upper().strip(), abbrev)
+
+
 def _make_placeholder_email(pi_name, email_set):
     """
     Generate a name-based placeholder email from PI name.
@@ -366,13 +389,13 @@ def step_pack():
     hierarchy_levels = ["Organization", "Site", "Unit"]
 
     # 2. Schemas (loaded from shared JSON files)
-    schemas = load_schemas("va_user_schema.json", "va_project_schema.json")
+    schemas = load_schemas("va_person_schema.json", "va_project_schema.json")
 
     # 3. Build users, projects, and discover sites
     users = []
     projects = []
     email_set = set()
-    sites = set()
+    site_meta = {}  # site_name -> {"city": str, "state": str (abbrev)}
     # Map PI name -> email for co-PI lookups
     pi_email_map = {}
     # Map PI name -> profile_id
@@ -396,8 +419,8 @@ def step_pack():
         org_state = (org.get("org_state") or "").strip()
         # Title-case the city but keep state abbreviation uppercase
         city_display = org_city.title() if org_city == org_city.upper() else org_city
-        site = f"{city_display}, {org_state}" if city_display and org_state else city_display or org_state or "Unknown Site"
-        sites.add(site)
+        site = city_display or org_state or "Unknown Site"
+        site_meta[site] = {"city": city_display, "state": org_state}
 
         # Parse name
         parts = pi_name.split(", ", 1)
@@ -562,10 +585,30 @@ def step_pack():
 
             projects.append(project_entry)
 
-    # 4. Build unit tree
+    # 4. Build unit tree with per-site CPOS organization config
     unit_tree = {
         "name": "Department of Veterans Affairs",
-        "children": [{"name": s, "children": []} for s in sorted(sites)]
+        "config": {
+            "cpos_organization": {
+                "orgname": "Department of Veterans Affairs",
+                "country": "United States",
+            }
+        },
+        "children": [
+            {
+                "name": s,
+                "children": [],
+                "config": {
+                    "cpos_organization": {
+                        "orgname": f"{meta['city']} VA",
+                        "city": meta["city"],
+                        "state": _state_abbrev_to_full(meta["state"]),
+                        "country": "United States",
+                    }
+                },
+            }
+            for s, meta in sorted(site_meta.items())
+        ],
     }
 
     # 5. Assemble final import file
@@ -592,7 +635,7 @@ def step_pack():
         "hierarchy_levels": hierarchy_levels,
         "units": unit_tree,
         "schemas": schemas,
-        "users": users,
+        "persons": users,
         "projects": projects,
     }
 
@@ -603,10 +646,10 @@ def step_pack():
     # Summary
     print(f"\nSummary:")
     print(f"  Hierarchy: {' -> '.join(hierarchy_levels)}")
-    print(f"  Sites: {len(sites)}")
+    print(f"  Sites: {len(site_meta)}")
     print(f"  Users: {len(users)} investigators")
     print(f"  Projects: {len(projects)} grants (most recent per core number)")
-    print(f"  Schemas: user ({len(schemas['user'])} categories), project ({len(schemas['project'])} categories)")
+    print(f"  Schemas: person ({len(schemas['person'])} categories), project ({len(schemas['project'])} categories)")
 
 
 # ── CLI ──────────────────────────────────────────────────────────────────────

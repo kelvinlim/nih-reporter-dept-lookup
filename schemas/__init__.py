@@ -13,10 +13,10 @@ def load_schema(filename):
         return json.load(f)
 
 
-def load_schemas(user_schema_file, project_schema_file):
-    """Load user and project schemas, returning the combined dict for Runway import."""
+def load_schemas(person_schema_file, project_schema_file):
+    """Load person and project schemas, returning the combined dict for Runway import."""
     return {
-        "user": load_schema(user_schema_file),
+        "person": load_schema(person_schema_file),
         "project": load_schema(project_schema_file),
     }
 

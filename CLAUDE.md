@@ -90,9 +90,9 @@ NIH RePORTER API (VA filter) → va_projects_raw.json → va_projects_by_pi.json
 - `build_schools_structure.py` — Generates UMN structure without PI data
 - `schemas/` — Shared JSON schema definitions and CPOS pre-computation utilities
   - `schemas/__init__.py` — `load_schemas()`, `precompute_cpos()` helpers
-  - `schemas/base_project_schema.json` / `base_user_schema.json` — Common fields
-  - `schemas/va_project_schema.json` / `va_user_schema.json` — VA-specific extensions
-  - `schemas/umn_user_schema.json` — UMN-specific user fields (includes ORCID iD)
+  - `schemas/base_project_schema.json` / `base_person_schema.json` — Common fields
+  - `schemas/va_project_schema.json` / `va_person_schema.json` — VA-specific extensions (total_award_amount, orcid_id, nih_investigator_id)
+  - `schemas/umn_person_schema.json` — UMN-specific person fields (includes ORCID iD)
 
 ## Data Files
 
